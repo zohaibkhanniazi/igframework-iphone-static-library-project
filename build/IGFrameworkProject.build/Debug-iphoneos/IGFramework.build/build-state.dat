@@ -1,0 +1,1771 @@
+TIGFramework
+v7
+r0
+t291232692.919103
+cCheck dependencies
+cCpHeader build/Debug-iphoneos/usr/local/include/IGGoogleAPIMaps.h IGGoogleAPIMaps.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGLocalization.h IGLocalization.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGJson.h IGJson.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGJsonBase.h IGJsonBase.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGJsonParser.h IGJsonParser.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGJsonWriter.h IGJsonWriter.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGJsonData.h IGJsonData.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGLocation.h IGLocation.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGFilesystemPaths.h IGFilesystemPaths.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGFilesystemIO.h IGFilesystemIO.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGNetworkingConnection.h IGNetworkingConnection.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGNetworkingReachability.h IGNetworkingReachability.h
+cCpHeader build/Debug-iphoneos/usr/local/include/NSObject+IGJson.h NSObject+IGJson.h
+cCpHeader build/Debug-iphoneos/usr/local/include/NSString+IGJson.h NSString+IGJson.h
+cCpHeader build/Debug-iphoneos/usr/local/include/NSDate+Misc.h NSDate+Misc.h
+cCpHeader build/Debug-iphoneos/usr/local/include/NSString+URL.h NSString+URL.h
+cCpHeader build/Debug-iphoneos/usr/local/include/NSString+Ereg.h NSString+Ereg.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGConfiguration.h IGConfiguration.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGAlertTextInput.h IGAlertTextInput.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGSimpleDB.h IGSimpleDB.h
+cCpHeader build/Debug-iphoneos/usr/local/include/IGCacheVariables.h IGCacheVariables.h
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGGoogleAPIMaps.o /Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocalization.o /Projects/iPhone/IGFrameworkProject/IGLocalization.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJson.o /Projects/iPhone/IGFrameworkProject/IGJson.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonBase.o /Projects/iPhone/IGFrameworkProject/IGJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonParser.o /Projects/iPhone/IGFrameworkProject/IGJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonWriter.o /Projects/iPhone/IGFrameworkProject/IGJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonData.o /Projects/iPhone/IGFrameworkProject/IGJsonData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocation.o /Projects/iPhone/IGFrameworkProject/IGLocation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemPaths.o /Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemIO.o /Projects/iPhone/IGFrameworkProject/IGFilesystemIO.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingConnection.o /Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingReachability.o /Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSObject+IGJson.o /Projects/iPhone/IGFrameworkProject/NSObject+IGJson.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+IGJson.o /Projects/iPhone/IGFrameworkProject/NSString+IGJson.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSDate+Misc.o /Projects/iPhone/IGFrameworkProject/NSDate+Misc.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+Ereg.o /Projects/iPhone/IGFrameworkProject/NSString+Ereg.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAlertTextInput.o /Projects/iPhone/IGFrameworkProject/IGAlertTextInput.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGSimpleDB.o /Projects/iPhone/IGFrameworkProject/IGSimpleDB.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAccelAutorotation.o /Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+URL.o /Projects/iPhone/IGFrameworkProject/NSString+URL.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGCacheVariables.o /Projects/iPhone/IGFrameworkProject/IGCacheVariables.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/libIGFramework.a normal armv6
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+c000000004B47D28D0000000000000110
+t1262998157
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CFNetwork.framework/Headers/CFNetwork.h
+c000000004A0BAE1900000000000004CF
+t1242279449
+s1231
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004A0BABFA0000000000000A99
+t1242278906
+s2713
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A121EB900000000003D72A0
+t1242701497
+s4027040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A121FF90000000000396540
+t1242701817
+s3761472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAECB0000000000001355
+t1242279627
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SCNetworkReachability.h
+c000000004A0BADB600000000000035EC
+t1242279350
+s13804
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004A0BADB60000000000001A78
+t1242279350
+s6776
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBD000000000000075E
+t1242349245
+s1886
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A1221FD00000000019A6110
+t1242702333
+s26894608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/arpa/inet.h
+c000000004A0BA2E40000000000001533
+t1242276580
+s5427
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/ifaddrs.h
+c000000004A0BA2EC0000000000000782
+t1242276588
+s1922
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/netdb.h
+c000000004A0BA3060000000000003057
+t1242276614
+s12375
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/netinet/in.h
+c000000004A0BA77A000000000000535B
+t1242277754
+s21339
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/netinet6/in6.h
+c000000004A0BA77C0000000000004F5B
+t1242277756
+s20315
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/stdio.h
+c000000004A0BA3140000000000003D1D
+t1242276628
+s15645
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/sys/socket.h
+c000000004A0BA7810000000000005660
+t1242277761
+s22112
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/zlib.h
+c000000004A0BA88700000000000102A5
+t1242278023
+s66213
+
+N/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h
+c000000004B696AAE0000000000000388
+t1265199790
+s904
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m
+c000000004B696AAE0000000000002124
+t1265199790
+s8484
+i"ASIAuthenticationDialog.h"
+i"ASIHTTPRequest.h"
+
+N/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.h
+c000000004B696AAE0000000000007B3E
+t1265199790
+s31550
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+
+N/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m
+c000000004BA8DCEF00000000000215DF
+t1269357807
+s136671
+i"ASIHTTPRequest.h"
+i<zlib.h>
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+
+N/Projects/iPhone/IGFrameworkProject/ASIHTTPRequestConfig.h
+c000000004B696AAE0000000000000832
+t1265199790
+s2098
+
+N/Projects/iPhone/IGFrameworkProject/ASIInputStream.h
+c000000004B696AAE00000000000003C9
+t1265199790
+s969
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/ASIInputStream.m
+c000000004B696AAE0000000000000814
+t1265199790
+s2068
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Projects/iPhone/IGFrameworkProject/Classes/IGPHomeController.h
+c000000004BA8DBDB00000000000000E3
+t1269357531
+s227
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/Classes/IGPHomeController.m
+c000000004BA8B1FF000000000000059D
+t1269346815
+s1437
+i"IGPHomeController.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.h
+c000000004BAA5526000000000000020A
+t1269454118
+s522
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.m
+c000000004BAA56170000000000000380
+t1269454359
+s896
+i"IGAccelAutorotation.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGAlertTextInput.h
+c000000004BAA451C00000000000000E4
+t1269450012
+s228
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGAlertTextInput.m
+c000000004BAA451C00000000000000D4
+t1269450012
+s212
+i"IGAlertTextInput.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h
+c000000004BAA456D000000000000037D
+t1269450093
+s893
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m
+c000000004BAA45BB0000000000000A2F
+t1269450171
+s2607
+i"IGAlertsBasic.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGCacheVariables.h
+c000000004BAAB8270000000000000132
+t1269479463
+s306
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGCacheVariables.m
+c000000004BAAB90F000000000000020E
+t1269479695
+s526
+i"IGCacheVariables.h"
+i"IGFilesystemIO.h"
+i"IGFilesystemPaths.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGConfiguration.h
+c000000004BA80D550000000000000276
+t1269304661
+s630
+
+N/Projects/iPhone/IGFrameworkProject/IGFilesystemIO.h
+c000000004BA7A528000000000000036A
+t1269277992
+s874
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGFilesystemIO.m
+c000000004BA8F3BB00000000000010B4
+t1269363643
+s4276
+i"IGFilesystemIO.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.h
+c000000004BA7D8170000000000000313
+t1269291031
+s787
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.m
+c000000004BA7A7610000000000000A44
+t1269278561
+s2628
+i"IGFilesystemPaths.h"
+i"IGConfiguration.h"
+i"IGFilesystemIO.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.h
+c000000004BA7B37E0000000000000153
+t1269281662
+s339
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.m
+c000000004BA7B3790000000000000B2F
+t1269281657
+s2863
+i"IGGoogleAPIMaps.h"
+i"IGConfiguration.h"
+i"NSString+URL.h"
+i"IGJsonData.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGJson.h
+c000000004BA78AA70000000000000AED
+t1269271207
+s2797
+i<Foundation/Foundation.h>
+i"IGJsonParser.h"
+i"IGJsonWriter.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGJson.m
+c000000004BA78AAD0000000000001ABC
+t1269271213
+s6844
+i"IGJson.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGJsonBase.h
+c000000004BA78AB80000000000000B82
+t1269271224
+s2946
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGJsonBase.m
+c000000004BA78AC00000000000000AC1
+t1269271232
+s2753
+i"IGJsonBase.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGJsonData.h
+c000000004BA796EF0000000000000516
+t1269274351
+s1302
+i"IGJson.h"
+i"NSObject+IGJson.h"
+i"NSString+IGJson.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGJsonData.m
+c000000004BAA9D2B0000000000000DFA
+t1269472555
+s3578
+i"IGJsonData.h"
+i"NSString+URL.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGJsonParser.h
+c000000004BA78ACA0000000000000C0B
+t1269271242
+s3083
+i<Foundation/Foundation.h>
+i"IGJsonBase.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGJsonParser.m
+c000000004BA789F100000000000036CF
+t1269271025
+s14031
+i"IGJsonParser.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGJsonWriter.h
+c000000004BA78AD90000000000001140
+t1269271257
+s4416
+i<Foundation/Foundation.h>
+i"IGJsonBase.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGJsonWriter.m
+c000000004BA78A000000000000001E83
+t1269271040
+s7811
+i"IGJsonWriter.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGLocalization.h
+c000000004BA784230000000000000109
+t1269269539
+s265
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGLocalization.m
+c000000004BA784500000000000000114
+t1269269584
+s276
+i"IGLocalization.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGLocation.h
+c000000004BA7854500000000000000F6
+t1269269829
+s246
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGLocation.m
+c000000004BA7865900000000000002F4
+t1269270105
+s756
+i"IGLocation.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.h
+c000000004BA771B50000000000000158
+t1269264821
+s344
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.m
+c000000004BA771D3000000000000041A
+t1269264851
+s1050
+i"IGNetworkingConnection.h"
+i"IGNetworkingReachability.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.h
+c000000004BA771330000000000000633
+t1269264691
+s1587
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.m
+c000000004BA771620000000000001B33
+t1269264738
+s6963
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i<CoreFoundation/CoreFoundation.h>
+i"IGNetworkingReachability.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGSimpleDB.h
+c000000004BAA5A070000000000000643
+t1269455367
+s1603
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGSimpleDB.m
+c000000004BAA53EB0000000000001FC8
+t1269453803
+s8136
+i"IGSimpleDB.h"
+i"IGFilesystemIO.h"
+i"IGFilesystemPaths.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGTableViewOnView.h
+c000000004BA8115100000000000002DB
+t1269305681
+s731
+i<UIKit/UIKit.h>
+i"IGViewTemplate.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGTableViewOnView.m
+c000000004BA8E5F70000000000000BE6
+t1269360119
+s3046
+i"IGTableViewOnView.h"
+i"IGConfiguration.h"
+
+N/Projects/iPhone/IGFrameworkProject/IGViewTemplate.h
+c000000004BA809F000000000000000DE
+t1269303792
+s222
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/IGViewTemplate.m
+c000000004BA809F0000000000000060C
+t1269303792
+s1548
+i"IGViewTemplate.h"
+
+N/Projects/iPhone/IGFrameworkProject/NSDate+Misc.h
+c000000004BA772440000000000000203
+t1269264964
+s515
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/NSDate+Misc.m
+c000000004BA784170000000000000B18
+t1269269527
+s2840
+i"NSDate+Misc.h"
+i"IGLocalization.h"
+
+N/Projects/iPhone/IGFrameworkProject/NSObject+IGJson.h
+c000000004BA78AE90000000000000A01
+t1269271273
+s2561
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/NSObject+IGJson.m
+c000000004BA78AF4000000000000089E
+t1269271284
+s2206
+i"NSObject+IGJson.h"
+i"IGJsonWriter.h"
+
+N/Projects/iPhone/IGFrameworkProject/NSString+Ereg.h
+c000000004BA7D0580000000000000194
+t1269289048
+s404
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/NSString+Ereg.m
+c000000004BA0246D00000000000003FE
+t1268786285
+s1022
+i"NSString+Ereg.h"
+
+N/Projects/iPhone/IGFrameworkProject/NSString+IGJson.h
+c000000004BA79AAF000000000000097C
+t1269275311
+s2428
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/NSString+IGJson.m
+c000000004BA79ADA00000000000009AE
+t1269275354
+s2478
+i"NSString+IGJson.h"
+i"IGJsonParser.h"
+i"IGJsonData.h"
+
+N/Projects/iPhone/IGFrameworkProject/NSString+URL.h
+c000000004BAA94A10000000000000137
+t1269470369
+s311
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/NSString+URL.m
+c000000004BAA952900000000000002ED
+t1269470505
+s749
+i"NSString+URL.h"
+
+N/Projects/iPhone/IGFrameworkProject/Reachability1.5/Reachability.h
+c000000004B696AAE00000000000013B4
+t1265199790
+s5044
+i<UIKit/UIKit.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Projects/iPhone/IGFrameworkProject/Reachability1.5/Reachability.m
+c000000004B696AAE0000000000005B34
+t1265199790
+s23348
+i<sys/socket.h>
+i<netinet/in.h>
+i<netinet6/in6.h>
+i<arpa/inet.h>
+i<ifaddrs.h>
+i<netdb.h>
+i"Reachability.h"
+i<SystemConfiguration/SCNetworkReachability.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/AssertionException.h
+c000000004B5B2D5900000000000002E2
+t1264266585
+s738
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/AssertionException.m
+c000000004B5B6F890000000000000390
+t1264283529
+s912
+i"AssertionException.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/TestCase.h
+c000000004B5B2BFC0000000000000185
+t1264266236
+s389
+i<Foundation/Foundation.h>
+i"AssertionException.h"
+i"WiteBoxAsserts.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/TestCase.m
+c000000004B5B2AD900000000000001BA
+t1264265945
+s442
+i"TestCase.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/TestCaseRun.h
+c000000004B5B6E4000000000000002B0
+t1264283200
+s688
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/TestCaseRun.m
+c000000004B5B6E370000000000000958
+t1264283191
+s2392
+i"TestCaseRun.h"
+i<objc/objc-runtime.h>
+i"TestCase.h"
+i"TestRun.h"
+i"AssertionException.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/TestLocationModel.h
+c000000004A4CCA2B00000000000002BE
+t1246546475
+s702
+i<Foundation/Foundation.h>
+i<objc/objc-runtime.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/TestLocationModel.m
+c000000004A4E127D0000000000000EAD
+t1246630525
+s3757
+i"TestLocationModel.h"
+i"TestCase.h"
+i"TestCaseRun.h"
+i"TestRun.h"
+i"AssertionException.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/TestRun.h
+c000000004B5B68C40000000000000304
+t1264281796
+s772
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/TestRun.m
+c000000004B5B68D30000000000000561
+t1264281811
+s1377
+i"TestRun.h"
+i"AssertionException.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/UITestResultsBar.h
+c000000004B5877B80000000000000112
+t1264089016
+s274
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/UITestResultsBar.m
+c000000004B5A7F800000000000000587
+t1264222080
+s1415
+i"UITestResultsBar.h"
+i"WiteBoxStyles.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxAppDelegate.h
+c000000004B5B80DB000000000000017C
+t1264287963
+s380
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxAppDelegate.m
+c000000004B5B80F600000000000003B7
+t1264287990
+s951
+i"WiteBoxAppDelegate.h"
+i"WiteBoxViewController.h"
+i"WiteBoxStyles.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxAsserts.h
+c000000004B5B881A0000000000001752
+t1264289818
+s5970
+i<Foundation/Foundation.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxMain.m
+c000000004B5B7FF40000000000000170
+t1264287732
+s368
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxStatisticsViewController.h
+c000000004B59B02500000000000001B7
+t1264168997
+s439
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxStatisticsViewController.m
+c000000004B5B81950000000000001A7E
+t1264288149
+s6782
+i"WiteBoxStatisticsViewController.h"
+i"TestLocationModel.h"
+i"TestCaseRun.h"
+i"UITestResultsBar.h"
+i"WiteBoxStyles.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxStyles.h
+c000000004B5A817A0000000000000276
+t1264222586
+s630
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxStyles.m
+c000000004B5B820F0000000000000656
+t1264288271
+s1622
+i"WiteBoxStyles.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxTestDetailViewController.h
+c000000004B5B67E400000000000001E2
+t1264281572
+s482
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxTestDetailViewController.m
+c000000004B5B68850000000000000E8B
+t1264281733
+s3723
+i"WiteBoxTestDetailViewController.h"
+i"TestRun.h"
+i"AssertionException.h"
+i"WiteBoxStyles.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxTestsViewController.h
+c000000004A47D3CB00000000000001C9
+t1246221259
+s457
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxTestsViewController.m
+c000000004B5B6FE10000000000001B26
+t1264283617
+s6950
+i"WiteBoxTestsViewController.h"
+i"TestRun.h"
+i"TestCaseRun.h"
+i"AssertionException.h"
+i"WiteBoxTestDetailViewController.h"
+i"WiteBoxStyles.h"
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxViewController.h
+c000000004B5B814B0000000000000215
+t1264288075
+s533
+i<UIKit/UIKit.h>
+
+N/Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxViewController.m
+c000000004B5B8148000000000000181F
+t1264288072
+s6175
+i"WiteBoxViewController.h"
+i"TestLocationModel.h"
+i"TestCaseRun.h"
+i"WiteBoxTestsViewController.h"
+i"WiteBoxStatisticsViewController.h"
+i"WiteBoxStyles.h"
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/libIGFramework.a
+t1269539892
+s307992
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGAccelAutorotation.h
+t1269454323
+s522
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGAlertTextInput.h
+t1269539890
+s228
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGCacheVariables.h
+t1269539890
+s306
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGConfiguration.h
+t1269539890
+s630
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGFilesystemIO.h
+t1269539890
+s874
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGFilesystemPaths.h
+t1269539890
+s787
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGGoogleAPIMaps.h
+t1269539890
+s339
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGJson.h
+t1269539890
+s2797
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGJsonBase.h
+t1269539890
+s2946
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGJsonData.h
+t1269539890
+s1302
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGJsonParser.h
+t1269539890
+s3083
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGJsonWriter.h
+t1269539890
+s4416
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGLocalization.h
+t1269539890
+s265
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGLocation.h
+t1269539890
+s246
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGNetworkingConnection.h
+t1269539890
+s344
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGNetworkingReachability.h
+t1269539890
+s1587
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGSimpleDB.h
+t1269539890
+s1603
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGTableViewOnView.h
+t1269346586
+s731
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/IGViewTemplate.h
+t1269346586
+s222
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/NSDate+Misc.h
+t1269539890
+s515
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/NSObject+IGJson.h
+t1269539890
+s2561
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/NSString+Ereg.h
+t1269539890
+s404
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/NSString+IGJson.h
+t1269539890
+s2428
+
+N/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include/NSString+URL.h
+t1269539890
+s311
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIHTTPRequest.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIInputStream.o
+t1269357686
+s19752
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/AssertionException.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAccelAutorotation.o
+t1269539892
+s7752
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAlertTextInput.o
+t1269539892
+s5244
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAlertsBasic.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGCacheVariables.o
+t1269539892
+s7804
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemIO.o
+t1269539891
+s20420
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemPaths.o
+t1269539891
+s16512
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFramework.LinkFileList
+c000000004BABA4320000000000000B51
+t1269539890
+s2897
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGGoogleAPIMaps.o
+t1269539890
+s12416
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJson.o
+t1269539891
+s18444
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonBase.o
+t1269539891
+s12876
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonData.o
+t1269539891
+s18984
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonParser.o
+t1269539891
+s34496
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonWriter.o
+t1269539891
+s24112
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocalization.o
+t1269539890
+s6032
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocation.o
+t1269539891
+s8980
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingConnection.o
+t1269539891
+s9036
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingReachability.o
+t1269539892
+s22184
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGPHomeController.o
+t1269454324
+s29380
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGSimpleDB.o
+t1269539892
+s27340
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGTableViewOnView.o
+t1269346588
+s46508
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGViewTemplate.o
+t1269346588
+s29308
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSDate+Misc.o
+t1269539892
+s15492
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSObject+IGJson.o
+t1269539892
+s8264
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+Ereg.o
+t1269539892
+s8232
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+IGJson.o
+t1269539892
+s9812
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+URL.o
+t1269539892
+s8960
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/Reachability.o
+t1269357808
+s40612
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/TestCase.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/TestCaseRun.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/TestLocationModel.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/TestRun.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/UITestResultsBar.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxAppDelegate.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxMain.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxStatisticsViewController.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxStyles.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxTestDetailViewController.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxTestsViewController.o
+t2
+s0
+
+N/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxViewController.o
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies291232690#291232690#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIAuthenticationDialog.o /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291050607.677562
+e291050607.901544
+r0
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIAuthenticationDialog.o
+x/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:9:
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:17: error: cannot find protocol declaration for 'UIActionSheetDelegate'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:17: error: cannot find protocol declaration for 'UITableViewDelegate'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:17: error: cannot find protocol declaration for 'UITableViewDataSource'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:19: error: expected specifier-qualifier-list before 'UIActionSheet'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:26: error: expected specifier-qualifier-list before 'UIActionSheet'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog show]':
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: error: 'UIActionSheet' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: error: (Each undeclared identifier is reported only once
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: error: for each function it appears in.)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: warning: 'ASIAuthenticationDialog' may not respond to '-setLoginDialog:'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: warning: (Messages without a matching method signature
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: warning: will be assumed to return 'id' and accept
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: warning: '...' as arguments.)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:54: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:54: error: 'UIActionSheetStyleBlackOpaque' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:54: warning: no '-setActionSheetStyle:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:55: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:58: error: 'UITableView' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:58: error: 'table' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:58: warning: implicit declaration of function 'CGRectMake'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:58: error: 'UITableViewStyleGrouped' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:61: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:61: warning: no '-addSubview:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:62: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:62: error: 'UIApplication' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:62: warning: no '-showInView:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:63: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:63: warning: no '-setFrame:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:66: error: 'UIToolbar' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:66: error: 'titleBar' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:67: error: 'UILabel' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:67: error: 'label' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:73: error: 'UIColor' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:74: error: 'UIFont' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:76: warning: implicit declaration of function 'CGSizeMake'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:79: error: 'UITextAlignmentCenter' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:82: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:82: warning: no '-addSubview:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:85: error: 'toolbar' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:88: error: 'UIBarButtonItem' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:88: error: 'backButton' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:88: error: 'UIBarButtonSystemItemCancel' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:107: error: 'labelButton' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:110: error: 'UIBarButtonItemStyleDone' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:113: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:113: warning: no '-addSubview:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:117: warning: 'NSIndexPath' may not respond to '+indexPathForRow:inSection:'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog cancelAuthenticationFromDialog:]':
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:124: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:124: warning: no '-dismissWithClickedButtonIndex:animated:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog loginWithCredentialsFromDialog:]':
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: no '-subviews' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: 'NSIndexPath' may not respond to '+indexPathForRow:inSection:'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: no '-cellForRowAtIndexPath:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: no '-subviews' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: no '-text' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: no '-subviews' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: 'NSIndexPath' may not respond to '+indexPathForRow:inSection:'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: no '-cellForRowAtIndexPath:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: no '-subviews' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: no '-text' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: no '-subviews' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: 'NSIndexPath' may not respond to '+indexPathForRow:inSection:'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: no '-cellForRowAtIndexPath:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: no '-subviews' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: no '-text' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:151: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:151: warning: no '-dismissWithClickedButtonIndex:animated:' method found
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: At top level:
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:156: error: expected ')' before 'UITableView'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:165: error: expected ')' before 'CGFloat'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:165: error: expected ')' before 'UITableView'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog tableView:heightForFooterInSection:]':
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:168: warning: return makes pointer from integer without a cast
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: At top level:
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:173: error: expected ')' before 'CGFloat'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:173: error: expected ')' before 'UITableView'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog tableView:heightForHeaderInSection:]':
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:176: warning: return makes pointer from integer without a cast
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: At top level:
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:181: error: expected ')' before 'UITableView'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:189: error: expected ')' before 'UITableViewCell'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:189: error: expected ')' before 'UITableView'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog tableView:cellForRowAtIndexPath:]':
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:194: error: 'UITableViewCell' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:194: error: 'cell' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:194: error: 'UITableViewCellStyleDefault' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:197: error: 'UITableViewCellSelectionStyleNone' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:198: error: 'UITextField' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:198: error: 'textField' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:199: error: 'UITextAutocapitalizationTypeNone' undeclared (first use in this function)
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:200: warning: 'NSIndexPath' may not respond to '-section'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:202: warning: 'NSIndexPath' may not respond to '-section'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:202: warning: comparison between pointer and integer
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:205: warning: 'NSIndexPath' may not respond to '-section'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:205: warning: comparison between pointer and integer
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:211: warning: control reaches end of non-void function
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: At top level:
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:213: error: expected ')' before 'UITableView'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:219: error: expected ')' before 'UITableView'
+o/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:234: error: no declaration of property 'loginDialog' found in the interface
+lSLF07#2@69"Compile /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m291050607#291050607#0(12756"In file included from /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:9:/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:17: error: cannot find protocol declaration for 'UIActionSheetDelegate'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:17: error: cannot find protocol declaration for 'UITableViewDelegate'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:17: error: cannot find protocol declaration for 'UITableViewDataSource'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:19: error: expected specifier-qualifier-list before 'UIActionSheet'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:26: error: expected specifier-qualifier-list before 'UIActionSheet'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog show]':/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: error: 'UIActionSheet' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: error: (Each undeclared identifier is reported only once/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: error: for each function it appears in.)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: warning: 'ASIAuthenticationDialog' may not respond to '-setLoginDialog:'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: warning: (Messages without a matching method signature/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: warning: will be assumed to return 'id' and accept/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:53: warning: '...' as arguments.)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:54: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:54: error: 'UIActionSheetStyleBlackOpaque' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:54: warning: no '-setActionSheetStyle:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:55: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:58: error: 'UITableView' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:58: error: 'table' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:58: warning: implicit declaration of function 'CGRectMake'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:58: error: 'UITableViewStyleGrouped' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:61: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:61: warning: no '-addSubview:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:62: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:62: error: 'UIApplication' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:62: warning: no '-showInView:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:63: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:63: warning: no '-setFrame:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:66: error: 'UIToolbar' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:66: error: 'titleBar' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:67: error: 'UILabel' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:67: error: 'label' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:73: error: 'UIColor' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:74: error: 'UIFont' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:76: warning: implicit declaration of function 'CGSizeMake'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:79: error: 'UITextAlignmentCenter' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:82: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:82: warning: no '-addSubview:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:85: error: 'toolbar' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:88: error: 'UIBarButtonItem' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:88: error: 'backButton' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:88: error: 'UIBarButtonSystemItemCancel' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:107: error: 'labelButton' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:110: error: 'UIBarButtonItemStyleDone' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:113: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:113: warning: no '-addSubview:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:117: warning: 'NSIndexPath' may not respond to '+indexPathForRow:inSection:'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog cancelAuthenticationFromDialog:]':/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:124: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:124: warning: no '-dismissWithClickedButtonIndex:animated:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog loginWithCredentialsFromDialog:]':/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: no '-subviews' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: 'NSIndexPath' may not respond to '+indexPathForRow:inSection:'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: no '-cellForRowAtIndexPath:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: no '-subviews' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:129: warning: no '-text' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: no '-subviews' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: 'NSIndexPath' may not respond to '+indexPathForRow:inSection:'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: no '-cellForRowAtIndexPath:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: no '-subviews' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:130: warning: no '-text' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: no '-subviews' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: 'NSIndexPath' may not respond to '+indexPathForRow:inSection:'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: no '-cellForRowAtIndexPath:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: no '-subviews' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:143: warning: no '-text' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:151: warning: 'ASIAuthenticationDialog' may not respond to '-loginDialog'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:151: warning: no '-dismissWithClickedButtonIndex:animated:' method found/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: At top level:/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:156: error: expected ')' before 'UITableView'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:165: error: expected ')' before 'CGFloat'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:165: error: expected ')' before 'UITableView'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog tableView:heightForFooterInSection:]':/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:168: warning: return makes pointer from integer without a cast/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: At top level:/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:173: error: expected ')' before 'CGFloat'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:173: error: expected ')' before 'UITableView'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog tableView:heightForHeaderInSection:]':/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:176: warning: return makes pointer from integer without a cast/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: At top level:/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:181: error: expected ')' before 'UITableView'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:189: error: expected ')' before 'UITableViewCell'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:189: error: expected ')' before 'UITableView'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: In function '-[ASIAuthenticationDialog tableView:cellForRowAtIndexPath:]':/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:194: error: 'UITableViewCell' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:194: error: 'cell' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:194: error: 'UITableViewCellStyleDefault' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:197: error: 'UITableViewCellSelectionStyleNone' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:198: error: 'UITextField' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:198: error: 'textField' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:199: error: 'UITextAutocapitalizationTypeNone' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:200: warning: 'NSIndexPath' may not respond to '-section'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:202: warning: 'NSIndexPath' may not respond to '-section'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:202: warning: comparison between pointer and integer/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:205: warning: 'NSIndexPath' may not respond to '-section'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:205: warning: comparison between pointer and integer/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:211: warning: control reaches end of non-void function/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m: At top level:/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:213: error: expected ')' before 'UITableView'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:219: error: expected ')' before 'UITableView'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m:234: error: no declaration of property 'loginDialog' found in the interface94(4@60"Cannot find protocol declaration for 'UIActionSheetDelegate'291050607#87#134#2(7@83"In file included from /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#9#0#9#0#0"0(13@125"Cannot find protocol declaration for 'UIActionSheetDelegate' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(4@58"Cannot find protocol declaration for 'UITableViewDelegate'291050607#221#132#2(7@83"In file included from /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#9#0#9#0#0"0(13@123"Cannot find protocol declaration for 'UITableViewDelegate' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(4@60"Cannot find protocol declaration for 'UITableViewDataSource'291050607#353#134#2(7@83"In file included from /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#9#0#9#0#0"0(13@125"Cannot find protocol declaration for 'UITableViewDataSource' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(4@56"Expected specifier-qualifier-list before 'UIActionSheet'291050607#487#130#2(7@83"In file included from /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#9#0#9#0#0"0(13@121"Expected specifier-qualifier-list before 'UIActionSheet' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#19#0#19#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#19#0#19#0#19"expected * before *0(4@56"Expected specifier-qualifier-list before 'UIActionSheet'291050607#617#130#2(7@83"In file included from /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#9#0#9#0#0"0(13@121"Expected specifier-qualifier-list before 'UIActionSheet' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#26#0#26#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#26#0#26#0#19"expected * before *0(4@55"'UIActionSheet' undeclared (first use in this function)291050607#857#129#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#53#0#53#0#43"'*' undeclared (first use in this function)0(22@63"'ASIAuthenticationDialog' may not respond to '-setLoginDialog:'291050607#1216#139#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#53#0#53#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)291050607#1355#121#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#53#0#53#0#0"0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#1689#135#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#54#0#54#0#26"'*' may not respond to '*'0(4@71"'UIActionSheetStyleBlackOpaque' undeclared (first use in this function)291050607#1824#145#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#54#0#54#0#43"'*' undeclared (first use in this function)0(22@39"No '-setActionSheetStyle:' method found291050607#1969#115#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#54#0#54#0#19"no '*' method found0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#2084#135#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#55#0#55#0#26"'*' may not respond to '*'0(4@53"'UITableView' undeclared (first use in this function)291050607#2219#127#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#58#0#58#0#43"'*' undeclared (first use in this function)0(4@47"'table' undeclared (first use in this function)291050607#2346#121#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#58#0#58#0#43"'*' undeclared (first use in this function)0(22@45"Implicit declaration of function 'CGRectMake'291050607#2467#121#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#58#0#58#0#36"implicit declaration of function '*'0(4@65"'UITableViewStyleGrouped' undeclared (first use in this function)291050607#2588#139#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#58#0#58#0#43"'*' undeclared (first use in this function)0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#2727#135#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#61#0#61#0#26"'*' may not respond to '*'0(22@30"No '-addSubview:' method found291050607#2862#106#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#61#0#61#0#19"no '*' method found0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#2968#135#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#62#0#62#0#26"'*' may not respond to '*'0(4@55"'UIApplication' undeclared (first use in this function)291050607#3103#129#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#62#0#62#0#43"'*' undeclared (first use in this function)0(22@30"No '-showInView:' method found291050607#3232#106#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#62#0#62#0#19"no '*' method found0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#3338#135#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#63#0#63#0#26"'*' may not respond to '*'0(22@28"No '-setFrame:' method found291050607#3473#104#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#63#0#63#0#19"no '*' method found0(4@51"'UIToolbar' undeclared (first use in this function)291050607#3577#125#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#66#0#66#0#43"'*' undeclared (first use in this function)0(4@50"'titleBar' undeclared (first use in this function)291050607#3702#124#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#66#0#66#0#43"'*' undeclared (first use in this function)0(4@49"'UILabel' undeclared (first use in this function)291050607#3826#123#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#67#0#67#0#43"'*' undeclared (first use in this function)0(4@47"'label' undeclared (first use in this function)291050607#3949#121#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#67#0#67#0#43"'*' undeclared (first use in this function)0(4@49"'UIColor' undeclared (first use in this function)291050607#4070#123#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#73#0#73#0#43"'*' undeclared (first use in this function)0(4@48"'UIFont' undeclared (first use in this function)291050607#4193#122#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#74#0#74#0#43"'*' undeclared (first use in this function)0(22@45"Implicit declaration of function 'CGSizeMake'291050607#4315#121#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#76#0#76#0#36"implicit declaration of function '*'0(4@63"'UITextAlignmentCenter' undeclared (first use in this function)291050607#4436#137#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#79#0#79#0#43"'*' undeclared (first use in this function)0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#4573#135#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#82#0#82#0#26"'*' may not respond to '*'0(22@30"No '-addSubview:' method found291050607#4708#106#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#82#0#82#0#19"no '*' method found0(4@49"'toolbar' undeclared (first use in this function)291050607#4814#123#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#85#0#85#0#43"'*' undeclared (first use in this function)0(4@57"'UIBarButtonItem' undeclared (first use in this function)291050607#4937#131#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#88#0#88#0#43"'*' undeclared (first use in this function)0(4@52"'backButton' undeclared (first use in this function)291050607#5068#126#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#88#0#88#0#43"'*' undeclared (first use in this function)0(4@69"'UIBarButtonSystemItemCancel' undeclared (first use in this function)291050607#5194#143#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#88#0#88#0#43"'*' undeclared (first use in this function)0(4@53"'labelButton' undeclared (first use in this function)291050607#5337#128#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#107#0#107#0#43"'*' undeclared (first use in this function)0(4@66"'UIBarButtonItemStyleDone' undeclared (first use in this function)291050607#5465#141#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#110#0#110#0#43"'*' undeclared (first use in this function)0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#5606#136#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#113#0#113#0#26"'*' may not respond to '*'0(22@30"No '-addSubview:' method found291050607#5742#107#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#113#0#113#0#19"no '*' method found0(22@62"'NSIndexPath' may not respond to '+indexPathForRow:inSection:'291050607#5849#139#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#117#0#117#0#26"'*' may not respond to '*'0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#6125#136#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#124#0#124#0#26"'*' may not respond to '*'0(22@58"No '-dismissWithClickedButtonIndex:animated:' method found291050607#6261#135#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#124#0#124#0#19"no '*' method found0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#6533#136#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#129#0#129#0#26"'*' may not respond to '*'0(22@27"No '-subviews' method found291050607#6669#104#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#129#0#129#0#19"no '*' method found0(22@62"'NSIndexPath' may not respond to '+indexPathForRow:inSection:'291050607#6773#139#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#129#0#129#0#26"'*' may not respond to '*'0(22@41"No '-cellForRowAtIndexPath:' method found291050607#6912#118#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#129#0#129#0#19"no '*' method found0(22@27"No '-subviews' method found291050607#7030#104#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#129#0#129#0#19"no '*' method found0(22@23"No '-text' method found291050607#7134#100#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#129#0#129#0#19"no '*' method found0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#7234#136#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#130#0#130#0#26"'*' may not respond to '*'0(22@27"No '-subviews' method found291050607#7370#104#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#130#0#130#0#19"no '*' method found0(22@62"'NSIndexPath' may not respond to '+indexPathForRow:inSection:'291050607#7474#139#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#130#0#130#0#26"'*' may not respond to '*'0(22@41"No '-cellForRowAtIndexPath:' method found291050607#7613#118#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#130#0#130#0#19"no '*' method found0(22@27"No '-subviews' method found291050607#7731#104#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#130#0#130#0#19"no '*' method found0(22@23"No '-text' method found291050607#7835#100#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#130#0#130#0#19"no '*' method found0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#7935#136#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#143#0#143#0#26"'*' may not respond to '*'0(22@27"No '-subviews' method found291050607#8071#104#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#143#0#143#0#19"no '*' method found0(22@62"'NSIndexPath' may not respond to '+indexPathForRow:inSection:'291050607#8175#139#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#143#0#143#0#26"'*' may not respond to '*'0(22@41"No '-cellForRowAtIndexPath:' method found291050607#8314#118#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#143#0#143#0#19"no '*' method found0(22@27"No '-subviews' method found291050607#8432#104#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#143#0#143#0#19"no '*' method found0(22@23"No '-text' method found291050607#8536#100#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#143#0#143#0#19"no '*' method found0(22@59"'ASIAuthenticationDialog' may not respond to '-loginDialog'291050607#8636#136#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#151#0#151#0#26"'*' may not respond to '*'0(22@58"No '-dismissWithClickedButtonIndex:animated:' method found291050607#8772#135#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#151#0#151#0#19"no '*' method found0(23@13"At top level:291050607#8907#77#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#0#0#0#0#0"0(4@33"Expected ')' before 'UITableView'291050607#8984#108#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#156#0#156#0#19"expected * before *0(4@29"Expected ')' before 'CGFloat'291050607#9092#104#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#165#0#165#0#19"expected * before *0(4@33"Expected ')' before 'UITableView'291050607#9196#108#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#165#0#165#0#19"expected * before *0(22@48"Return makes pointer from integer without a cast291050607#9445#125#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#168#0#168#0#0"0(23@13"At top level:291050607#9570#77#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#0#0#0#0#0"0(4@29"Expected ')' before 'CGFloat'291050607#9647#104#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#173#0#173#0#19"expected * before *0(4@33"Expected ')' before 'UITableView'291050607#9751#108#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#173#0#173#0#19"expected * before *0(22@48"Return makes pointer from integer without a cast291050607#10000#125#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#176#0#176#0#0"0(23@13"At top level:291050607#10125#77#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#0#0#0#0#0"0(4@33"Expected ')' before 'UITableView'291050607#10202#108#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#181#0#181#0#19"expected * before *0(4@37"Expected ')' before 'UITableViewCell'291050607#10310#112#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#189#0#189#0#19"expected * before *0(4@33"Expected ')' before 'UITableView'291050607#10422#108#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#189#0#189#0#19"expected * before *0(4@57"'UITableViewCell' undeclared (first use in this function)291050607#10668#132#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#194#0#194#0#43"'*' undeclared (first use in this function)0(4@46"'cell' undeclared (first use in this function)291050607#10800#121#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#194#0#194#0#43"'*' undeclared (first use in this function)0(4@69"'UITableViewCellStyleDefault' undeclared (first use in this function)291050607#10921#144#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#194#0#194#0#43"'*' undeclared (first use in this function)0(4@75"'UITableViewCellSelectionStyleNone' undeclared (first use in this function)291050607#11065#150#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#197#0#197#0#43"'*' undeclared (first use in this function)0(4@53"'UITextField' undeclared (first use in this function)291050607#11215#128#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#198#0#198#0#43"'*' undeclared (first use in this function)0(4@51"'textField' undeclared (first use in this function)291050607#11343#126#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#198#0#198#0#43"'*' undeclared (first use in this function)0(4@74"'UITextAutocapitalizationTypeNone' undeclared (first use in this function)291050607#11469#149#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#199#0#199#0#43"'*' undeclared (first use in this function)0(22@43"'NSIndexPath' may not respond to '-section'291050607#11618#120#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#200#0#200#0#26"'*' may not respond to '*'0(22@43"'NSIndexPath' may not respond to '-section'291050607#11738#120#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#202#0#202#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer291050607#11858#115#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#202#0#202#0#0"0(22@43"'NSIndexPath' may not respond to '-section'291050607#11973#120#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#205#0#205#0#26"'*' may not respond to '*'0(22@38"Comparison between pointer and integer291050607#12093#115#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#205#0#205#0#0"0(22@40"Control reaches end of non-void function291050607#12208#117#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#211#0#211#0#40"control reaches end of non-void function0(23@13"At top level:291050607#12325#77#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#0#0#0#0#0"0(4@33"Expected ')' before 'UITableView'291050607#12402#108#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#213#0#213#0#19"expected * before *0(4@33"Expected ')' before 'UITableView'291050607#12510#108#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#219#0#219#0#19"expected * before *0(4@63"No declaration of property 'loginDialog' found in the interface291050607#12618#138#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m286892590#234#0#234#0#0"0(0#0#61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m4300907800#1660"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIAuthenticationDialog.o1#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIHTTPRequest.o /Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291050607.674713
+e291050607.677473
+r0
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIHTTPRequest.o
+x/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#291050607#0(2352"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:16:25: error: Reachability.h: No such file or directoryIn file included from /Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:17:/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:17: error: cannot find protocol declaration for 'UIActionSheetDelegate'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:17: error: cannot find protocol declaration for 'UITableViewDelegate'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:17: error: cannot find protocol declaration for 'UITableViewDataSource'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:19: error: expected specifier-qualifier-list before 'UIActionSheet'/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h:26: error: expected specifier-qualifier-list before 'UIActionSheet'/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m: In function '+[ASIHTTPRequest initialize]':/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:206: error: 'UIDevice' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:206: error: (Each undeclared identifier is reported only once/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:206: error: for each function it appears in.)/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m: In function '+[ASIHTTPRequest defaultUserAgentString]':/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:3247: error: 'UIDevice' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:3247: error: 'device' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m: In function '+[ASIHTTPRequest registerForNetworkReachabilityNotifications]':/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:3537: error: 'Reachability' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m: In function '+[ASIHTTPRequest isNetworkReachableViaWWAN]':/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:3554: error: 'Reachability' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:3554: error: 'ReachableViaCarrierDataNetwork' undeclared (first use in this function)/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m:3556: warning: control reaches end of non-void function13(4@41"Reachability.h: No such file or directory291050607#0#109#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#16#0#16#0#28"*: No such file or directory0(4@60"Cannot find protocol declaration for 'UIActionSheetDelegate'291050607#188#134#2(7@74"In file included from /Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#18446744073709551615#0#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#17#0#17#0#0"0(13@125"Cannot find protocol declaration for 'UIActionSheetDelegate' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(4@58"Cannot find protocol declaration for 'UITableViewDelegate'291050607#322#132#2(7@74"In file included from /Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#18446744073709551615#0#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#17#0#17#0#0"0(13@123"Cannot find protocol declaration for 'UITableViewDelegate' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(4@60"Cannot find protocol declaration for 'UITableViewDataSource'291050607#454#134#2(7@74"In file included from /Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#18446744073709551615#0#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#17#0#17#0#0"0(13@125"Cannot find protocol declaration for 'UITableViewDataSource' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#17#0#17#0#0"0(4@56"Expected specifier-qualifier-list before 'UIActionSheet'291050607#588#130#2(7@74"In file included from /Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#18446744073709551615#0#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#17#0#17#0#0"0(13@121"Expected specifier-qualifier-list before 'UIActionSheet' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#19#0#19#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#19#0#19#0#19"expected * before *0(4@56"Expected specifier-qualifier-list before 'UIActionSheet'291050607#718#130#2(7@74"In file included from /Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#18446744073709551615#0#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#17#0#17#0#0"0(13@121"Expected specifier-qualifier-list before 'UIActionSheet' in /Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h291050607#18446744073709551615#0#0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#26#0#26#0#0"0(6@61"/Projects/iPhone/IGFrameworkProject/ASIAuthenticationDialog.h286892590#26#0#26#0#19"expected * before *0(4@50"'UIDevice' undeclared (first use in this function)291050607#946#116#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#206#0#206#0#43"'*' undeclared (first use in this function)0(4@50"'UIDevice' undeclared (first use in this function)291050607#1386#117#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#3247#0#3247#0#43"'*' undeclared (first use in this function)0(4@48"'device' undeclared (first use in this function)291050607#1503#115#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#3247#0#3247#0#43"'*' undeclared (first use in this function)0(4@54"'Reachability' undeclared (first use in this function)291050607#1749#121#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#3537#0#3537#0#43"'*' undeclared (first use in this function)0(4@54"'Reachability' undeclared (first use in this function)291050607#1983#121#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#3554#0#3554#0#43"'*' undeclared (first use in this function)0(4@72"'ReachableViaCarrierDataNetwork' undeclared (first use in this function)291050607#2104#139#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#3554#0#3554#0#43"'*' undeclared (first use in this function)0(22@40"Control reaches end of non-void function291050607#2243#109#0(6@52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m291050607#3556#0#3556#0#40"control reaches end of non-void function0(0#0#52"/Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m4300907800#1642"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/ASIHTTPRequest.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIHTTPRequest.o1#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIInputStream.o /Projects/iPhone/IGFrameworkProject/ASIInputStream.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291050486.022522
+e291050486.230033
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIInputStream.o
+x/Projects/iPhone/IGFrameworkProject/ASIInputStream.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Projects/iPhone/IGFrameworkProject/ASIInputStream.m291050486#291050486#0(0"0(0#0#52"/Projects/iPhone/IGFrameworkProject/ASIInputStream.m4300907800#1642"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/ASIInputStream.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/ASIInputStream.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/AssertionException.o /Projects/iPhone/IGFrameworkProject/WiteBox/AssertionException.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAccelAutorotation.o /Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232692.491331
+e291232692.662205
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAccelAutorotation.o
+x/Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.m291232692#291232692#0(0"0(0#0#57"/Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.m4300911832#1652"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAccelAutorotation.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAlertTextInput.o /Projects/iPhone/IGFrameworkProject/IGAlertTextInput.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232692.371558
+e291232692.491094
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAlertTextInput.o
+x/Projects/iPhone/IGFrameworkProject/IGAlertTextInput.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Projects/iPhone/IGFrameworkProject/IGAlertTextInput.m291232692#291232692#0(0"0(0#0#54"/Projects/iPhone/IGFrameworkProject/IGAlertTextInput.m4300911832#1646"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGAlertTextInput.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAlertTextInput.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAlertsBasic.o /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291147178.427054
+e291147178.570771
+r0
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAlertsBasic.o
+x/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:9:
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:29: error: cannot find interface declaration for 'UIAlertView', superclass of 'IGAlertsBasic'
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:29: error: duplicate interface declaration for class 'IGAlertsBasic'
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:29: error: cannot find protocol declaration for 'UIAlertViewDelegate'
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:29: error: cannot find protocol declaration for 'UITextFieldDelegate'
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:31: error: expected specifier-qualifier-list before 'UITextField'
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:39: error: redefinition of 'struct IGAlertsBasic'
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:12: error: no type or storage class may be specified here before 'implementation'
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:17: error: expected ')' before 'UIAlertView'
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:17: error: expected ';' before '{' token
+o/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:86: warning: '@end' missing in implementation context
+lSLF07#2@59"Compile /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291147178#291147178#0(1238"In file included from /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:9:/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:29: error: cannot find interface declaration for 'UIAlertView', superclass of 'IGAlertsBasic'/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:29: error: duplicate interface declaration for class 'IGAlertsBasic'/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:29: error: cannot find protocol declaration for 'UIAlertViewDelegate'/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:29: error: cannot find protocol declaration for 'UITextFieldDelegate'/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:31: error: expected specifier-qualifier-list before 'UITextField'/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h:39: error: redefinition of 'struct IGAlertsBasic'/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:12: error: no type or storage class may be specified here before 'implementation'/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:17: error: expected ')' before 'UIAlertView'/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:17: error: expected ';' before '{' token/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m:86: warning: '@end' missing in implementation context10(4@82"Cannot find interface declaration for 'UIAlertView', superclass of 'IGAlertsBasic'291147178#77#146#2(7@73"In file included from /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#9#0#9#0#0"0(13@137"Cannot find interface declaration for 'UIAlertView', superclass of 'IGAlertsBasic' in /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#29#0#29#0#0"0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#29#0#29#0#60"cannot find interface declaration for '*', superclass of '*'0(4@57"Duplicate interface declaration for class 'IGAlertsBasic'291147178#223#121#2(7@73"In file included from /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#9#0#9#0#0"0(13@112"Duplicate interface declaration for class 'IGAlertsBasic' in /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#29#0#29#0#0"0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#29#0#29#0#0"0(4@58"Cannot find protocol declaration for 'UIAlertViewDelegate'291147178#344#122#2(7@73"In file included from /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#9#0#9#0#0"0(13@113"Cannot find protocol declaration for 'UIAlertViewDelegate' in /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#29#0#29#0#0"0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#29#0#29#0#0"0(4@58"Cannot find protocol declaration for 'UITextFieldDelegate'291147178#466#122#2(7@73"In file included from /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#9#0#9#0#0"0(13@113"Cannot find protocol declaration for 'UITextFieldDelegate' in /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#29#0#29#0#0"0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#29#0#29#0#0"0(4@54"Expected specifier-qualifier-list before 'UITextField'291147178#588#118#2(7@73"In file included from /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#9#0#9#0#0"0(13@109"Expected specifier-qualifier-list before 'UITextField' in /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#31#0#31#0#0"0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#31#0#31#0#19"expected * before *0(4@38"Redefinition of 'struct IGAlertsBasic'291147178#706#102#2(7@73"In file included from /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#9#0#9#0#0"0(13@93"Redefinition of 'struct IGAlertsBasic' in /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291147178#18446744073709551615#0#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#39#0#39#0#0"0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.h291142893#39#0#39#0#19"redefinition of '*'0(4@70"No type or storage class may be specified here before 'implementation'291147178#808#134#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#12#0#12#0#0"0(4@33"Expected ')' before 'UIAlertView'291147178#942#97#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#17#0#17#0#19"expected * before *0(4@29"Expected ';' before '{' token291147178#1039#93#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#17#0#17#0#19"expected * before *0(22@40"'@end' missing in implementation context291147178#1132#106#0(6@51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m291142971#86#0#86#0#40"'@end' missing in implementation context0(0#0#51"/Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m4300907800#1640"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGAlertsBasic.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGAlertsBasic.o1#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGCacheVariables.o /Projects/iPhone/IGFrameworkProject/IGCacheVariables.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232692.702540
+e291232692.865167
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGCacheVariables.o
+x/Projects/iPhone/IGFrameworkProject/IGCacheVariables.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Projects/iPhone/IGFrameworkProject/IGCacheVariables.m291232692#291232692#0(0"0(0#0#54"/Projects/iPhone/IGFrameworkProject/IGCacheVariables.m4300911832#1646"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGCacheVariables.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGCacheVariables.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemIO.o /Projects/iPhone/IGFrameworkProject/IGFilesystemIO.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232691.476652
+e291232691.835452
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemIO.o
+x/Projects/iPhone/IGFrameworkProject/IGFilesystemIO.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Projects/iPhone/IGFrameworkProject/IGFilesystemIO.m291232691#291232691#0(0"0(0#0#52"/Projects/iPhone/IGFrameworkProject/IGFilesystemIO.m4300911832#1642"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGFilesystemIO.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemIO.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemPaths.o /Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232691.454450
+e291232691.817877
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemPaths.o
+x/Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.m291232691#291232691#0(0"0(0#0#55"/Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.m4300911832#1648"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFilesystemPaths.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGGoogleAPIMaps.o /Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232690.368328
+e291232690.871219
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGGoogleAPIMaps.o
+x/Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.m291232690#291232690#0(0"0(0#0#53"/Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.m4300911832#1644"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGGoogleAPIMaps.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJson.o /Projects/iPhone/IGFrameworkProject/IGJson.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232690.851866
+e291232691.086588
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJson.o
+x/Projects/iPhone/IGFrameworkProject/IGJson.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Projects/iPhone/IGFrameworkProject/IGJson.m291232690#291232691#0(0"0(0#0#44"/Projects/iPhone/IGFrameworkProject/IGJson.m4300911832#1626"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGJson.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJson.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonBase.o /Projects/iPhone/IGFrameworkProject/IGJsonBase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232690.871335
+e291232691.039306
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonBase.o
+x/Projects/iPhone/IGFrameworkProject/IGJsonBase.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Projects/iPhone/IGFrameworkProject/IGJsonBase.m291232690#291232691#0(0"0(0#0#48"/Projects/iPhone/IGFrameworkProject/IGJsonBase.m4300911832#1634"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGJsonBase.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonBase.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonData.o /Projects/iPhone/IGFrameworkProject/IGJsonData.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232691.296951
+e291232691.454346
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonData.o
+x/Projects/iPhone/IGFrameworkProject/IGJsonData.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Projects/iPhone/IGFrameworkProject/IGJsonData.m291232691#291232691#0(0"0(0#0#48"/Projects/iPhone/IGFrameworkProject/IGJsonData.m4300911832#1634"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGJsonData.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonData.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonParser.o /Projects/iPhone/IGFrameworkProject/IGJsonParser.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232691.039412
+e291232691.334602
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonParser.o
+x/Projects/iPhone/IGFrameworkProject/IGJsonParser.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Projects/iPhone/IGFrameworkProject/IGJsonParser.m291232691#291232691#0(0"0(0#0#50"/Projects/iPhone/IGFrameworkProject/IGJsonParser.m4300911832#1638"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGJsonParser.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonParser.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonWriter.o /Projects/iPhone/IGFrameworkProject/IGJsonWriter.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232691.086695
+e291232691.296846
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonWriter.o
+x/Projects/iPhone/IGFrameworkProject/IGJsonWriter.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Projects/iPhone/IGFrameworkProject/IGJsonWriter.m291232691#291232691#0(0"0(0#0#50"/Projects/iPhone/IGFrameworkProject/IGJsonWriter.m4300911832#1638"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGJsonWriter.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGJsonWriter.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocalization.o /Projects/iPhone/IGFrameworkProject/IGLocalization.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232690.382966
+e291232690.851768
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocalization.o
+x/Projects/iPhone/IGFrameworkProject/IGLocalization.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Projects/iPhone/IGFrameworkProject/IGLocalization.m291232690#291232690#0(0"0(0#0#52"/Projects/iPhone/IGFrameworkProject/IGLocalization.m4300911832#1642"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGLocalization.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocalization.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocation.o /Projects/iPhone/IGFrameworkProject/IGLocation.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232691.334709
+e291232691.476537
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocation.o
+x/Projects/iPhone/IGFrameworkProject/IGLocation.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Projects/iPhone/IGFrameworkProject/IGLocation.m291232691#291232691#0(0"0(0#0#48"/Projects/iPhone/IGFrameworkProject/IGLocation.m4300911832#1634"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGLocation.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGLocation.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingConnection.o /Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232691.818165
+e291232691.976284
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingConnection.o
+x/Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.m291232691#291232691#0(0"0(0#0#60"/Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.m4300911832#1658"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingConnection.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingReachability.o /Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232691.835556
+e291232692.037003
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingReachability.o
+x/Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.m291232691#291232692#0(0"0(0#0#62"/Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.m4300911832#1662"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGNetworkingReachability.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGPHomeController.o /Projects/iPhone/IGFrameworkProject/Classes/IGPHomeController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291147124.109098
+e291147124.316249
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGPHomeController.o
+x/Projects/iPhone/IGFrameworkProject/Classes/IGPHomeController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Projects/iPhone/IGFrameworkProject/Classes/IGPHomeController.m291147124#291147124#0(0"0(0#0#63"/Projects/iPhone/IGFrameworkProject/Classes/IGPHomeController.m4300907800#1656"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/Classes/IGPHomeController.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGPHomeController.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGSimpleDB.o /Projects/iPhone/IGFrameworkProject/IGSimpleDB.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232692.397487
+e291232692.702436
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGSimpleDB.o
+x/Projects/iPhone/IGFrameworkProject/IGSimpleDB.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Projects/iPhone/IGFrameworkProject/IGSimpleDB.m291232692#291232692#0(0"0(0#0#48"/Projects/iPhone/IGFrameworkProject/IGSimpleDB.m4300911832#1634"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGSimpleDB.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGSimpleDB.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGTableViewOnView.o /Projects/iPhone/IGFrameworkProject/IGTableViewOnView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291039388.024485
+e291039388.244411
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGTableViewOnView.o
+x/Projects/iPhone/IGFrameworkProject/IGTableViewOnView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Projects/iPhone/IGFrameworkProject/IGTableViewOnView.m291039388#291039388#0(0"0(0#0#55"/Projects/iPhone/IGFrameworkProject/IGTableViewOnView.m4300907800#1648"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGTableViewOnView.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGTableViewOnView.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGViewTemplate.o /Projects/iPhone/IGFrameworkProject/IGViewTemplate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291039387.924795
+e291039388.147117
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGViewTemplate.o
+x/Projects/iPhone/IGFrameworkProject/IGViewTemplate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Projects/iPhone/IGFrameworkProject/IGViewTemplate.m291039387#291039388#0(0"0(0#0#52"/Projects/iPhone/IGFrameworkProject/IGViewTemplate.m4300907800#1642"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/IGViewTemplate.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGViewTemplate.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSDate+Misc.o /Projects/iPhone/IGFrameworkProject/NSDate+Misc.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232692.152360
+e291232692.371449
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSDate+Misc.o
+x/Projects/iPhone/IGFrameworkProject/NSDate+Misc.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Projects/iPhone/IGFrameworkProject/NSDate+Misc.m291232692#291232692#0(0"0(0#0#49"/Projects/iPhone/IGFrameworkProject/NSDate+Misc.m4300911832#1636"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/NSDate+Misc.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSDate+Misc.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSObject+IGJson.o /Projects/iPhone/IGFrameworkProject/NSObject+IGJson.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232691.976390
+e291232692.152259
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSObject+IGJson.o
+x/Projects/iPhone/IGFrameworkProject/NSObject+IGJson.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Projects/iPhone/IGFrameworkProject/NSObject+IGJson.m291232691#291232692#0(0"0(0#0#53"/Projects/iPhone/IGFrameworkProject/NSObject+IGJson.m4300911832#1644"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/NSObject+IGJson.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSObject+IGJson.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+Ereg.o /Projects/iPhone/IGFrameworkProject/NSString+Ereg.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232692.259303
+e291232692.397377
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+Ereg.o
+x/Projects/iPhone/IGFrameworkProject/NSString+Ereg.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Projects/iPhone/IGFrameworkProject/NSString+Ereg.m291232692#291232692#0(0"0(0#0#51"/Projects/iPhone/IGFrameworkProject/NSString+Ereg.m4300911832#1640"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/NSString+Ereg.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+Ereg.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+IGJson.o /Projects/iPhone/IGFrameworkProject/NSString+IGJson.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232692.037114
+e291232692.259192
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+IGJson.o
+x/Projects/iPhone/IGFrameworkProject/NSString+IGJson.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Projects/iPhone/IGFrameworkProject/NSString+IGJson.m291232692#291232692#0(0"0(0#0#53"/Projects/iPhone/IGFrameworkProject/NSString+IGJson.m4300911832#1644"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/NSString+IGJson.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+IGJson.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+URL.o /Projects/iPhone/IGFrameworkProject/NSString+URL.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291232692.662308
+e291232692.835974
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+URL.o
+x/Projects/iPhone/IGFrameworkProject/NSString+URL.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Projects/iPhone/IGFrameworkProject/NSString+URL.m291232692#291232692#0(0"0(0#0#50"/Projects/iPhone/IGFrameworkProject/NSString+URL.m4300911832#1638"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/NSString+URL.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/NSString+URL.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/Reachability.o /Projects/iPhone/IGFrameworkProject/Reachability1.5/Reachability.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s291050607.682234
+e291050608.107624
+r1
+xCompileC
+xbuild/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/Reachability.o
+x/Projects/iPhone/IGFrameworkProject/Reachability1.5/Reachability.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Projects/iPhone/IGFrameworkProject/Reachability1.5/Reachability.m291050607#291050608#0(0"0(0#0#66"/Projects/iPhone/IGFrameworkProject/Reachability1.5/Reachability.m4300907800#1654"    cd /Projects/iPhone/IGFrameworkProject    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-generated-files.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-own-target-headers.hmap -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-all-target-headers.hmap -iquote /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/IGFramework-project-headers.hmap -F/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -I/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/include -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources/armv6 -I/Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/DerivedSources -c /Projects/iPhone/IGFrameworkProject/Reachability1.5/Reachability.m -o /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/Reachability.o0#
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/TestCase.o /Projects/iPhone/IGFrameworkProject/WiteBox/TestCase.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/TestCaseRun.o /Projects/iPhone/IGFrameworkProject/WiteBox/TestCaseRun.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/TestLocationModel.o /Projects/iPhone/IGFrameworkProject/WiteBox/TestLocationModel.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/TestRun.o /Projects/iPhone/IGFrameworkProject/WiteBox/TestRun.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/UITestResultsBar.o /Projects/iPhone/IGFrameworkProject/WiteBox/UITestResultsBar.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxAppDelegate.o /Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxMain.o /Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxMain.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxStatisticsViewController.o /Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxStatisticsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxStyles.o /Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxStyles.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxTestDetailViewController.o /Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxTestDetailViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxTestsViewController.o /Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxTestsViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/WiteBoxViewController.o /Projects/iPhone/IGFrameworkProject/WiteBox/WiteBoxViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGAccelAutorotation.h IGAccelAutorotation.h
+s291147123.959008
+e291147123.967553
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGAccelAutorotation.h
+xIGAccelAutorotation.h
+lSLF07#2@26"Copy IGAccelAutorotation.h291147123#291147123#0(0"0(0#0#57"/Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.h4300907800#448"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGAccelAutorotation.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGAlertTextInput.h IGAlertTextInput.h
+s291232690.327373
+e291232690.343121
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGAlertTextInput.h
+xIGAlertTextInput.h
+lSLF07#2@23"Copy IGAlertTextInput.h291232690#291232690#0(0"0(0#0#54"/Projects/iPhone/IGFrameworkProject/IGAlertTextInput.h4300911832#445"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGAlertTextInput.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGCacheVariables.h IGCacheVariables.h
+s291232690.343201
+e291232690.368084
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGCacheVariables.h
+xIGCacheVariables.h
+lSLF07#2@23"Copy IGCacheVariables.h291232690#291232690#0(0"0(0#0#54"/Projects/iPhone/IGFrameworkProject/IGCacheVariables.h4300911832#445"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGCacheVariables.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGConfiguration.h IGConfiguration.h
+s291232690.320850
+e291232690.343009
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGConfiguration.h
+xIGConfiguration.h
+lSLF07#2@22"Copy IGConfiguration.h291232690#291232690#0(0"0(0#0#53"/Projects/iPhone/IGFrameworkProject/IGConfiguration.h4300911832#444"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGConfiguration.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGFilesystemIO.h IGFilesystemIO.h
+s291232690.185181
+e291232690.277272
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGFilesystemIO.h
+xIGFilesystemIO.h
+lSLF07#2@21"Copy IGFilesystemIO.h291232690#291232690#0(0"0(0#0#52"/Projects/iPhone/IGFrameworkProject/IGFilesystemIO.h4300911832#443"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGFilesystemIO.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGFilesystemPaths.h IGFilesystemPaths.h
+s291232690.183263
+e291232690.277148
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGFilesystemPaths.h
+xIGFilesystemPaths.h
+lSLF07#2@24"Copy IGFilesystemPaths.h291232690#291232690#0(0"0(0#0#55"/Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.h4300911832#446"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGFilesystemPaths.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGGoogleAPIMaps.h IGGoogleAPIMaps.h
+s291232690.166536
+e291232690.276030
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGGoogleAPIMaps.h
+xIGGoogleAPIMaps.h
+lSLF07#2@22"Copy IGGoogleAPIMaps.h291232690#291232690#0(0"0(0#0#53"/Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.h4300911832#444"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGGoogleAPIMaps.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGJson.h IGJson.h
+s291232690.171397
+e291232690.276394
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGJson.h
+xIGJson.h
+lSLF07#2@13"Copy IGJson.h291232690#291232690#0(0"0(0#0#44"/Projects/iPhone/IGFrameworkProject/IGJson.h4300911832#435"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGJson.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGJsonBase.h IGJsonBase.h
+s291232690.173283
+e291232690.276526
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGJsonBase.h
+xIGJsonBase.h
+lSLF07#2@17"Copy IGJsonBase.h291232690#291232690#0(0"0(0#0#48"/Projects/iPhone/IGFrameworkProject/IGJsonBase.h4300911832#439"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGJsonBase.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGJsonData.h IGJsonData.h
+s291232690.179463
+e291232690.276895
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGJsonData.h
+xIGJsonData.h
+lSLF07#2@17"Copy IGJsonData.h291232690#291232690#0(0"0(0#0#48"/Projects/iPhone/IGFrameworkProject/IGJsonData.h4300911832#439"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGJsonData.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGJsonParser.h IGJsonParser.h
+s291232690.175009
+e291232690.276652
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGJsonParser.h
+xIGJsonParser.h
+lSLF07#2@19"Copy IGJsonParser.h291232690#291232690#0(0"0(0#0#50"/Projects/iPhone/IGFrameworkProject/IGJsonParser.h4300911832#441"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGJsonParser.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGJsonWriter.h IGJsonWriter.h
+s291232690.176679
+e291232690.276772
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGJsonWriter.h
+xIGJsonWriter.h
+lSLF07#2@19"Copy IGJsonWriter.h291232690#291232690#0(0"0(0#0#50"/Projects/iPhone/IGFrameworkProject/IGJsonWriter.h4300911832#441"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGJsonWriter.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGLocalization.h IGLocalization.h
+s291232690.167807
+e291232690.276194
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGLocalization.h
+xIGLocalization.h
+lSLF07#2@21"Copy IGLocalization.h291232690#291232690#0(0"0(0#0#52"/Projects/iPhone/IGFrameworkProject/IGLocalization.h4300911832#443"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGLocalization.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGLocation.h IGLocation.h
+s291232690.181472
+e291232690.277023
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGLocation.h
+xIGLocation.h
+lSLF07#2@17"Copy IGLocation.h291232690#291232690#0(0"0(0#0#48"/Projects/iPhone/IGFrameworkProject/IGLocation.h4300911832#439"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGLocation.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGNetworkingConnection.h IGNetworkingConnection.h
+s291232690.277349
+e291232690.342213
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGNetworkingConnection.h
+xIGNetworkingConnection.h
+lSLF07#2@29"Copy IGNetworkingConnection.h291232690#291232690#0(0"0(0#0#60"/Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.h4300911832#451"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGNetworkingConnection.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGNetworkingReachability.h IGNetworkingReachability.h
+s291232690.278904
+e291232690.342347
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGNetworkingReachability.h
+xIGNetworkingReachability.h
+lSLF07#2@31"Copy IGNetworkingReachability.h291232690#291232690#0(0"0(0#0#62"/Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.h4300911832#453"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGNetworkingReachability.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGSimpleDB.h IGSimpleDB.h
+s291232690.333333
+e291232690.368252
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGSimpleDB.h
+xIGSimpleDB.h
+lSLF07#2@17"Copy IGSimpleDB.h291232690#291232690#0(0"0(0#0#48"/Projects/iPhone/IGFrameworkProject/IGSimpleDB.h4300911832#439"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGSimpleDB.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGTableViewOnView.h IGTableViewOnView.h
+s291039386.280358
+e291039386.317487
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGTableViewOnView.h
+xIGTableViewOnView.h
+lSLF07#2@24"Copy IGTableViewOnView.h291039386#291039386#0(0"0(0#0#55"/Projects/iPhone/IGFrameworkProject/IGTableViewOnView.h4300907800#446"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGTableViewOnView.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/IGViewTemplate.h IGViewTemplate.h
+s291039386.275065
+e291039386.286740
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/IGViewTemplate.h
+xIGViewTemplate.h
+lSLF07#2@21"Copy IGViewTemplate.h291039386#291039386#0(0"0(0#0#52"/Projects/iPhone/IGFrameworkProject/IGViewTemplate.h4300907800#443"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/IGViewTemplate.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/NSDate+Misc.h NSDate+Misc.h
+s291232690.299138
+e291232690.342683
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/NSDate+Misc.h
+xNSDate+Misc.h
+lSLF07#2@18"Copy NSDate+Misc.h291232690#291232690#0(0"0(0#0#49"/Projects/iPhone/IGFrameworkProject/NSDate+Misc.h4300911832#440"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/NSDate+Misc.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/NSObject+IGJson.h NSObject+IGJson.h
+s291232690.285981
+e291232690.342457
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/NSObject+IGJson.h
+xNSObject+IGJson.h
+lSLF07#2@22"Copy NSObject+IGJson.h291232690#291232690#0(0"0(0#0#53"/Projects/iPhone/IGFrameworkProject/NSObject+IGJson.h4300911832#444"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/NSObject+IGJson.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/NSString+Ereg.h NSString+Ereg.h
+s291232690.314741
+e291232690.342898
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/NSString+Ereg.h
+xNSString+Ereg.h
+lSLF07#2@20"Copy NSString+Ereg.h291232690#291232690#0(0"0(0#0#51"/Projects/iPhone/IGFrameworkProject/NSString+Ereg.h4300911832#442"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/NSString+Ereg.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/NSString+IGJson.h NSString+IGJson.h
+s291232690.292893
+e291232690.342572
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/NSString+IGJson.h
+xNSString+IGJson.h
+lSLF07#2@22"Copy NSString+IGJson.h291232690#291232690#0(0"0(0#0#53"/Projects/iPhone/IGFrameworkProject/NSString+IGJson.h4300911832#444"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/NSString+IGJson.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CCpHeader build/Debug-iphoneos/usr/local/include/NSString+URL.h NSString+URL.h
+s291232690.307427
+e291232690.342793
+r1
+xCpHeader
+xbuild/Debug-iphoneos/usr/local/include/NSString+URL.h
+xNSString+URL.h
+lSLF07#2@19"Copy NSString+URL.h291232690#291232690#0(0"0(0#0#50"/Projects/iPhone/IGFrameworkProject/NSString+URL.h4300911832#441"    cd /Projects/iPhone/IGFrameworkProject    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Projects/iPhone/IGFrameworkProject/NSString+URL.h /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/usr/local/include0#
+
+CLibtool /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/libIGFramework.a normal armv6
+s291232692.865284
+e291232692.919053
+r1
+xLibtool
+x/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/libIGFramework.a
+xnormal
+xarmv6
+lSLF07#2@58"Libtool build/Debug-iphoneos/libIGFramework.a normal armv6291232692#291232692#0(0"0(0#0#0"4300911832#740"    cd /Projects/iPhone/IGFrameworkProject    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -L/Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos -filelist /Projects/iPhone/IGFrameworkProject/build/IGFrameworkProject.build/Debug-iphoneos/IGFramework.build/Objects-normal/armv6/IGFramework.LinkFileList -framework UIKit -framework Foundation -framework CoreGraphics -o /Projects/iPhone/IGFrameworkProject/build/Debug-iphoneos/libIGFramework.a0#
+
