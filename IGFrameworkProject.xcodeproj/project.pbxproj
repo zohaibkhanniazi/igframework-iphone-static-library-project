@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* IGFrameworkProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* IGFrameworkProjectAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		790D1E101158052200EE3DB2 /* IGGoogleAPIMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1DEB1158052200EE3DB2 /* IGGoogleAPIMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E111158052200EE3DB2 /* IGGoogleAPIMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1DEC1158052200EE3DB2 /* IGGoogleAPIMaps.m */; };
+		790D1E121158052200EE3DB2 /* IGLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1DF01158052200EE3DB2 /* IGLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E131158052200EE3DB2 /* IGLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1DF11158052200EE3DB2 /* IGLocalization.m */; };
+		790D1E141158052200EE3DB2 /* IGJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1DF91158052200EE3DB2 /* IGJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E151158052200EE3DB2 /* IGJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1DFA1158052200EE3DB2 /* IGJson.m */; };
+		790D1E161158052200EE3DB2 /* IGJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1DFB1158052200EE3DB2 /* IGJsonBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E171158052200EE3DB2 /* IGJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1DFC1158052200EE3DB2 /* IGJsonBase.m */; };
+		790D1E181158052200EE3DB2 /* IGJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1DFD1158052200EE3DB2 /* IGJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E191158052200EE3DB2 /* IGJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1DFE1158052200EE3DB2 /* IGJsonParser.m */; };
+		790D1E1A1158052200EE3DB2 /* IGJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1DFF1158052200EE3DB2 /* IGJsonWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E1B1158052200EE3DB2 /* IGJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E001158052200EE3DB2 /* IGJsonWriter.m */; };
+		790D1E1C1158052200EE3DB2 /* IGJsonData.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E011158052200EE3DB2 /* IGJsonData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E1D1158052200EE3DB2 /* IGJsonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E021158052200EE3DB2 /* IGJsonData.m */; };
+		790D1E1E1158052200EE3DB2 /* IGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E041158052200EE3DB2 /* IGLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E1F1158052200EE3DB2 /* IGLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E051158052200EE3DB2 /* IGLocation.m */; };
+		790D1E201158052200EE3DB2 /* IGFilesystemPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E071158052200EE3DB2 /* IGFilesystemPaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E211158052200EE3DB2 /* IGFilesystemPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E081158052200EE3DB2 /* IGFilesystemPaths.m */; };
+		790D1E221158052200EE3DB2 /* IGFilesystemIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E091158052200EE3DB2 /* IGFilesystemIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E231158052200EE3DB2 /* IGFilesystemIO.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E0A1158052200EE3DB2 /* IGFilesystemIO.m */; };
+		790D1E241158052200EE3DB2 /* IGNetworkingConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E0C1158052200EE3DB2 /* IGNetworkingConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E251158052200EE3DB2 /* IGNetworkingConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E0D1158052200EE3DB2 /* IGNetworkingConnection.m */; };
+		790D1E261158052200EE3DB2 /* IGNetworkingReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E0E1158052200EE3DB2 /* IGNetworkingReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E271158052200EE3DB2 /* IGNetworkingReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E0F1158052200EE3DB2 /* IGNetworkingReachability.m */; };
+		790D1E361158052A00EE3DB2 /* NSObject+IGJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E2A1158052A00EE3DB2 /* NSObject+IGJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E371158052A00EE3DB2 /* NSObject+IGJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E2B1158052A00EE3DB2 /* NSObject+IGJson.m */; };
+		790D1E381158052A00EE3DB2 /* NSString+IGJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E2C1158052A00EE3DB2 /* NSString+IGJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E391158052A00EE3DB2 /* NSString+IGJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E2D1158052A00EE3DB2 /* NSString+IGJson.m */; };
+		790D1E3A1158052A00EE3DB2 /* NSDate+Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E2F1158052A00EE3DB2 /* NSDate+Misc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E3B1158052A00EE3DB2 /* NSDate+Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E301158052A00EE3DB2 /* NSDate+Misc.m */; };
+		790D1E3C1158052A00EE3DB2 /* NSString+URL.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E321158052A00EE3DB2 /* NSString+URL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E3E1158052A00EE3DB2 /* NSString+Ereg.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E341158052A00EE3DB2 /* NSString+Ereg.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E3F1158052A00EE3DB2 /* NSString+Ereg.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E351158052A00EE3DB2 /* NSString+Ereg.m */; };
+		790D1E421158053100EE3DB2 /* IGConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E411158053100EE3DB2 /* IGConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D212B1158E8C600EE3DB2 /* libIGFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 790D1DD41158048500EE3DB2 /* libIGFramework.a */; };
+		790D21371158E97F00EE3DB2 /* IGPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D21351158E97F00EE3DB2 /* IGPHomeController.m */; };
+		790D21381158E97F00EE3DB2 /* IGPHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790D21361158E97F00EE3DB2 /* IGPHomeController.xib */; };
+		790D21C1115913CE00EE3DB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		790D21C2115913D600EE3DB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		790D21C3115913DD00EE3DB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		7910FBE9115A7C9C004686B4 /* IGAlertTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FBE7115A7C9C004686B4 /* IGAlertTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7910FBEA115A7C9C004686B4 /* IGAlertTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FBE8115A7C9C004686B4 /* IGAlertTextInput.m */; };
+		7910FC14115A8207004686B4 /* IGSimpleDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FC12115A8207004686B4 /* IGSimpleDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7910FC15115A8207004686B4 /* IGSimpleDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FC13115A8207004686B4 /* IGSimpleDB.m */; };
+		7910FCCA115A9172004686B4 /* IGAccelAutorotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FC70115A8C54004686B4 /* IGAccelAutorotation.h */; };
+		7910FCCB115A9172004686B4 /* IGAccelAutorotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FC71115A8C54004686B4 /* IGAccelAutorotation.m */; };
+		7910FD1E115ACCA6004686B4 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E331158052A00EE3DB2 /* NSString+URL.m */; };
+		7910FE23115AEF0A004686B4 /* IGCacheVariables.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FE21115AEF0A004686B4 /* IGCacheVariables.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7910FE24115AEF0A004686B4 /* IGCacheVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FE22115AEF0A004686B4 /* IGCacheVariables.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		790D213E1158E9E900EE3DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 790D1DD31158048500EE3DB2;
+			remoteInfo = IGFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* IGFrameworkProjectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFrameworkProjectAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* IGFrameworkProjectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGFrameworkProjectAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* IGFrameworkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGFrameworkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* IGFrameworkProject_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFrameworkProject_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		790D1DD41158048500EE3DB2 /* libIGFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIGFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		790D1DEB1158052200EE3DB2 /* IGGoogleAPIMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGGoogleAPIMaps.h; sourceTree = "<group>"; };
+		790D1DEC1158052200EE3DB2 /* IGGoogleAPIMaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGGoogleAPIMaps.m; sourceTree = "<group>"; };
+		790D1DF01158052200EE3DB2 /* IGLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLocalization.h; sourceTree = "<group>"; };
+		790D1DF11158052200EE3DB2 /* IGLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLocalization.m; sourceTree = "<group>"; };
+		790D1DF91158052200EE3DB2 /* IGJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGJson.h; sourceTree = "<group>"; };
+		790D1DFA1158052200EE3DB2 /* IGJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGJson.m; sourceTree = "<group>"; };
+		790D1DFB1158052200EE3DB2 /* IGJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGJsonBase.h; sourceTree = "<group>"; };
+		790D1DFC1158052200EE3DB2 /* IGJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGJsonBase.m; sourceTree = "<group>"; };
+		790D1DFD1158052200EE3DB2 /* IGJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGJsonParser.h; sourceTree = "<group>"; };
+		790D1DFE1158052200EE3DB2 /* IGJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGJsonParser.m; sourceTree = "<group>"; };
+		790D1DFF1158052200EE3DB2 /* IGJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGJsonWriter.h; sourceTree = "<group>"; };
+		790D1E001158052200EE3DB2 /* IGJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGJsonWriter.m; sourceTree = "<group>"; };
+		790D1E011158052200EE3DB2 /* IGJsonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGJsonData.h; sourceTree = "<group>"; };
+		790D1E021158052200EE3DB2 /* IGJsonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGJsonData.m; sourceTree = "<group>"; };
+		790D1E041158052200EE3DB2 /* IGLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGLocation.h; sourceTree = "<group>"; };
+		790D1E051158052200EE3DB2 /* IGLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGLocation.m; sourceTree = "<group>"; };
+		790D1E071158052200EE3DB2 /* IGFilesystemPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFilesystemPaths.h; sourceTree = "<group>"; };
+		790D1E081158052200EE3DB2 /* IGFilesystemPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGFilesystemPaths.m; sourceTree = "<group>"; };
+		790D1E091158052200EE3DB2 /* IGFilesystemIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFilesystemIO.h; sourceTree = "<group>"; };
+		790D1E0A1158052200EE3DB2 /* IGFilesystemIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGFilesystemIO.m; sourceTree = "<group>"; };
+		790D1E0C1158052200EE3DB2 /* IGNetworkingConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGNetworkingConnection.h; sourceTree = "<group>"; };
+		790D1E0D1158052200EE3DB2 /* IGNetworkingConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGNetworkingConnection.m; sourceTree = "<group>"; };
+		790D1E0E1158052200EE3DB2 /* IGNetworkingReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGNetworkingReachability.h; sourceTree = "<group>"; };
+		790D1E0F1158052200EE3DB2 /* IGNetworkingReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGNetworkingReachability.m; sourceTree = "<group>"; };
+		790D1E2A1158052A00EE3DB2 /* NSObject+IGJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+IGJson.h"; sourceTree = "<group>"; };
+		790D1E2B1158052A00EE3DB2 /* NSObject+IGJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IGJson.m"; sourceTree = "<group>"; };
+		790D1E2C1158052A00EE3DB2 /* NSString+IGJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IGJson.h"; sourceTree = "<group>"; };
+		790D1E2D1158052A00EE3DB2 /* NSString+IGJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IGJson.m"; sourceTree = "<group>"; };
+		790D1E2F1158052A00EE3DB2 /* NSDate+Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Misc.h"; sourceTree = "<group>"; };
+		790D1E301158052A00EE3DB2 /* NSDate+Misc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Misc.m"; sourceTree = "<group>"; };
+		790D1E321158052A00EE3DB2 /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		790D1E331158052A00EE3DB2 /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
+		790D1E341158052A00EE3DB2 /* NSString+Ereg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ereg.h"; sourceTree = "<group>"; };
+		790D1E351158052A00EE3DB2 /* NSString+Ereg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ereg.m"; sourceTree = "<group>"; };
+		790D1E411158053100EE3DB2 /* IGConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGConfiguration.h; sourceTree = "<group>"; };
+		790D21341158E97F00EE3DB2 /* IGPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGPHomeController.h; sourceTree = "<group>"; };
+		790D21351158E97F00EE3DB2 /* IGPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGPHomeController.m; sourceTree = "<group>"; };
+		790D21361158E97F00EE3DB2 /* IGPHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IGPHomeController.xib; sourceTree = "<group>"; };
+		7910FBD2115A7C79004686B4 /* IGAlertsBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertsBasic.h; sourceTree = "<group>"; };
+		7910FBD3115A7C79004686B4 /* IGAlertsBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAlertsBasic.m; sourceTree = "<group>"; };
+		7910FBE7115A7C9C004686B4 /* IGAlertTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertTextInput.h; sourceTree = "<group>"; };
+		7910FBE8115A7C9C004686B4 /* IGAlertTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAlertTextInput.m; sourceTree = "<group>"; };
+		7910FC12115A8207004686B4 /* IGSimpleDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSimpleDB.h; sourceTree = "<group>"; };
+		7910FC13115A8207004686B4 /* IGSimpleDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSimpleDB.m; sourceTree = "<group>"; };
+		7910FC70115A8C54004686B4 /* IGAccelAutorotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAccelAutorotation.h; sourceTree = "<group>"; };
+		7910FC71115A8C54004686B4 /* IGAccelAutorotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAccelAutorotation.m; sourceTree = "<group>"; };
+		7910FE21115AEF0A004686B4 /* IGCacheVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCacheVariables.h; sourceTree = "<group>"; };
+		7910FE22115AEF0A004686B4 /* IGCacheVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCacheVariables.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* IGFrameworkProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IGFrameworkProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				790D212B1158E8C600EE3DB2 /* libIGFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790D1DD21158048500EE3DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790D21C1115913CE00EE3DB2 /* UIKit.framework in Frameworks */,
+				790D21C2115913D600EE3DB2 /* Foundation.framework in Frameworks */,
+				790D21C3115913DD00EE3DB2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				790D21331158E95500EE3DB2 /* Controllers */,
+				1D3623240D0F684500981E51 /* IGFrameworkProjectAppDelegate.h */,
+				1D3623250D0F684500981E51 /* IGFrameworkProjectAppDelegate.m */,
+			);
+			name = App;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* IGFrameworkProject.app */,
+				790D1DD41158048500EE3DB2 /* libIGFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				790D1DE5115804FA00EE3DB2 /* Framework */,
+				080E96DDFE201D6D7F000001 /* App */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* IGFrameworkProject_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* IGFrameworkProject-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790D1DE5115804FA00EE3DB2 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				790D1E401158053100EE3DB2 /* Configuration */,
+				790D1E281158052A00EE3DB2 /* Categories */,
+				790D1DE81158052200EE3DB2 /* Classes */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		790D1DE81158052200EE3DB2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7910FE20115AEEB7004686B4 /* Cache */,
+				7910FBC7115A7C44004686B4 /* Alerts */,
+				790D1E0B1158052200EE3DB2 /* Networking */,
+				790D1E061158052200EE3DB2 /* Filesystem */,
+				790D1E031158052200EE3DB2 /* Location */,
+				790D1DF71158052200EE3DB2 /* Data */,
+				790D1DF61158052200EE3DB2 /* Validation */,
+				790D1DF51158052200EE3DB2 /* Text */,
+				790D1DF41158052200EE3DB2 /* Accelerometer */,
+				790D1DF31158052200EE3DB2 /* Database */,
+				790D1DF21158052200EE3DB2 /* Images */,
+				790D1DEF1158052200EE3DB2 /* Localization */,
+				790D1DEE1158052200EE3DB2 /* Caching */,
+				790D1DED1158052200EE3DB2 /* Mailing */,
+				790D1DE91158052200EE3DB2 /* GoogleAPI */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		790D1DE91158052200EE3DB2 /* GoogleAPI */ = {
+			isa = PBXGroup;
+			children = (
+				790D1DEA1158052200EE3DB2 /* Maps */,
+			);
+			name = GoogleAPI;
+			sourceTree = "<group>";
+		};
+		790D1DEA1158052200EE3DB2 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				790D1DEB1158052200EE3DB2 /* IGGoogleAPIMaps.h */,
+				790D1DEC1158052200EE3DB2 /* IGGoogleAPIMaps.m */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		790D1DED1158052200EE3DB2 /* Mailing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Mailing;
+			sourceTree = "<group>";
+		};
+		790D1DEE1158052200EE3DB2 /* Caching */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Caching;
+			sourceTree = "<group>";
+		};
+		790D1DEF1158052200EE3DB2 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				790D1DF01158052200EE3DB2 /* IGLocalization.h */,
+				790D1DF11158052200EE3DB2 /* IGLocalization.m */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		790D1DF21158052200EE3DB2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		790D1DF31158052200EE3DB2 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				7910FC12115A8207004686B4 /* IGSimpleDB.h */,
+				7910FC13115A8207004686B4 /* IGSimpleDB.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		790D1DF41158052200EE3DB2 /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				7910FC70115A8C54004686B4 /* IGAccelAutorotation.h */,
+				7910FC71115A8C54004686B4 /* IGAccelAutorotation.m */,
+			);
+			name = Accelerometer;
+			sourceTree = "<group>";
+		};
+		790D1DF51158052200EE3DB2 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+		790D1DF61158052200EE3DB2 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		790D1DF71158052200EE3DB2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				790D1DF81158052200EE3DB2 /* IGJson */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		790D1DF81158052200EE3DB2 /* IGJson */ = {
+			isa = PBXGroup;
+			children = (
+				790D1DF91158052200EE3DB2 /* IGJson.h */,
+				790D1DFA1158052200EE3DB2 /* IGJson.m */,
+				790D1DFB1158052200EE3DB2 /* IGJsonBase.h */,
+				790D1DFC1158052200EE3DB2 /* IGJsonBase.m */,
+				790D1DFD1158052200EE3DB2 /* IGJsonParser.h */,
+				790D1DFE1158052200EE3DB2 /* IGJsonParser.m */,
+				790D1DFF1158052200EE3DB2 /* IGJsonWriter.h */,
+				790D1E001158052200EE3DB2 /* IGJsonWriter.m */,
+				790D1E011158052200EE3DB2 /* IGJsonData.h */,
+				790D1E021158052200EE3DB2 /* IGJsonData.m */,
+			);
+			name = IGJson;
+			sourceTree = "<group>";
+		};
+		790D1E031158052200EE3DB2 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				790D1E041158052200EE3DB2 /* IGLocation.h */,
+				790D1E051158052200EE3DB2 /* IGLocation.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
+		790D1E061158052200EE3DB2 /* Filesystem */ = {
+			isa = PBXGroup;
+			children = (
+				790D1E071158052200EE3DB2 /* IGFilesystemPaths.h */,
+				790D1E081158052200EE3DB2 /* IGFilesystemPaths.m */,
+				790D1E091158052200EE3DB2 /* IGFilesystemIO.h */,
+				790D1E0A1158052200EE3DB2 /* IGFilesystemIO.m */,
+			);
+			name = Filesystem;
+			sourceTree = "<group>";
+		};
+		790D1E0B1158052200EE3DB2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				790D1E0C1158052200EE3DB2 /* IGNetworkingConnection.h */,
+				790D1E0D1158052200EE3DB2 /* IGNetworkingConnection.m */,
+				790D1E0E1158052200EE3DB2 /* IGNetworkingReachability.h */,
+				790D1E0F1158052200EE3DB2 /* IGNetworkingReachability.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		790D1E281158052A00EE3DB2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				790D1E311158052A00EE3DB2 /* NSString */,
+				790D1E2E1158052A00EE3DB2 /* NSDate */,
+				790D1E291158052A00EE3DB2 /* IGJson */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		790D1E291158052A00EE3DB2 /* IGJson */ = {
+			isa = PBXGroup;
+			children = (
+				790D1E2A1158052A00EE3DB2 /* NSObject+IGJson.h */,
+				790D1E2B1158052A00EE3DB2 /* NSObject+IGJson.m */,
+				790D1E2C1158052A00EE3DB2 /* NSString+IGJson.h */,
+				790D1E2D1158052A00EE3DB2 /* NSString+IGJson.m */,
+			);
+			name = IGJson;
+			sourceTree = "<group>";
+		};
+		790D1E2E1158052A00EE3DB2 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				790D1E2F1158052A00EE3DB2 /* NSDate+Misc.h */,
+				790D1E301158052A00EE3DB2 /* NSDate+Misc.m */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
+		};
+		790D1E311158052A00EE3DB2 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				790D1E321158052A00EE3DB2 /* NSString+URL.h */,
+				790D1E331158052A00EE3DB2 /* NSString+URL.m */,
+				790D1E341158052A00EE3DB2 /* NSString+Ereg.h */,
+				790D1E351158052A00EE3DB2 /* NSString+Ereg.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		790D1E401158053100EE3DB2 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				790D1E411158053100EE3DB2 /* IGConfiguration.h */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		790D21331158E95500EE3DB2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				790D21341158E97F00EE3DB2 /* IGPHomeController.h */,
+				790D21351158E97F00EE3DB2 /* IGPHomeController.m */,
+				790D21361158E97F00EE3DB2 /* IGPHomeController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7910FBC7115A7C44004686B4 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				7910FBD2115A7C79004686B4 /* IGAlertsBasic.h */,
+				7910FBD3115A7C79004686B4 /* IGAlertsBasic.m */,
+				7910FBE7115A7C9C004686B4 /* IGAlertTextInput.h */,
+				7910FBE8115A7C9C004686B4 /* IGAlertTextInput.m */,
+			);
+			name = Alerts;
+			sourceTree = "<group>";
+		};
+		7910FE20115AEEB7004686B4 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				7910FE21115AEF0A004686B4 /* IGCacheVariables.h */,
+				7910FE22115AEF0A004686B4 /* IGCacheVariables.m */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		790D1DD01158048500EE3DB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790D1E101158052200EE3DB2 /* IGGoogleAPIMaps.h in Headers */,
+				790D1E121158052200EE3DB2 /* IGLocalization.h in Headers */,
+				790D1E141158052200EE3DB2 /* IGJson.h in Headers */,
+				790D1E161158052200EE3DB2 /* IGJsonBase.h in Headers */,
+				790D1E181158052200EE3DB2 /* IGJsonParser.h in Headers */,
+				790D1E1A1158052200EE3DB2 /* IGJsonWriter.h in Headers */,
+				790D1E1C1158052200EE3DB2 /* IGJsonData.h in Headers */,
+				790D1E1E1158052200EE3DB2 /* IGLocation.h in Headers */,
+				790D1E201158052200EE3DB2 /* IGFilesystemPaths.h in Headers */,
+				790D1E221158052200EE3DB2 /* IGFilesystemIO.h in Headers */,
+				790D1E241158052200EE3DB2 /* IGNetworkingConnection.h in Headers */,
+				790D1E261158052200EE3DB2 /* IGNetworkingReachability.h in Headers */,
+				790D1E361158052A00EE3DB2 /* NSObject+IGJson.h in Headers */,
+				790D1E381158052A00EE3DB2 /* NSString+IGJson.h in Headers */,
+				790D1E3A1158052A00EE3DB2 /* NSDate+Misc.h in Headers */,
+				790D1E3C1158052A00EE3DB2 /* NSString+URL.h in Headers */,
+				790D1E3E1158052A00EE3DB2 /* NSString+Ereg.h in Headers */,
+				790D1E421158053100EE3DB2 /* IGConfiguration.h in Headers */,
+				7910FBE9115A7C9C004686B4 /* IGAlertTextInput.h in Headers */,
+				7910FC14115A8207004686B4 /* IGSimpleDB.h in Headers */,
+				7910FCCA115A9172004686B4 /* IGAccelAutorotation.h in Headers */,
+				7910FE23115AEF0A004686B4 /* IGCacheVariables.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* IGFrameworkProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IGFrameworkProject" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				790D213F1158E9E900EE3DB2 /* PBXTargetDependency */,
+			);
+			name = IGFrameworkProject;
+			productName = IGFrameworkProject;
+			productReference = 1D6058910D05DD3D006BFB54 /* IGFrameworkProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		790D1DD31158048500EE3DB2 /* IGFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790D1DDE1158049A00EE3DB2 /* Build configuration list for PBXNativeTarget "IGFramework" */;
+			buildPhases = (
+				790D1DD01158048500EE3DB2 /* Headers */,
+				790D1DD11158048500EE3DB2 /* Sources */,
+				790D1DD21158048500EE3DB2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGFramework;
+			productName = IGFramework;
+			productReference = 790D1DD41158048500EE3DB2 /* libIGFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IGFrameworkProject" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* IGFrameworkProject */,
+				790D1DD31158048500EE3DB2 /* IGFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				790D21381158E97F00EE3DB2 /* IGPHomeController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* IGFrameworkProjectAppDelegate.m in Sources */,
+				790D21371158E97F00EE3DB2 /* IGPHomeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		790D1DD11158048500EE3DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790D1E111158052200EE3DB2 /* IGGoogleAPIMaps.m in Sources */,
+				790D1E131158052200EE3DB2 /* IGLocalization.m in Sources */,
+				790D1E151158052200EE3DB2 /* IGJson.m in Sources */,
+				790D1E171158052200EE3DB2 /* IGJsonBase.m in Sources */,
+				790D1E191158052200EE3DB2 /* IGJsonParser.m in Sources */,
+				790D1E1B1158052200EE3DB2 /* IGJsonWriter.m in Sources */,
+				790D1E1D1158052200EE3DB2 /* IGJsonData.m in Sources */,
+				790D1E1F1158052200EE3DB2 /* IGLocation.m in Sources */,
+				790D1E211158052200EE3DB2 /* IGFilesystemPaths.m in Sources */,
+				790D1E231158052200EE3DB2 /* IGFilesystemIO.m in Sources */,
+				790D1E251158052200EE3DB2 /* IGNetworkingConnection.m in Sources */,
+				790D1E271158052200EE3DB2 /* IGNetworkingReachability.m in Sources */,
+				790D1E371158052A00EE3DB2 /* NSObject+IGJson.m in Sources */,
+				790D1E391158052A00EE3DB2 /* NSString+IGJson.m in Sources */,
+				790D1E3B1158052A00EE3DB2 /* NSDate+Misc.m in Sources */,
+				790D1E3F1158052A00EE3DB2 /* NSString+Ereg.m in Sources */,
+				7910FBEA115A7C9C004686B4 /* IGAlertTextInput.m in Sources */,
+				7910FC15115A8207004686B4 /* IGSimpleDB.m in Sources */,
+				7910FCCB115A9172004686B4 /* IGAccelAutorotation.m in Sources */,
+				7910FD1E115ACCA6004686B4 /* NSString+URL.m in Sources */,
+				7910FE24115AEF0A004686B4 /* IGCacheVariables.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		790D213F1158E9E900EE3DB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 790D1DD31158048500EE3DB2 /* IGFramework */;
+			targetProxy = 790D213E1158E9E900EE3DB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ondrej rafaj (YQ9WV8NMBR)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IGFrameworkProject_Prefix.pch;
+				INFOPLIST_FILE = "IGFrameworkProject-Info.plist";
+				PRODUCT_NAME = IGFrameworkProject;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "192980B8-1DBA-4663-A354-B361DE6CC234";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IGFrameworkProject_Prefix.pch;
+				INFOPLIST_FILE = "IGFrameworkProject-Info.plist";
+				PRODUCT_NAME = IGFrameworkProject;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		790D1DD51158048600EE3DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				PRODUCT_NAME = IGFramework;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		790D1DD61158048600EE3DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = IGFramework;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IGFrameworkProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790D1DDE1158049A00EE3DB2 /* Build configuration list for PBXNativeTarget "IGFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				790D1DD51158048600EE3DB2 /* Debug */,
+				790D1DD61158048600EE3DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "IGFrameworkProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
