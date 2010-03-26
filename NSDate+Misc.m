@@ -63,10 +63,6 @@
     return days;
 }
 
-- (NSString *)formattedDateString {
-    return [self formattedStringUsingFormat:@"MMM dd, yyyy"];
-}
-
 - (NSString *)formattedStringUsingFormat:(NSString *)dateFormat {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:dateFormat];
@@ -74,6 +70,11 @@
     [formatter release];
     return ret;
 }
+
+- (NSString *)formattedDateString {
+    return [self formattedStringUsingFormat:@"MMM dd, yyyy"];
+}
+
 
 
 

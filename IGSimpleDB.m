@@ -82,6 +82,12 @@
 	return (NSArray *) [d objectForKey:kIGSimpleDBDataKey];
 }
 
+// public; returns all items from the db as NSArray
++ (NSMutableArray *)getMutableItemsFromDb:(NSString *)dbName {
+	NSDictionary *d = [self _getFullDataForDb:dbName];
+	return (NSMutableArray *) [[[NSMutableArray alloc] initWithArray:[d objectForKey:kIGSimpleDBDataKey]] autorelease];
+}
+
 // private; converts id of the item to index position in the array
 + (int)_getIndexForId:(int)idItem inDb:(NSString *)dbName {
 	NSDictionary *d = [self _getFullDataForDb:dbName];
@@ -136,7 +142,7 @@
 
 // public; add given item to the end of the database
 + (int)addItemToBottom:(NSDictionary *)item intoDb:(NSString *)dbName {
-	NSMutableArray *arr = (NSMutableArray *) [self getItemsFromDb:dbName];
+	NSMutableArray *arr = (NSMutableArray *) [self getMutableItemsFromDb:dbName];
 	int i = [self _increaseAIinDb:dbName];
 	NSMutableDictionary *nd = (NSMutableDictionary *)item;
 	[nd setObject:[self _encodeNumber:i] forKey:kIGSimpleDBMainIdKey];
@@ -147,7 +153,7 @@
 
 // public; add given item to the beginning of the database
 + (int)addItemToTop:(NSDictionary *)item intoDb:(NSString *)dbName {
-	NSMutableArray *arr = (NSMutableArray *) [self getItemsFromDb:dbName];
+	NSMutableArray *arr = (NSMutableArray *) [self getMutableItemsFromDb:dbName];
 	NSMutableArray *narr = [[[NSMutableArray alloc] init] autorelease];
 	int i = [self _increaseAIinDb:dbName];
 	NSMutableDictionary *nd = (NSMutableDictionary *)item;
@@ -160,14 +166,14 @@
 
 // public; deletes id specific item from the database
 + (void)deleteItem:(int)idItem fromDb:(NSString *)dbName {
-	NSMutableArray *arr = (NSMutableArray *) [self getItemsFromDb:dbName];
+	NSMutableArray *arr = (NSMutableArray *) [self getMutableItemsFromDb:dbName];
 	[arr removeObjectAtIndex:[self _getIndexForId:idItem inDb:dbName]];
 	[self saveFullData:arr toDb:dbName];
 }
 
 // public; updates id specific item in the database
 + (void)updateItem:(int)idItem withData:(NSDictionary *)item inDb:(NSString *)dbName {
-	NSMutableArray *arr = (NSMutableArray *) [self getItemsFromDb:dbName];
+	NSMutableArray *arr = (NSMutableArray *) [self getMutableItemsFromDb:dbName];
 	NSMutableArray *narr = [[[NSMutableArray alloc] init] autorelease];
 	int ai;
 	for (NSDictionary *d in arr) {
@@ -180,7 +186,7 @@
 
 // public; moves item in the db, the input values are the same that are coming from:
 + (void)moveTableItem:(NSIndexPath *)fromIndexPath to:(NSIndexPath *)toIndexPath inDb:(NSString *)dbName {
-	NSMutableArray *arr = (NSMutableArray *) [self getItemsFromDb:dbName];
+	NSMutableArray *arr = (NSMutableArray *) [self getMutableItemsFromDb:dbName];
 	NSDictionary *i = [[[arr objectAtIndex:fromIndexPath.row] retain] autorelease];
 	[arr removeObjectAtIndex:fromIndexPath.row];
 	[arr insertObject:i atIndex:toIndexPath.row];
@@ -210,5 +216,29 @@
 + (NSArray *)sortDescendingByKey:(NSString *)key inDb:(NSString *)dbName {
 	return [self getItemsFromDb:dbName];
 }
+
++ (BOOL)isSelected:(int)idItem inDb:(NSString *)dbName {
+	NSDictionary *d = [self getItem:idItem inDb:dbName];
+	NSString *v = (NSString *)[d objectForKey:kIGSimpleDBSelectedKey];
+	if (!v) return NO;
+	else return (BOOL) [v intValue];
+}
+
++ (void)setSelected:(BOOL)selected forItem:(int)idItem inDb:(NSString *)dbName {
+	NSMutableDictionary *d = [[[NSMutableDictionary alloc] initWithDictionary:[self getItem:idItem inDb:dbName]] autorelease];
+	[d setValue:[self _encodeNumber:(int)selected] forKey:kIGSimpleDBSelectedKey];
+	[self updateItem:idItem withData:(NSDictionary *)d inDb:dbName];
+}
+
++ (BOOL)isDictionarySelected:(NSDictionary *)item inDb:(NSString *)dbName {
+	int idItem = [self getId:item];
+	return [self isSelected:idItem inDb:dbName];
+}
+
++ (void)setDictionarySelected:(BOOL)selected dictionary:(NSDictionary *)item inDb:(NSString *)dbName {
+	int idItem = [self getId:item];
+	[self setSelected:selected forItem:idItem inDb:dbName];
+}
+
 
 @end
