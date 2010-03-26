@@ -57,7 +57,7 @@
 		7910FBEA115A7C9C004686B4 /* IGAlertTextInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FBE8115A7C9C004686B4 /* IGAlertTextInput.m */; };
 		7910FC14115A8207004686B4 /* IGSimpleDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FC12115A8207004686B4 /* IGSimpleDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7910FC15115A8207004686B4 /* IGSimpleDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FC13115A8207004686B4 /* IGSimpleDB.m */; };
-		7910FCCA115A9172004686B4 /* IGAccelAutorotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FC70115A8C54004686B4 /* IGAccelAutorotation.h */; };
+		7910FCCA115A9172004686B4 /* IGAccelAutorotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FC70115A8C54004686B4 /* IGAccelAutorotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7910FCCB115A9172004686B4 /* IGAccelAutorotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FC71115A8C54004686B4 /* IGAccelAutorotation.m */; };
 		7910FD1E115ACCA6004686B4 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E331158052A00EE3DB2 /* NSString+URL.m */; };
 		7910FE23115AEF0A004686B4 /* IGCacheVariables.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FE21115AEF0A004686B4 /* IGCacheVariables.h */; settings = {ATTRIBUTES = (Public, ); }; };

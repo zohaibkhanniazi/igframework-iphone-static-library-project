@@ -15,7 +15,7 @@
 #define kIGSimpleDBDataKey			@"data"
 #define kIGSimpleDBIndexKey			@"index"
 #define kIGSimpleDBMainIdKey		@"IGSimpleDBSecretId"
-
+#define kIGSimpleDBSelectedKey		@"IGSimpleDBSelectedKey"
 
 
 @interface IGSimpleDB : NSObject {
@@ -35,6 +35,8 @@
 + (int)getAutoincrementNumberForDb:(NSString *)dbName;
 
 + (NSArray *)getItemsFromDb:(NSString *)dbName;
+
++ (NSMutableArray *)getMutableItemsFromDb:(NSString *)dbName;
 
 + (void)saveFullData:(NSArray *)arr toDb:(NSString *)dbName;
 
@@ -59,6 +61,16 @@
 + (NSArray *)sortAscendingByKey:(NSString *)key inDb:(NSString *)dbName;
 
 + (NSArray *)sortDescendingByKey:(NSString *)key inDb:(NSString *)dbName;
+
++ (BOOL)isSelected:(int)idItem inDb:(NSString *)dbName;
+
++ (void)setSelected:(BOOL)selected forItem:(int)idItem inDb:(NSString *)dbName;
+
++ (BOOL)isDictionarySelected:(NSDictionary *)item inDb:(NSString *)dbName;
+
++ (void)setDictionarySelected:(BOOL)selected dictionary:(NSDictionary *)item inDb:(NSString *)dbName;
+
+
 
 
 @end
