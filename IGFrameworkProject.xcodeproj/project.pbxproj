@@ -62,6 +62,27 @@
 		7910FD1E115ACCA6004686B4 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E331158052A00EE3DB2 /* NSString+URL.m */; };
 		7910FE23115AEF0A004686B4 /* IGCacheVariables.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FE21115AEF0A004686B4 /* IGCacheVariables.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7910FE24115AEF0A004686B4 /* IGCacheVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FE22115AEF0A004686B4 /* IGCacheVariables.m */; };
+		796A85F011649A4300A7A8CC /* IGSettingsUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A85EE11649A4300A7A8CC /* IGSettingsUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796A85F111649A4300A7A8CC /* IGSettingsUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A85EF11649A4300A7A8CC /* IGSettingsUser.m */; };
+		796A85F411649A5700A7A8CC /* IGSettingsCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A85F211649A5700A7A8CC /* IGSettingsCustom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796A85F511649A5700A7A8CC /* IGSettingsCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A85F311649A5700A7A8CC /* IGSettingsCustom.m */; };
+		796A86271164A85600A7A8CC /* IGParsingTemplates.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86251164A85600A7A8CC /* IGParsingTemplates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796A86281164A85600A7A8CC /* IGParsingTemplates.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86261164A85600A7A8CC /* IGParsingTemplates.m */; };
+		796A862B1164A8AA00A7A8CC /* IGParsingHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86291164A8AA00A7A8CC /* IGParsingHTML.h */; };
+		796A862C1164A8AA00A7A8CC /* IGParsingHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A862A1164A8AA00A7A8CC /* IGParsingHTML.m */; };
+		796A86351164AD2100A7A8CC /* IGImagesTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86331164AD2100A7A8CC /* IGImagesTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796A86361164AD2100A7A8CC /* IGImagesTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86341164AD2100A7A8CC /* IGImagesTools.m */; };
+		796A863D1164ADF300A7A8CC /* UIImage-Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A863B1164ADF300A7A8CC /* UIImage-Tools.h */; };
+		796A863E1164ADF300A7A8CC /* UIImage-Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A863C1164ADF300A7A8CC /* UIImage-Tools.m */; };
+		796A86461164AF8700A7A8CC /* IGCacheImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86441164AF8700A7A8CC /* IGCacheImages.h */; };
+		796A86471164AF8700A7A8CC /* IGCacheImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86451164AF8700A7A8CC /* IGCacheImages.m */; };
+		796A864B1164B03300A7A8CC /* IGFilesystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A864A1164B03300A7A8CC /* IGFilesystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A84C0C115CE2160040C278 /* IGAlertBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A84C0A115CE2160040C278 /* IGAlertBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A84C0D115CE2160040C278 /* IGAlertBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A84C0B115CE2160040C278 /* IGAlertBasic.m */; };
+		79C58198115E2D6A009E34B5 /* IGUITextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C58196115E2D6A009E34B5 /* IGUITextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C58199115E2D6A009E34B5 /* IGUITextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C58197115E2D6A009E34B5 /* IGUITextFieldCell.m */; };
+		79C581A2115E2E97009E34B5 /* IGUILabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C581A0115E2E97009E34B5 /* IGUILabelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79C581A3115E2E97009E34B5 /* IGUILabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C581A1115E2E97009E34B5 /* IGUILabelCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,8 +144,6 @@
 		790D21341158E97F00EE3DB2 /* IGPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGPHomeController.h; sourceTree = "<group>"; };
 		790D21351158E97F00EE3DB2 /* IGPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGPHomeController.m; sourceTree = "<group>"; };
 		790D21361158E97F00EE3DB2 /* IGPHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IGPHomeController.xib; sourceTree = "<group>"; };
-		7910FBD2115A7C79004686B4 /* IGAlertsBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertsBasic.h; sourceTree = "<group>"; };
-		7910FBD3115A7C79004686B4 /* IGAlertsBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAlertsBasic.m; sourceTree = "<group>"; };
 		7910FBE7115A7C9C004686B4 /* IGAlertTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertTextInput.h; sourceTree = "<group>"; };
 		7910FBE8115A7C9C004686B4 /* IGAlertTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAlertTextInput.m; sourceTree = "<group>"; };
 		7910FC12115A8207004686B4 /* IGSimpleDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSimpleDB.h; sourceTree = "<group>"; };
@@ -133,6 +152,27 @@
 		7910FC71115A8C54004686B4 /* IGAccelAutorotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAccelAutorotation.m; sourceTree = "<group>"; };
 		7910FE21115AEF0A004686B4 /* IGCacheVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCacheVariables.h; sourceTree = "<group>"; };
 		7910FE22115AEF0A004686B4 /* IGCacheVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCacheVariables.m; sourceTree = "<group>"; };
+		796A85EE11649A4300A7A8CC /* IGSettingsUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSettingsUser.h; sourceTree = "<group>"; };
+		796A85EF11649A4300A7A8CC /* IGSettingsUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSettingsUser.m; sourceTree = "<group>"; };
+		796A85F211649A5700A7A8CC /* IGSettingsCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSettingsCustom.h; sourceTree = "<group>"; };
+		796A85F311649A5700A7A8CC /* IGSettingsCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSettingsCustom.m; sourceTree = "<group>"; };
+		796A86251164A85600A7A8CC /* IGParsingTemplates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGParsingTemplates.h; sourceTree = "<group>"; };
+		796A86261164A85600A7A8CC /* IGParsingTemplates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGParsingTemplates.m; sourceTree = "<group>"; };
+		796A86291164A8AA00A7A8CC /* IGParsingHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGParsingHTML.h; sourceTree = "<group>"; };
+		796A862A1164A8AA00A7A8CC /* IGParsingHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGParsingHTML.m; sourceTree = "<group>"; };
+		796A86331164AD2100A7A8CC /* IGImagesTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGImagesTools.h; sourceTree = "<group>"; };
+		796A86341164AD2100A7A8CC /* IGImagesTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGImagesTools.m; sourceTree = "<group>"; };
+		796A863B1164ADF300A7A8CC /* UIImage-Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Tools.h"; sourceTree = "<group>"; };
+		796A863C1164ADF300A7A8CC /* UIImage-Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Tools.m"; sourceTree = "<group>"; };
+		796A86441164AF8700A7A8CC /* IGCacheImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCacheImages.h; sourceTree = "<group>"; };
+		796A86451164AF8700A7A8CC /* IGCacheImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCacheImages.m; sourceTree = "<group>"; };
+		796A864A1164B03300A7A8CC /* IGFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFilesystem.h; sourceTree = "<group>"; };
+		79A84C0A115CE2160040C278 /* IGAlertBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertBasic.h; sourceTree = "<group>"; };
+		79A84C0B115CE2160040C278 /* IGAlertBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAlertBasic.m; sourceTree = "<group>"; };
+		79C58196115E2D6A009E34B5 /* IGUITextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGUITextFieldCell.h; sourceTree = "<group>"; };
+		79C58197115E2D6A009E34B5 /* IGUITextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGUITextFieldCell.m; sourceTree = "<group>"; };
+		79C581A0115E2E97009E34B5 /* IGUILabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGUILabelCell.h; sourceTree = "<group>"; };
+		79C581A1115E2E97009E34B5 /* IGUILabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGUILabelCell.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* IGFrameworkProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IGFrameworkProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -225,6 +265,7 @@
 		790D1DE5115804FA00EE3DB2 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				79C58194115E2D1D009E34B5 /* UI */,
 				790D1E401158053100EE3DB2 /* Configuration */,
 				790D1E281158052A00EE3DB2 /* Categories */,
 				790D1DE81158052200EE3DB2 /* Classes */,
@@ -235,6 +276,8 @@
 		790D1DE81158052200EE3DB2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				796A86241164A83700A7A8CC /* Parsing */,
+				796A85ED11649A0500A7A8CC /* Settings */,
 				7910FE20115AEEB7004686B4 /* Cache */,
 				7910FBC7115A7C44004686B4 /* Alerts */,
 				790D1E0B1158052200EE3DB2 /* Networking */,
@@ -297,6 +340,8 @@
 		790D1DF21158052200EE3DB2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				796A86331164AD2100A7A8CC /* IGImagesTools.h */,
+				796A86341164AD2100A7A8CC /* IGImagesTools.m */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -374,6 +419,7 @@
 				790D1E081158052200EE3DB2 /* IGFilesystemPaths.m */,
 				790D1E091158052200EE3DB2 /* IGFilesystemIO.h */,
 				790D1E0A1158052200EE3DB2 /* IGFilesystemIO.m */,
+				796A864A1164B03300A7A8CC /* IGFilesystem.h */,
 			);
 			name = Filesystem;
 			sourceTree = "<group>";
@@ -392,6 +438,7 @@
 		790D1E281158052A00EE3DB2 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				796A863F1164ADFA00A7A8CC /* UIImage */,
 				790D1E311158052A00EE3DB2 /* NSString */,
 				790D1E2E1158052A00EE3DB2 /* NSDate */,
 				790D1E291158052A00EE3DB2 /* IGJson */,
@@ -451,10 +498,10 @@
 		7910FBC7115A7C44004686B4 /* Alerts */ = {
 			isa = PBXGroup;
 			children = (
-				7910FBD2115A7C79004686B4 /* IGAlertsBasic.h */,
-				7910FBD3115A7C79004686B4 /* IGAlertsBasic.m */,
 				7910FBE7115A7C9C004686B4 /* IGAlertTextInput.h */,
 				7910FBE8115A7C9C004686B4 /* IGAlertTextInput.m */,
+				79A84C0A115CE2160040C278 /* IGAlertBasic.h */,
+				79A84C0B115CE2160040C278 /* IGAlertBasic.m */,
 			);
 			name = Alerts;
 			sourceTree = "<group>";
@@ -464,8 +511,60 @@
 			children = (
 				7910FE21115AEF0A004686B4 /* IGCacheVariables.h */,
 				7910FE22115AEF0A004686B4 /* IGCacheVariables.m */,
+				796A86441164AF8700A7A8CC /* IGCacheImages.h */,
+				796A86451164AF8700A7A8CC /* IGCacheImages.m */,
 			);
 			name = Cache;
+			sourceTree = "<group>";
+		};
+		796A85ED11649A0500A7A8CC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				796A85EE11649A4300A7A8CC /* IGSettingsUser.h */,
+				796A85EF11649A4300A7A8CC /* IGSettingsUser.m */,
+				796A85F211649A5700A7A8CC /* IGSettingsCustom.h */,
+				796A85F311649A5700A7A8CC /* IGSettingsCustom.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		796A86241164A83700A7A8CC /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				796A86251164A85600A7A8CC /* IGParsingTemplates.h */,
+				796A86261164A85600A7A8CC /* IGParsingTemplates.m */,
+				796A86291164A8AA00A7A8CC /* IGParsingHTML.h */,
+				796A862A1164A8AA00A7A8CC /* IGParsingHTML.m */,
+			);
+			name = Parsing;
+			sourceTree = "<group>";
+		};
+		796A863F1164ADFA00A7A8CC /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				796A863B1164ADF300A7A8CC /* UIImage-Tools.h */,
+				796A863C1164ADF300A7A8CC /* UIImage-Tools.m */,
+			);
+			name = UIImage;
+			sourceTree = "<group>";
+		};
+		79C58194115E2D1D009E34B5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				79C58195115E2D26009E34B5 /* Cells */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		79C58195115E2D26009E34B5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				79C58196115E2D6A009E34B5 /* IGUITextFieldCell.h */,
+				79C58197115E2D6A009E34B5 /* IGUITextFieldCell.m */,
+				79C581A0115E2E97009E34B5 /* IGUILabelCell.h */,
+				79C581A1115E2E97009E34B5 /* IGUILabelCell.m */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -497,6 +596,17 @@
 				7910FC14115A8207004686B4 /* IGSimpleDB.h in Headers */,
 				7910FCCA115A9172004686B4 /* IGAccelAutorotation.h in Headers */,
 				7910FE23115AEF0A004686B4 /* IGCacheVariables.h in Headers */,
+				79A84C0C115CE2160040C278 /* IGAlertBasic.h in Headers */,
+				79C58198115E2D6A009E34B5 /* IGUITextFieldCell.h in Headers */,
+				79C581A2115E2E97009E34B5 /* IGUILabelCell.h in Headers */,
+				796A85F011649A4300A7A8CC /* IGSettingsUser.h in Headers */,
+				796A85F411649A5700A7A8CC /* IGSettingsCustom.h in Headers */,
+				796A86271164A85600A7A8CC /* IGParsingTemplates.h in Headers */,
+				796A862B1164A8AA00A7A8CC /* IGParsingHTML.h in Headers */,
+				796A86351164AD2100A7A8CC /* IGImagesTools.h in Headers */,
+				796A863D1164ADF300A7A8CC /* UIImage-Tools.h in Headers */,
+				796A86461164AF8700A7A8CC /* IGCacheImages.h in Headers */,
+				796A864B1164B03300A7A8CC /* IGFilesystem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,6 +721,16 @@
 				7910FCCB115A9172004686B4 /* IGAccelAutorotation.m in Sources */,
 				7910FD1E115ACCA6004686B4 /* NSString+URL.m in Sources */,
 				7910FE24115AEF0A004686B4 /* IGCacheVariables.m in Sources */,
+				79A84C0D115CE2160040C278 /* IGAlertBasic.m in Sources */,
+				79C58199115E2D6A009E34B5 /* IGUITextFieldCell.m in Sources */,
+				79C581A3115E2E97009E34B5 /* IGUILabelCell.m in Sources */,
+				796A85F111649A4300A7A8CC /* IGSettingsUser.m in Sources */,
+				796A85F511649A5700A7A8CC /* IGSettingsCustom.m in Sources */,
+				796A86281164A85600A7A8CC /* IGParsingTemplates.m in Sources */,
+				796A862C1164A8AA00A7A8CC /* IGParsingHTML.m in Sources */,
+				796A86361164AD2100A7A8CC /* IGImagesTools.m in Sources */,
+				796A863E1164ADF300A7A8CC /* UIImage-Tools.m in Sources */,
+				796A86471164AF8700A7A8CC /* IGCacheImages.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

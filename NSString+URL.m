@@ -7,15 +7,18 @@
 //
 
 #import "NSString+URL.h"
+#import <UIKit/UIKit.h>
 
  
 @implementation NSString (urlTools)
 
 + (NSString *)stringWithContentsOfURLInUtf8:(NSString *)targetUrl {
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
 	NSURL *location = [NSURL URLWithString:[targetUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
     NSError *error = nil;
 	NSString *content = [NSString stringWithContentsOfURL:location encoding:NSUTF8StringEncoding error:&error];
 	if (error) NSLog(@"Something went wrong Error: %d; Message: %@", [error code], [error localizedDescription]);
+	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 	return content;
 }
 
