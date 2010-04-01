@@ -30,6 +30,7 @@
 #import <Foundation/Foundation.h>
 #import "IGJsonParser.h"
 #import "IGJsonWriter.h"
+#import "IGJsonData.h"
 
 /**
  @brief Facade for IGJsonWriter/IGJsonParser.

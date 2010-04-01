@@ -11,6 +11,13 @@
 
 @implementation IGFilesystemIO
 
+/**
+ Returns YES if path is a folder; NO if otherwise
+ 
+ @param path NSStrig Path to the folder
+ 
+ @return BOOL
+ */
 + (BOOL)isFolder:(NSString *)path {
 	BOOL isDir;
 	NSFileManager *fileManager = [NSFileManager defaultManager];
@@ -18,6 +25,13 @@
 	else return NO;
 }
 
+/**
+ Returns YES if path is a file; NO if otherwise
+ 
+ @param path NSStrig Path to the file
+ 
+ @return BOOL
+ */
 + (BOOL)isFile:(NSString *)path {
 	BOOL isDir;
 	NSFileManager *fileManager = [NSFileManager defaultManager];
@@ -28,17 +42,38 @@
 	else return NO;
 }
 
+/**
+ Returns text content of the file
+ 
+ @param filePath NSStrig Path to the file
+ 
+ @return NSString Content of the file
+ */
 + (NSString *)getContentsOfFile:(NSString *)filePath {
 	NSError *error;
 	return [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];
 }
 
+/**
+ Returns file attributes
+ 
+ @param path NSStrig Path to the file
+ 
+ @return NSDictionary File attributes
+ */
 + (NSDictionary *)getFileAttributes:(NSString *)path {
 	NSFileManager *manager = [NSFileManager defaultManager];
 	NSDictionary *fileAttributes = [manager fileAttributesAtPath:path traverseLink:false];
 	return fileAttributes;
 }
 
+/**
+ Returns NSArray with all files and folders on selected path
+ 
+ @param path NSStrig Path to the folder
+ 
+ @return NSArray File and folder list
+ */
 + (NSArray *)getListAll:(NSString *)path {
 	NSMutableArray *fileArray = [[[NSMutableArray alloc] init] autorelease];
 	NSFileManager *manager = [NSFileManager defaultManager];
@@ -49,39 +84,70 @@
 	return fileArray;
 }
 
-// TODO: list files only
+/**
+ Returns NSArray with all files on selected path
+ 
+ @param path NSStrig Path to the folder
+ 
+ @return NSArray File list
+ */
 + (NSArray *)getListFiles:(NSString *)path {
 	NSMutableArray *fileArray = [[[NSMutableArray alloc] init] autorelease];
-	NSFileManager *manager = [NSFileManager defaultManager];
-    NSArray *fileList = [manager directoryContentsAtPath:path];
+	NSArray *fileList = [self getListAll:path];
 	for (NSString *file in fileList){
-        if (![file isEqualToString:@"~"] ) [fileArray addObject:file];
+        if (![file isEqualToString:@"~"] ) if ([self isFile:[NSString stringWithFormat:@"%@%@", path, file]]) [fileArray addObject:file];
 	}
 	return fileArray;
 }
 
-// TODO: list folders only
+/**
+ Returns NSArray with all folders on selected path
+ 
+ @param path NSStrig Path to the folder
+ 
+ @return NSArray Folder list
+ */
 + (NSArray *)getListFolders:(NSString *)path {
 	NSMutableArray *fileArray = [[[NSMutableArray alloc] init] autorelease];
-	NSFileManager *manager = [NSFileManager defaultManager];
-    NSArray *fileList = [manager directoryContentsAtPath:path];
+	NSArray *fileList = [self getListAll:path];
 	for (NSString *file in fileList){
-        if (![file isEqualToString:@"~"]) [fileArray addObject:file];
+        if (![file isEqualToString:@"~"] ) if ([self isFolder:[NSString stringWithFormat:@"%@%@", path, file]]) [fileArray addObject:file];
 	}
 	return fileArray;
 }
 
+/**
+ Returns filesize in bytes
+ 
+ @param path NSStrig Path to the file
+ 
+ @return int Filesize in bytes
+ */
 + (int)getFileSize:(NSString *)path {
 	NSDictionary *fileAttributes = [self getFileAttributes:path];
 	int ret = [[fileAttributes objectForKey:NSFileSize] intValue];
 	return ret;
 }
 
+/**
+ Returns file extension
+ 
+ @param path NSStrig Path to the file
+ 
+ @return NSString File extension
+ */
 + (NSString *)getFileExtension:(NSString *)path {
 	NSString *ret = [path pathExtension];
 	return ret;
 }
 
+/**
+ Returns formated file size with bytes / Kb / Mb
+ 
+ @param path NSStrig Path to the file
+ 
+ @return NSString Formated file size
+ */
 + (NSString *)getFormatedFileSize:(NSString *)path {
 	int fileSize = [self getFileSize:path];
 	NSString *extension;
@@ -104,11 +170,35 @@
 	return [NSString stringWithFormat:@"%@ %@", formatedFileSize, extension];
 }
 
+/**
+ Returns NSDate when the file has been created
+ 
+ @param path NSStrig Path to the file
+ 
+ @return NSDate File created
+ */
 + (NSDate *)getFileCreated:(NSString *)path {
 	NSDictionary *fileAttributes = [self getFileAttributes:path];
 	return [fileAttributes objectForKey:NSFileCreationDate];
 }
 
+/**
+ Returns NSDate when the file has been modified
+ 
+ @param path NSStrig Path to the file
+ 
+ @return NSDate File modified
+ */
++ (NSDate *)getFileModified:(NSString *)path {
+	NSDictionary *fileAttributes = [self getFileAttributes:path];
+	return [fileAttributes objectForKey:NSFileModificationDate];
+}
+
+/**
+ Creates full folder path if doesn't exists
+ 
+ @param path NSStrig Path to the file
+ */
 + (void)makeFolderPath:(NSString *)path {
 	if (![self isFolder:path]) {
 		NSFileManager *fileManager = [NSFileManager defaultManager];
@@ -116,11 +206,24 @@
 	}
 }
 
+/**
+ Deletes file or folder on specified path
+ 
+ @param path NSStrig Path to the file or folder
+ 
+ @return BOOL
+ */
 + (BOOL)deleteFile:(NSString *)path {
 	NSFileManager *fileManager = [NSFileManager defaultManager];
 	return [fileManager removeItemAtPath:path error:nil];
 }
 
+/**
+ Deletes files on selected path, that are older than selected date
+ 
+ @param date NSDate Limiting date
+ @param dir NSStrig Path to the folder
+ */
 + (void)deleteFilesOlderThan:(NSDate *)date inDirectory:(NSString *)dir {
 	NSFileManager *fileManager = [NSFileManager defaultManager];
 	NSArray *contents = [fileManager directoryContentsAtPath:dir];

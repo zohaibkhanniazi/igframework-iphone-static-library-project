@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* IGFrameworkProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* IGFrameworkProjectAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
-		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		790D1E101158052200EE3DB2 /* IGGoogleAPIMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1DEB1158052200EE3DB2 /* IGGoogleAPIMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		790D1E111158052200EE3DB2 /* IGGoogleAPIMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1DEC1158052200EE3DB2 /* IGGoogleAPIMaps.m */; };
 		790D1E121158052200EE3DB2 /* IGLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1DF01158052200EE3DB2 /* IGLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,9 +41,6 @@
 		790D1E3E1158052A00EE3DB2 /* NSString+Ereg.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E341158052A00EE3DB2 /* NSString+Ereg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		790D1E3F1158052A00EE3DB2 /* NSString+Ereg.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E351158052A00EE3DB2 /* NSString+Ereg.m */; };
 		790D1E421158053100EE3DB2 /* IGConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E411158053100EE3DB2 /* IGConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		790D212B1158E8C600EE3DB2 /* libIGFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 790D1DD41158048500EE3DB2 /* libIGFramework.a */; };
-		790D21371158E97F00EE3DB2 /* IGPHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D21351158E97F00EE3DB2 /* IGPHomeController.m */; };
-		790D21381158E97F00EE3DB2 /* IGPHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790D21361158E97F00EE3DB2 /* IGPHomeController.xib */; };
 		790D21C1115913CE00EE3DB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		790D21C2115913D600EE3DB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		790D21C3115913DD00EE3DB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
@@ -60,8 +51,8 @@
 		7910FCCA115A9172004686B4 /* IGAccelAutorotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FC70115A8C54004686B4 /* IGAccelAutorotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7910FCCB115A9172004686B4 /* IGAccelAutorotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FC71115A8C54004686B4 /* IGAccelAutorotation.m */; };
 		7910FD1E115ACCA6004686B4 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E331158052A00EE3DB2 /* NSString+URL.m */; };
-		7910FE23115AEF0A004686B4 /* IGCacheVariables.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FE21115AEF0A004686B4 /* IGCacheVariables.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7910FE24115AEF0A004686B4 /* IGCacheVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FE22115AEF0A004686B4 /* IGCacheVariables.m */; };
+		7910FE23115AEF0A004686B4 /* IGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FE21115AEF0A004686B4 /* IGCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7910FE24115AEF0A004686B4 /* IGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FE22115AEF0A004686B4 /* IGCache.m */; };
 		796A85F011649A4300A7A8CC /* IGSettingsUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A85EE11649A4300A7A8CC /* IGSettingsUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		796A85F111649A4300A7A8CC /* IGSettingsUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A85EF11649A4300A7A8CC /* IGSettingsUser.m */; };
 		796A85F411649A5700A7A8CC /* IGSettingsCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A85F211649A5700A7A8CC /* IGSettingsCustom.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -74,32 +65,30 @@
 		796A86361164AD2100A7A8CC /* IGImagesTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86341164AD2100A7A8CC /* IGImagesTools.m */; };
 		796A863D1164ADF300A7A8CC /* UIImage-Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A863B1164ADF300A7A8CC /* UIImage-Tools.h */; };
 		796A863E1164ADF300A7A8CC /* UIImage-Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A863C1164ADF300A7A8CC /* UIImage-Tools.m */; };
-		796A86461164AF8700A7A8CC /* IGCacheImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86441164AF8700A7A8CC /* IGCacheImages.h */; };
+		796A86461164AF8700A7A8CC /* IGCacheImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86441164AF8700A7A8CC /* IGCacheImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		796A86471164AF8700A7A8CC /* IGCacheImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86451164AF8700A7A8CC /* IGCacheImages.m */; };
 		796A864B1164B03300A7A8CC /* IGFilesystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A864A1164B03300A7A8CC /* IGFilesystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796A86B21164CDDF00A7A8CC /* IGTextEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86B01164CDDF00A7A8CC /* IGTextEncoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		796A86B31164CDDF00A7A8CC /* IGTextEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86B11164CDDF00A7A8CC /* IGTextEncoding.m */; };
+		796A86D31164D10E00A7A8CC /* IGSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86D21164D10E00A7A8CC /* IGSettings.h */; };
+		796A86DD1164D2C900A7A8CC /* IGValidation.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86DB1164D2C900A7A8CC /* IGValidation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796A86DE1164D2C900A7A8CC /* IGValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86DC1164D2C900A7A8CC /* IGValidation.m */; };
+		796A86E11164D2D800A7A8CC /* IGValidationText.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86DF1164D2D800A7A8CC /* IGValidationText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796A86E21164D2D800A7A8CC /* IGValidationText.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86E01164D2D800A7A8CC /* IGValidationText.m */; };
+		796A86E51164D2E900A7A8CC /* IGValidationNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86E31164D2E900A7A8CC /* IGValidationNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796A86E61164D2E900A7A8CC /* IGValidationNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86E41164D2E900A7A8CC /* IGValidationNumber.m */; };
 		79A84C0C115CE2160040C278 /* IGAlertBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A84C0A115CE2160040C278 /* IGAlertBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79A84C0D115CE2160040C278 /* IGAlertBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A84C0B115CE2160040C278 /* IGAlertBasic.m */; };
 		79C58198115E2D6A009E34B5 /* IGUITextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C58196115E2D6A009E34B5 /* IGUITextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79C58199115E2D6A009E34B5 /* IGUITextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C58197115E2D6A009E34B5 /* IGUITextFieldCell.m */; };
 		79C581A2115E2E97009E34B5 /* IGUILabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C581A0115E2E97009E34B5 /* IGUILabelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79C581A3115E2E97009E34B5 /* IGUILabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C581A1115E2E97009E34B5 /* IGUILabelCell.m */; };
+		79DB5D521164DA97004A1CD6 /* IGText.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DB5D501164DA97004A1CD6 /* IGText.h */; };
+		79DB5D531164DA97004A1CD6 /* IGText.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB5D511164DA97004A1CD6 /* IGText.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		790D213E1158E9E900EE3DB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 790D1DD31158048500EE3DB2;
-			remoteInfo = IGFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* IGFrameworkProjectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFrameworkProjectAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* IGFrameworkProjectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGFrameworkProjectAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* IGFrameworkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGFrameworkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AAE50D9B0CCF005BE974 /* IGFrameworkProject_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFrameworkProject_Prefix.pch; sourceTree = "<group>"; };
@@ -141,17 +130,14 @@
 		790D1E341158052A00EE3DB2 /* NSString+Ereg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ereg.h"; sourceTree = "<group>"; };
 		790D1E351158052A00EE3DB2 /* NSString+Ereg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ereg.m"; sourceTree = "<group>"; };
 		790D1E411158053100EE3DB2 /* IGConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGConfiguration.h; sourceTree = "<group>"; };
-		790D21341158E97F00EE3DB2 /* IGPHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGPHomeController.h; sourceTree = "<group>"; };
-		790D21351158E97F00EE3DB2 /* IGPHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGPHomeController.m; sourceTree = "<group>"; };
-		790D21361158E97F00EE3DB2 /* IGPHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IGPHomeController.xib; sourceTree = "<group>"; };
 		7910FBE7115A7C9C004686B4 /* IGAlertTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertTextInput.h; sourceTree = "<group>"; };
 		7910FBE8115A7C9C004686B4 /* IGAlertTextInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAlertTextInput.m; sourceTree = "<group>"; };
 		7910FC12115A8207004686B4 /* IGSimpleDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSimpleDB.h; sourceTree = "<group>"; };
 		7910FC13115A8207004686B4 /* IGSimpleDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSimpleDB.m; sourceTree = "<group>"; };
 		7910FC70115A8C54004686B4 /* IGAccelAutorotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAccelAutorotation.h; sourceTree = "<group>"; };
 		7910FC71115A8C54004686B4 /* IGAccelAutorotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAccelAutorotation.m; sourceTree = "<group>"; };
-		7910FE21115AEF0A004686B4 /* IGCacheVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCacheVariables.h; sourceTree = "<group>"; };
-		7910FE22115AEF0A004686B4 /* IGCacheVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCacheVariables.m; sourceTree = "<group>"; };
+		7910FE21115AEF0A004686B4 /* IGCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCache.h; sourceTree = "<group>"; };
+		7910FE22115AEF0A004686B4 /* IGCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCache.m; sourceTree = "<group>"; };
 		796A85EE11649A4300A7A8CC /* IGSettingsUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSettingsUser.h; sourceTree = "<group>"; };
 		796A85EF11649A4300A7A8CC /* IGSettingsUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSettingsUser.m; sourceTree = "<group>"; };
 		796A85F211649A5700A7A8CC /* IGSettingsCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSettingsCustom.h; sourceTree = "<group>"; };
@@ -167,27 +153,28 @@
 		796A86441164AF8700A7A8CC /* IGCacheImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCacheImages.h; sourceTree = "<group>"; };
 		796A86451164AF8700A7A8CC /* IGCacheImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCacheImages.m; sourceTree = "<group>"; };
 		796A864A1164B03300A7A8CC /* IGFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFilesystem.h; sourceTree = "<group>"; };
+		796A86B01164CDDF00A7A8CC /* IGTextEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTextEncoding.h; sourceTree = "<group>"; };
+		796A86B11164CDDF00A7A8CC /* IGTextEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTextEncoding.m; sourceTree = "<group>"; };
+		796A86D21164D10E00A7A8CC /* IGSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSettings.h; sourceTree = "<group>"; };
+		796A86DB1164D2C900A7A8CC /* IGValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGValidation.h; sourceTree = "<group>"; };
+		796A86DC1164D2C900A7A8CC /* IGValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGValidation.m; sourceTree = "<group>"; };
+		796A86DF1164D2D800A7A8CC /* IGValidationText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGValidationText.h; sourceTree = "<group>"; };
+		796A86E01164D2D800A7A8CC /* IGValidationText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGValidationText.m; sourceTree = "<group>"; };
+		796A86E31164D2E900A7A8CC /* IGValidationNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGValidationNumber.h; sourceTree = "<group>"; };
+		796A86E41164D2E900A7A8CC /* IGValidationNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGValidationNumber.m; sourceTree = "<group>"; };
 		79A84C0A115CE2160040C278 /* IGAlertBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertBasic.h; sourceTree = "<group>"; };
 		79A84C0B115CE2160040C278 /* IGAlertBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAlertBasic.m; sourceTree = "<group>"; };
 		79C58196115E2D6A009E34B5 /* IGUITextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGUITextFieldCell.h; sourceTree = "<group>"; };
 		79C58197115E2D6A009E34B5 /* IGUITextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGUITextFieldCell.m; sourceTree = "<group>"; };
 		79C581A0115E2E97009E34B5 /* IGUILabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGUILabelCell.h; sourceTree = "<group>"; };
 		79C581A1115E2E97009E34B5 /* IGUILabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGUILabelCell.m; sourceTree = "<group>"; };
+		79DB5D501164DA97004A1CD6 /* IGText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGText.h; sourceTree = "<group>"; };
+		79DB5D511164DA97004A1CD6 /* IGText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGText.m; sourceTree = "<group>"; };
+		79DB5D621164DBDC004A1CD6 /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* IGFrameworkProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IGFrameworkProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
-				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
-				790D212B1158E8C600EE3DB2 /* libIGFramework.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		790D1DD21158048500EE3DB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,21 +188,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		080E96DDFE201D6D7F000001 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				790D21331158E95500EE3DB2 /* Controllers */,
-				1D3623240D0F684500981E51 /* IGFrameworkProjectAppDelegate.h */,
-				1D3623250D0F684500981E51 /* IGFrameworkProjectAppDelegate.m */,
-			);
-			name = App;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* IGFrameworkProject.app */,
 				790D1DD41158048500EE3DB2 /* libIGFramework.a */,
 			);
 			name = Products;
@@ -225,11 +200,11 @@
 			isa = PBXGroup;
 			children = (
 				790D1DE5115804FA00EE3DB2 /* Framework */,
-				080E96DDFE201D6D7F000001 /* App */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				79DB5D621164DBDC004A1CD6 /* UnitTest-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -290,7 +265,6 @@
 				790D1DF31158052200EE3DB2 /* Database */,
 				790D1DF21158052200EE3DB2 /* Images */,
 				790D1DEF1158052200EE3DB2 /* Localization */,
-				790D1DEE1158052200EE3DB2 /* Caching */,
 				790D1DED1158052200EE3DB2 /* Mailing */,
 				790D1DE91158052200EE3DB2 /* GoogleAPI */,
 			);
@@ -319,13 +293,6 @@
 			children = (
 			);
 			name = Mailing;
-			sourceTree = "<group>";
-		};
-		790D1DEE1158052200EE3DB2 /* Caching */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Caching;
 			sourceTree = "<group>";
 		};
 		790D1DEF1158052200EE3DB2 /* Localization */ = {
@@ -367,6 +334,10 @@
 		790D1DF51158052200EE3DB2 /* Text */ = {
 			isa = PBXGroup;
 			children = (
+				796A86B01164CDDF00A7A8CC /* IGTextEncoding.h */,
+				796A86B11164CDDF00A7A8CC /* IGTextEncoding.m */,
+				79DB5D501164DA97004A1CD6 /* IGText.h */,
+				79DB5D511164DA97004A1CD6 /* IGText.m */,
 			);
 			name = Text;
 			sourceTree = "<group>";
@@ -374,6 +345,12 @@
 		790D1DF61158052200EE3DB2 /* Validation */ = {
 			isa = PBXGroup;
 			children = (
+				796A86DB1164D2C900A7A8CC /* IGValidation.h */,
+				796A86DC1164D2C900A7A8CC /* IGValidation.m */,
+				796A86DF1164D2D800A7A8CC /* IGValidationText.h */,
+				796A86E01164D2D800A7A8CC /* IGValidationText.m */,
+				796A86E31164D2E900A7A8CC /* IGValidationNumber.h */,
+				796A86E41164D2E900A7A8CC /* IGValidationNumber.m */,
 			);
 			name = Validation;
 			sourceTree = "<group>";
@@ -415,11 +392,11 @@
 		790D1E061158052200EE3DB2 /* Filesystem */ = {
 			isa = PBXGroup;
 			children = (
+				796A864A1164B03300A7A8CC /* IGFilesystem.h */,
 				790D1E071158052200EE3DB2 /* IGFilesystemPaths.h */,
 				790D1E081158052200EE3DB2 /* IGFilesystemPaths.m */,
 				790D1E091158052200EE3DB2 /* IGFilesystemIO.h */,
 				790D1E0A1158052200EE3DB2 /* IGFilesystemIO.m */,
-				796A864A1164B03300A7A8CC /* IGFilesystem.h */,
 			);
 			name = Filesystem;
 			sourceTree = "<group>";
@@ -485,16 +462,6 @@
 			name = Configuration;
 			sourceTree = "<group>";
 		};
-		790D21331158E95500EE3DB2 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				790D21341158E97F00EE3DB2 /* IGPHomeController.h */,
-				790D21351158E97F00EE3DB2 /* IGPHomeController.m */,
-				790D21361158E97F00EE3DB2 /* IGPHomeController.xib */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
 		7910FBC7115A7C44004686B4 /* Alerts */ = {
 			isa = PBXGroup;
 			children = (
@@ -509,8 +476,8 @@
 		7910FE20115AEEB7004686B4 /* Cache */ = {
 			isa = PBXGroup;
 			children = (
-				7910FE21115AEF0A004686B4 /* IGCacheVariables.h */,
-				7910FE22115AEF0A004686B4 /* IGCacheVariables.m */,
+				7910FE21115AEF0A004686B4 /* IGCache.h */,
+				7910FE22115AEF0A004686B4 /* IGCache.m */,
 				796A86441164AF8700A7A8CC /* IGCacheImages.h */,
 				796A86451164AF8700A7A8CC /* IGCacheImages.m */,
 			);
@@ -520,6 +487,7 @@
 		796A85ED11649A0500A7A8CC /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				796A86D21164D10E00A7A8CC /* IGSettings.h */,
 				796A85EE11649A4300A7A8CC /* IGSettingsUser.h */,
 				796A85EF11649A4300A7A8CC /* IGSettingsUser.m */,
 				796A85F211649A5700A7A8CC /* IGSettingsCustom.h */,
@@ -595,7 +563,7 @@
 				7910FBE9115A7C9C004686B4 /* IGAlertTextInput.h in Headers */,
 				7910FC14115A8207004686B4 /* IGSimpleDB.h in Headers */,
 				7910FCCA115A9172004686B4 /* IGAccelAutorotation.h in Headers */,
-				7910FE23115AEF0A004686B4 /* IGCacheVariables.h in Headers */,
+				7910FE23115AEF0A004686B4 /* IGCache.h in Headers */,
 				79A84C0C115CE2160040C278 /* IGAlertBasic.h in Headers */,
 				79C58198115E2D6A009E34B5 /* IGUITextFieldCell.h in Headers */,
 				79C581A2115E2E97009E34B5 /* IGUILabelCell.h in Headers */,
@@ -607,30 +575,18 @@
 				796A863D1164ADF300A7A8CC /* UIImage-Tools.h in Headers */,
 				796A86461164AF8700A7A8CC /* IGCacheImages.h in Headers */,
 				796A864B1164B03300A7A8CC /* IGFilesystem.h in Headers */,
+				796A86B21164CDDF00A7A8CC /* IGTextEncoding.h in Headers */,
+				796A86D31164D10E00A7A8CC /* IGSettings.h in Headers */,
+				796A86DD1164D2C900A7A8CC /* IGValidation.h in Headers */,
+				796A86E11164D2D800A7A8CC /* IGValidationText.h in Headers */,
+				796A86E51164D2E900A7A8CC /* IGValidationNumber.h in Headers */,
+				79DB5D521164DA97004A1CD6 /* IGText.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* IGFrameworkProject */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IGFrameworkProject" */;
-			buildPhases = (
-				1D60588D0D05DD3D006BFB54 /* Resources */,
-				1D60588E0D05DD3D006BFB54 /* Sources */,
-				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				790D213F1158E9E900EE3DB2 /* PBXTargetDependency */,
-			);
-			name = IGFrameworkProject;
-			productName = IGFrameworkProject;
-			productReference = 1D6058910D05DD3D006BFB54 /* IGFrameworkProject.app */;
-			productType = "com.apple.product-type.application";
-		};
 		790D1DD31158048500EE3DB2 /* IGFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 790D1DDE1158049A00EE3DB2 /* Build configuration list for PBXNativeTarget "IGFramework" */;
@@ -667,35 +623,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* IGFrameworkProject */,
 				790D1DD31158048500EE3DB2 /* IGFramework */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		1D60588D0D05DD3D006BFB54 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
-				790D21381158E97F00EE3DB2 /* IGPHomeController.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		1D60588E0D05DD3D006BFB54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* IGFrameworkProjectAppDelegate.m in Sources */,
-				790D21371158E97F00EE3DB2 /* IGPHomeController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		790D1DD11158048500EE3DB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -720,7 +653,7 @@
 				7910FC15115A8207004686B4 /* IGSimpleDB.m in Sources */,
 				7910FCCB115A9172004686B4 /* IGAccelAutorotation.m in Sources */,
 				7910FD1E115ACCA6004686B4 /* NSString+URL.m in Sources */,
-				7910FE24115AEF0A004686B4 /* IGCacheVariables.m in Sources */,
+				7910FE24115AEF0A004686B4 /* IGCache.m in Sources */,
 				79A84C0D115CE2160040C278 /* IGAlertBasic.m in Sources */,
 				79C58199115E2D6A009E34B5 /* IGUITextFieldCell.m in Sources */,
 				79C581A3115E2E97009E34B5 /* IGUILabelCell.m in Sources */,
@@ -731,49 +664,17 @@
 				796A86361164AD2100A7A8CC /* IGImagesTools.m in Sources */,
 				796A863E1164ADF300A7A8CC /* UIImage-Tools.m in Sources */,
 				796A86471164AF8700A7A8CC /* IGCacheImages.m in Sources */,
+				796A86B31164CDDF00A7A8CC /* IGTextEncoding.m in Sources */,
+				796A86DE1164D2C900A7A8CC /* IGValidation.m in Sources */,
+				796A86E21164D2D800A7A8CC /* IGValidationText.m in Sources */,
+				796A86E61164D2E900A7A8CC /* IGValidationNumber.m in Sources */,
+				79DB5D531164DA97004A1CD6 /* IGText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		790D213F1158E9E900EE3DB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 790D1DD31158048500EE3DB2 /* IGFramework */;
-			targetProxy = 790D213E1158E9E900EE3DB2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		1D6058940D05DD3E006BFB54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ondrej rafaj (YQ9WV8NMBR)";
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = IGFrameworkProject_Prefix.pch;
-				INFOPLIST_FILE = "IGFrameworkProject-Info.plist";
-				PRODUCT_NAME = IGFrameworkProject;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "192980B8-1DBA-4663-A354-B361DE6CC234";
-			};
-			name = Debug;
-		};
-		1D6058950D05DD3E006BFB54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = IGFrameworkProject_Prefix.pch;
-				INFOPLIST_FILE = "IGFrameworkProject-Info.plist";
-				PRODUCT_NAME = IGFrameworkProject;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		790D1DD51158048600EE3DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -830,15 +731,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "IGFrameworkProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D6058940D05DD3E006BFB54 /* Debug */,
-				1D6058950D05DD3E006BFB54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		790D1DDE1158049A00EE3DB2 /* Build configuration list for PBXNativeTarget "IGFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -11,7 +11,13 @@
 
 @implementation IGLocation
 
-
+/**
+ Returns location info of the device
+ 
+ @todo: Make this work
+ 
+ @return NSDictionary Location info
+ */ 
 + (NSDictionary *)getLocationInfo {
 	NSMutableDictionary *ret = [[[NSMutableDictionary alloc] init] autorelease];
 	[ret setObject:@"0.54555455" forKey:@"longitude"];

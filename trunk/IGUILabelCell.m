@@ -15,10 +15,15 @@
 
 
 
-- (IGUILabelCell *)getCell {
-	return [self getCellWithTitle:@""];
-}
-
+/**
+ Returns IGUILabelCell derived from UITableVieCell containing UILabel with font size 17 as default
+ 
+ @param title NSString Main text for the label
+ 
+ @todo dynamic layout
+ 
+ @return IGUILabelCell Ready to go cell
+ */
 - (IGUILabelCell *)getCellWithTitle:(NSString *)title {
 	self.cellLabel = [[UILabel alloc] initWithFrame:CGRectMake(20.0, 0.0, 280.0, 25.0)];
 	//self.cellLabel.frame = CGRectMake(20.0, 0.0, 280.0, 44.0);
@@ -71,6 +76,15 @@
 	
 	[cell addSubview:self.cellLabel];
 	return cell;
+}
+
+/**
+ Returns IGUILabelCell derived from UITableVieCell containing empty UILabel
+ 
+ @return IGUILabelCell Ready to go cell
+ */
+- (IGUILabelCell *)getCell {
+	return [self getCellWithTitle:@""];
 }
 
 - (void)dealloc {

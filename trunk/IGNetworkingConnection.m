@@ -11,12 +11,23 @@
 
 @implementation IGNetworkingConnection
 
+
+/**
+ Checks if the device is connected to the WiFi
+ 
+ @return BOOL
+ */
 + (BOOL)isWiFiConnectionAvailable {
 	IGNetworkingReachability *internetReach = [[[IGNetworkingReachability reachabilityForInternetConnection] retain] autorelease];
 	if([internetReach currentReachabilityStatus] == ReachableViaWiFi) return YES;
 	else return NO;
 }
 
+/**
+ Checks if the device is reachable on the cellular network
+ 
+ @return BOOL
+ */
 + (BOOL)isCellularConnectionAvailable {
 	IGNetworkingReachability* internetReach = [[[IGNetworkingReachability reachabilityForInternetConnection] retain] autorelease];
 	if([internetReach currentReachabilityStatus] == ReachableViaWWAN) return YES;
@@ -24,6 +35,11 @@
 }
 
 
+/**
+ Checks if the device is reachable
+ 
+ @return BOOL
+ */
 + (BOOL)isAnyConnectionAvailable {
 	IGNetworkingReachability* internetReach = [[[IGNetworkingReachability reachabilityForInternetConnection] retain] autorelease];
 	if([internetReach currentReachabilityStatus] != NotReachable) return YES;

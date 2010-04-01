@@ -1,10 +1,12 @@
-//
-//  IGFilesystemIO.h
-//  iPinchMedia
-//
-//  Created by Ondrej Rafaj on 22.3.10.
-//  Copyright 2010 Home. All rights reserved.
-//
+///
+///  IGFilesystemIO.h
+///
+///  IGFrameworkProject
+///
+///  Created by Ondrej Rafaj on 22.3.10.
+///
+///  Copyright 2010 Home. All rights reserved.
+///
 
 #import <Foundation/Foundation.h>
 
@@ -34,6 +36,8 @@
 + (NSString *)getFormatedFileSize:(NSString *)path;
 
 + (NSDate *)getFileCreated:(NSString *)path;
+
++ (NSDate *)getFileModified:(NSString *)path;
 
 + (void)makeFolderPath:(NSString *)path;
 
