@@ -14,6 +14,16 @@
 @synthesize textField;
 
 
+/**
+ Returns IGUITextFieldCell derived from UITableVieCell containing border-less UITextField
+ 
+ @param myText NSString Main text for the field
+ @param placeholder NSString placeholder default placeholder for the field
+ 
+ @todo dynamic layout
+ 
+ @return IGUITextFieldCell Ready to go cell
+ */
 - (IGUITextFieldCell *)getCellWithText:(NSString *)myText andPlaceholder:(NSString *)placeholder {
 	textField = [[UITextField alloc] initWithFrame:CGRectMake(20.0, 0.0, 280.0, 31.0)];
 	textField.frame = CGRectMake(20.0, 0.0, 280.0, 31.0);
@@ -43,8 +53,8 @@
 	textField.secureTextEntry = NO;
 	textField.selected = NO;
 	textField.tag = 0;
-	textField.text = myText;
-	textField.placeholder = placeholder;
+	if (myText) textField.text = myText;
+	if (placeholder) textField.placeholder = placeholder;
 	textField.textAlignment = UITextAlignmentLeft;
 	textField.textColor = [UIColor colorWithWhite:0.000 alpha:1.000];
 	textField.userInteractionEnabled = YES;
@@ -78,6 +88,12 @@
 	
 	return cell;
 }
+
+/**
+ Returns IGUITextFieldCell derived from UITableVieCell containing border-less UITextField with empty text and placeholder
+ 
+ @return IGUITextFieldCell Ready to go cell
+ */
 
 - (IGUITextFieldCell *)getCell {
 	return [self getCellWithText:@"" andPlaceholder:@""];

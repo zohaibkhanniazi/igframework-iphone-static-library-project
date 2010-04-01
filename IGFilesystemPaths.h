@@ -1,10 +1,12 @@
-//
-//  IGFilesystemPaths.h
-//  iPinchMedia
-//
-//  Created by Ondrej Rafaj on 22.3.10.
-//  Copyright 2010 Home. All rights reserved.
-//
+///
+///  IGFilesystemPaths.h
+///
+///  IGFrameworkProject
+///
+///  Created by Ondrej Rafaj on 22.3.10.
+///
+///  Copyright 2010 Home. All rights reserved.
+///
 
 #import <Foundation/Foundation.h>
 
@@ -35,9 +37,6 @@
 
 + (NSString *)getSQLiteFilePath:(NSString *)databaseName;
 
-+ (NSString *)getIGTableViewDbDirectoryPath;
-
-+ (NSString *)getIGTableViewDbFilePath:(NSString *)databaseName;
 
 
 

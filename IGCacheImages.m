@@ -10,32 +10,37 @@
 #import <UIKit/UIKit.h>
 #import "IGFilesystem.h"
 #import "IGImagesTools.h"
+#import "IGText.h"
 
 
 @implementation IGCacheImages
 
+/**
+ Returns unique path for the image based on the url of the image
+ 
+ @param imageUrlString NSString Url of the image
+ */
++ (NSString *)getCachedImagePath:(NSString *)imageUrlString {
+	NSString *filename = [IGText getSafeText:imageUrlString];
+   return [[IGFilesystemPaths getCacheDirectoryPath] stringByAppendingPathComponent: filename];
+}
+
+/**
+ Downloads the image if it's not already cached
+ 
+ @param imageUrlString NSString Url of the image
+ @param corners int Rounded corners radius
+ 
+ @todo Think about storing images only in the png format as it might be better for rounded corners functionality (jpeg has no transparency)
+ */
 - (void)cacheImage:(NSString *)imageUrlString withRoundCorners:(int)corners {
-    NSURL *ImageURL = [NSURL URLWithString: imageUrlString];
-    
-    // Generate a unique path to a resource representing the image you want
-    NSString *filename = @"aaaaa"; // [[something unique, perhaps the image name]]
-    NSString *path = [[IGFilesystemPaths getCacheDirectoryPath] stringByAppendingPathComponent: filename];
-	
+    NSURL *imageURL = [NSURL URLWithString: imageUrlString];
+	NSString *path = [IGCacheImages getCachedImagePath:imageUrlString];
 	UIImage *image;
-	
-    // Check for file existence
     if(![IGFilesystemIO isFile:path]) {
-        // The file doesn't exist, we should get a copy of it
-		
-        // Fetch image
-        NSData *data = [[NSData alloc] initWithContentsOfURL: ImageURL];
-        image = [[UIImage alloc] initWithData: data];
-        
-        // Do we want to round the corners?
-        if (corners > 0) image = [self roundCorners: image];
-        
-        // Is it PNG or JPG/JPEG?
-        // Running the image representation function writes the data from the image to a file
+		NSData *data = [[NSData alloc] initWithContentsOfURL:imageURL];
+		image = [[UIImage alloc] initWithData:data];
+        if (corners > 0) image = [IGImagesTools roundCorners: image];
         if([imageUrlString rangeOfString: @".png" options: NSCaseInsensitiveSearch].location != NSNotFound) {
             [UIImagePNGRepresentation(image) writeToFile: path atomically: YES];
         }
@@ -45,27 +50,25 @@
     }
 }
 
+/**
+ Returns NSString for a specific key in initiated file
+ 
+ @param imageUrlString NSString Url of the image
+ @param corners int Rounded corners radius
+ 
+ @return NSString Object
+ */
 - (UIImage *)getCachedImage:(NSString *)imageUrlString withRoundCorners:(int)corners {
-	NSString *filename = @"aaaaa"; // [[something unique, perhaps the image name]]
-    NSString *path = [[IGFilesystemPaths getCacheDirectoryPath] stringByAppendingPathComponent:filename];
-	
-    UIImage *image;
-    
-    // Check for a cached version
+	NSString *path = [IGCacheImages getCachedImagePath:imageUrlString];
+	UIImage *image;
     if([[NSFileManager defaultManager] fileExistsAtPath:path]) {
         image = [UIImage imageWithContentsOfFile:path]; // this is the cached image
     }
     else {
-        // get a new one
         [self cacheImage:imageUrlString withRoundCorners:corners];
         image = [UIImage imageWithContentsOfFile:path];
     }
-	
     return image;
-}
-
-- (UIImage *)roundCorners:(UIImage *)img {
-	return [IGImagesTools roundCorners:img];
 }
 
 

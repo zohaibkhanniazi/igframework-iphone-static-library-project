@@ -265,31 +265,24 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>790D1DE5115804FA00EE3DB2</string>
-								<string>79C58194115E2D1D009E34B5</string>
-								<string>790D1E401158053100EE3DB2</string>
-								<string>790D1E281158052A00EE3DB2</string>
-								<string>796A863F1164ADFA00A7A8CC</string>
-								<string>790D1E311158052A00EE3DB2</string>
 								<string>790D1DE81158052200EE3DB2</string>
-								<string>796A86241164A83700A7A8CC</string>
-								<string>796A85ED11649A0500A7A8CC</string>
-								<string>7910FE20115AEEB7004686B4</string>
 								<string>790D1DF51158052200EE3DB2</string>
-								<string>790D1DF21158052200EE3DB2</string>
+								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>39</integer>
-									<integer>17</integer>
+									<integer>19</integer>
+									<integer>15</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 251}, {238, 626}}</string>
+							<string>{{0, 0}, {238, 626}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -308,7 +301,7 @@
 							<real>238</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 93 1172 685 0 0 1280 778 </string>
+						<string>45 93 1172 685 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -326,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>IGCacheImages.m</string>
+								<string>IGText.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -334,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>IGCacheImages.m</string>
+										<string>IGText.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>796A86AE1164B66600A7A8CC</string>
+										<string>79DB5D981164F046004A1CD6</string>
 										<key>history</key>
 										<array>
 											<string>790D1FC71158E2B800EE3DB2</string>
@@ -367,19 +360,12 @@
 											<string>796A86611164B13900A7A8CC</string>
 											<string>796A86621164B13900A7A8CC</string>
 											<string>796A86631164B13900A7A8CC</string>
-											<string>796A86641164B13900A7A8CC</string>
-											<string>796A86651164B13900A7A8CC</string>
-											<string>796A86661164B13900A7A8CC</string>
-											<string>796A86671164B13900A7A8CC</string>
-											<string>796A86681164B13900A7A8CC</string>
 											<string>796A86691164B13900A7A8CC</string>
 											<string>796A866A1164B13900A7A8CC</string>
 											<string>796A866B1164B13900A7A8CC</string>
 											<string>796A866C1164B13900A7A8CC</string>
 											<string>796A866D1164B13900A7A8CC</string>
-											<string>796A866E1164B13900A7A8CC</string>
 											<string>796A866F1164B13900A7A8CC</string>
-											<string>796A86701164B13900A7A8CC</string>
 											<string>796A86711164B13900A7A8CC</string>
 											<string>796A86731164B13900A7A8CC</string>
 											<string>796A86741164B13900A7A8CC</string>
@@ -391,8 +377,22 @@
 											<string>796A867C1164B13900A7A8CC</string>
 											<string>796A86AA1164B66600A7A8CC</string>
 											<string>796A86AB1164B66600A7A8CC</string>
-											<string>796A86AC1164B66600A7A8CC</string>
-											<string>796A86AD1164B66600A7A8CC</string>
+											<string>796A86C31164CF0300A7A8CC</string>
+											<string>796A86CA1164CF9800A7A8CC</string>
+											<string>79DB5D6B1164DDD1004A1CD6</string>
+											<string>79DB5D6D1164DDD1004A1CD6</string>
+											<string>79DB5D701164EA8D004A1CD6</string>
+											<string>79DB5D711164EA8D004A1CD6</string>
+											<string>79DB5D721164EA8D004A1CD6</string>
+											<string>79DB5D731164EA8D004A1CD6</string>
+											<string>79DB5D741164EA8D004A1CD6</string>
+											<string>79DB5D751164EA8D004A1CD6</string>
+											<string>79DB5D761164EA8D004A1CD6</string>
+											<string>79DB5D7E1164ED70004A1CD6</string>
+											<string>79DB5D8D1164EFD6004A1CD6</string>
+											<string>79DB5D8E1164EFD6004A1CD6</string>
+											<string>79DB5D8F1164EFD6004A1CD6</string>
+											<string>79DB5D901164EFD6004A1CD6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -404,14 +404,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {912, 469}}</string>
+								<string>{{0, 0}, {912, 463}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 93 1172 685 0 0 1280 778 </string>
+								<string>45 93 1172 685 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>469pt</string>
+							<string>463pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -424,14 +424,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 474}, {912, 170}}</string>
+								<string>{{0, 468}, {912, 176}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 93 1172 685 0 0 1280 778 </string>
+								<string>45 93 1172 685 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>170pt</string>
+							<string>176pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -450,9 +450,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>796A867F1164B13900A7A8CC</string>
+				<string>79DB5D481164DA1E004A1CD6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>796A86801164B13900A7A8CC</string>
+				<string>79DB5D491164DA1E004A1CD6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -594,7 +594,7 @@
 		<string>/Projects/iPhone/IGFrameworkProject/IGFrameworkProject.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 93 1172 685 0 0 1280 778 </string>
+	<string>45 93 1172 685 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -610,14 +610,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>IGCacheImages.m</string>
+								<string>IGText.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -634,6 +632,8 @@
 							<string>194pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -673,7 +673,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>790D1DDC1158049A00EE3DB2</string>
-				<string>796A865B1164B10F00A7A8CC</string>
+				<string>79DB5D4A1164DA1E004A1CD6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
