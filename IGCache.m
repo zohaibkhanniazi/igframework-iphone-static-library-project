@@ -13,6 +13,8 @@
 
 @implementation IGCache
 
+@synthesize delegate;
+
 
 /**
  Deletes all cached file for the app
@@ -29,6 +31,12 @@
 + (void)deleteCacheFilesOlderThan:(NSDate *)date {
 	[IGFilesystemIO deleteFilesOlderThan:date inDirectory:[IGFilesystemPaths getCacheDirectoryPath]];
 }
+
+- (void)dealloc {
+	[delegate release];
+	[super dealloc];
+}
+
 
 
 @end

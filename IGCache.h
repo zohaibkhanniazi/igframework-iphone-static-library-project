@@ -11,9 +11,26 @@
 #import <Foundation/Foundation.h>
 #import "IGCacheImages.h"
 
-@interface IGCache : NSObject {
+@class IGCache;
 
+@protocol IGCacheDelegate <NSObject>
+
+@optional
+
+- (void)loadingComplete:(id)object;
+
+- (void)loadingError:(NSString *)message;
+
+@end
+
+@interface IGCache : NSObject {
+	
+	id <IGCacheDelegate> delegate;
+	
 }
+
+@property (nonatomic, assign) id <IGCacheDelegate> delegate;
+
 
 + (void)deleteCacheFiles;
 

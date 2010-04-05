@@ -12,9 +12,25 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface IGCacheImages : NSObject {
+@class IGCacheImages;
 
+@protocol IGCacheImagesDelegate <NSObject>
+
+@optional
+
+- (void)loadingComplete:(UIImage *)object;
+
+- (void)loadingError:(NSString *)message;
+
+@end
+
+@interface IGCacheImages : NSObject {
+	
+	id <IGCacheImagesDelegate> delegate;
+	
 }
+
+@property (nonatomic, assign) id <IGCacheImagesDelegate> delegate;
 
 + (NSString *)getCachedImagePath:(NSString *)imageUrlString;
 
