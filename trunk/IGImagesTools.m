@@ -11,10 +11,19 @@
 
 @implementation IGImagesTools
 
-
+/**
+ Returns image resized to the given size with correct constrain proportion
+ 
+ @todo Make that work :)
+ 
+ @param myImage UIImage Working image
+ @param width int New width for the image
+ @param height int New height for the image
+ 
+ @return UIImage Resized image
+ */
 + (UIImage *)resizeImage:(UIImage *)myImage toWidth:(int)width andHeight:(int)height {
-	/*[myImage s
-	return [myImage scaleToSize:CGSizeMake(width, height)];*/
+	//return [myImage scaleToSize:CGSizeMake(width, height)];
 	return myImage;
 }
 
@@ -38,7 +47,15 @@ static void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWi
     CGContextRestoreGState(context);
 }
 
-+ (UIImage *)roundCorners:(UIImage *)img {
+/**
+ Returns given UIImage with rounded corners
+ 
+ @param img UIImage Working image
+ @param radius int Radius for the rounded corners
+ 
+ @return UIImage Image with rounded corners
+ */
++ (UIImage *)roundCorners:(UIImage *)img withRadius:(int)radius {
     int w = img.size.width;
     int h = img.size.height;
     

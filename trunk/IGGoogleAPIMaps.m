@@ -14,9 +14,9 @@
 
 @implementation IGGoogleAPIMaps
 
-
+/*
 + (NSDictionary *)getCountryCoordinates:(NSString *)countryName useCache:(BOOL)cache {
-	/*NSString *path = @"";
+	NSString *path = @"";
 	NSMutableDictionary *dic = nil;
 	if ([countryName isEqualToString:@"Educational"] || [countryName isEqualToString:@"Organizations"] || [countryName isEqualToString:@"Networks"] || [countryName isEqualToString:@"Numeric"] || [countryName isEqualToString:@"Commercial"] || [countryName isEqualToString:@"Unknown"]) return nil;
 	if ([countryName isEqualToString:@"Serbia and Montenegro"]) countryName = @"Serbia";
@@ -29,21 +29,42 @@
 		else NSLog(@"Error: %@", d);
 		[dic writeToFile:path atomically:YES];
 		return d;
-	}*/
+	}
 	return nil;
-}
+}*/
 
+/**
+ Returns Google maps API URL with API key from config file
+ API key is empy by default, if you want to setup your key, define kIGGoogleAPIMapsKey in your config file
+ 
+ @param query NSString Location based query, can be name of the city, street, longitude/latitude coordinates, etc ...
+ 
+ @return NSString URL path
+ */
 + (NSString *)getMapsApiUrl:(NSString *)query {
 	return [NSString stringWithFormat:@"http://maps.google.com/maps/geo?q=%@&output=json&key=%@", query, kIGGoogleAPIMapsKey];
 }
 
-// TODO: make it type specific
+/**
+ Returns Google maps API response for given query
+ 
+ @param query NSString Location based query, can be name of the city, street, longitude/latitude coordinates, etc ...
+ 
+ @return NSDictionary Location data response
+ */
 + (NSDictionary *)getLocationDataFor:(NSString *)query {
 	NSString *s = [[self getMapsApiUrl:query] contentOfStringURLInUtf8];
 	NSDictionary *chunks = [IGJsonData getDataFromString:s];
 	return chunks;
 }
 
+/**
+ Returns simplyfied Google maps API response for given query
+ 
+ @param query NSString Location based query, can be name of the city, street, longitude/latitude coordinates, etc ...
+ 
+ @return NSDictionary Location data response
+ */
 + (NSDictionary *)getBasicLocationDataFor:(NSString *)query {
 	NSString *s = [[self getMapsApiUrl:query] contentOfStringURLInUtf8];
 	NSMutableDictionary *chunks = (NSMutableDictionary *)[IGJsonData getDataFromString:s];

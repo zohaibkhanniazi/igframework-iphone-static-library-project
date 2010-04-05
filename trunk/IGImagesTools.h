@@ -18,6 +18,6 @@
 
 + (UIImage *)resizeImage:(UIImage *)myImage toWidth:(int)width andHeight:(int)height;
 
-+ (UIImage *)roundCorners:(UIImage*)img;
++ (UIImage *)roundCorners:(UIImage *)img withRadius:(int)radius;
 
 @end
