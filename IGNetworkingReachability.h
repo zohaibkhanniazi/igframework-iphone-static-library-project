@@ -1,12 +1,16 @@
-//
-//  IGNetworkingReachability.h
-//  IGFramework
-//
-//  Created by Ondrej Rafaj on 22.3.10.
-//  Copyright 2010 Home. All rights reserved.
-//
+///
+///  IGNetworkingReachability.h
+///
+///  IGFramework
+///
+///  Created by Ondrej Rafaj on 22.3.10.
+///
+///  Copyright 2010 Home. All rights reserved.
+///
 
 /*
+ 
+ Original file license note:
  
  File: Reachability.h
  Abstract: SystemConfiguration framework wrapper.

@@ -40,7 +40,7 @@
     if(![IGFilesystemIO isFile:path]) {
 		NSData *data = [[NSData alloc] initWithContentsOfURL:imageURL];
 		image = [[UIImage alloc] initWithData:data];
-        if (corners > 0) image = [IGImagesTools roundCorners: image];
+        if (corners > 0) image = [IGImagesTools roundCorners:image withRadius:corners];
         if([imageUrlString rangeOfString: @".png" options: NSCaseInsensitiveSearch].location != NSNotFound) {
             [UIImagePNGRepresentation(image) writeToFile: path atomically: YES];
         }

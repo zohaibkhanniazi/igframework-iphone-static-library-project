@@ -63,5 +63,11 @@
 	return newText;
 }
 
++ (NSString *)convertText:(NSString *)text fromEncoding:(NSStringEncoding)from toEncoding:(NSStringEncoding)to {
+	NSString *ss = [[NSString alloc] initWithData:[text dataUsingEncoding:from]];
+	NSData *md = [ss dataUsingEncoding:to];
+	return [[[NSString alloc] initWithData:md encoding:to] autorelease];
+}
+
 
 @end

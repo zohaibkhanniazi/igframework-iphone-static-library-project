@@ -85,6 +85,11 @@
 		79C581A3115E2E97009E34B5 /* IGUILabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C581A1115E2E97009E34B5 /* IGUILabelCell.m */; };
 		79DB5D521164DA97004A1CD6 /* IGText.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DB5D501164DA97004A1CD6 /* IGText.h */; };
 		79DB5D531164DA97004A1CD6 /* IGText.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB5D511164DA97004A1CD6 /* IGText.m */; };
+		79DB5EA5116944AA004A1CD6 /* IGDataRss10.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DB5EA3116944AA004A1CD6 /* IGDataRss10.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79DB5EA6116944AA004A1CD6 /* IGDataRss10.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB5EA4116944AA004A1CD6 /* IGDataRss10.m */; };
+		79DB5EAC11694A1A004A1CD6 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DB5EAB11694A1A004A1CD6 /* libxml2.2.dylib */; };
+		79DB5EB111694A44004A1CD6 /* IGDataRss20.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DB5E9F1169448F004A1CD6 /* IGDataRss20.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79DB5EB211694A44004A1CD6 /* IGDataRss20.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB5EA01169448F004A1CD6 /* IGDataRss20.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,6 +176,11 @@
 		79DB5D501164DA97004A1CD6 /* IGText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGText.h; sourceTree = "<group>"; };
 		79DB5D511164DA97004A1CD6 /* IGText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGText.m; sourceTree = "<group>"; };
 		79DB5D621164DBDC004A1CD6 /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
+		79DB5E9F1169448F004A1CD6 /* IGDataRss20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGDataRss20.h; sourceTree = "<group>"; };
+		79DB5EA01169448F004A1CD6 /* IGDataRss20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGDataRss20.m; sourceTree = "<group>"; };
+		79DB5EA3116944AA004A1CD6 /* IGDataRss10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGDataRss10.h; sourceTree = "<group>"; };
+		79DB5EA4116944AA004A1CD6 /* IGDataRss10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGDataRss10.m; sourceTree = "<group>"; };
+		79DB5EAB11694A1A004A1CD6 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* IGFrameworkProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IGFrameworkProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +192,7 @@
 				790D21C1115913CE00EE3DB2 /* UIKit.framework in Frameworks */,
 				790D21C2115913D600EE3DB2 /* Foundation.framework in Frameworks */,
 				790D21C3115913DD00EE3DB2 /* CoreGraphics.framework in Frameworks */,
+				79DB5EAC11694A1A004A1CD6 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +244,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				79DB5EAB11694A1A004A1CD6 /* libxml2.2.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -358,6 +370,7 @@
 		790D1DF71158052200EE3DB2 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				79DB5E9C11694404004A1CD6 /* RSS */,
 				790D1DF81158052200EE3DB2 /* IGJson */,
 			);
 			name = Data;
@@ -535,6 +548,33 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		79DB5E9C11694404004A1CD6 /* RSS */ = {
+			isa = PBXGroup;
+			children = (
+				79DB5E9E11694419004A1CD6 /* 2.0 */,
+				79DB5E9D11694413004A1CD6 /* 1.0 */,
+			);
+			name = RSS;
+			sourceTree = "<group>";
+		};
+		79DB5E9D11694413004A1CD6 /* 1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				79DB5EA3116944AA004A1CD6 /* IGDataRss10.h */,
+				79DB5EA4116944AA004A1CD6 /* IGDataRss10.m */,
+			);
+			name = 1.0;
+			sourceTree = "<group>";
+		};
+		79DB5E9E11694419004A1CD6 /* 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				79DB5E9F1169448F004A1CD6 /* IGDataRss20.h */,
+				79DB5EA01169448F004A1CD6 /* IGDataRss20.m */,
+			);
+			name = 2.0;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -581,6 +621,8 @@
 				796A86E11164D2D800A7A8CC /* IGValidationText.h in Headers */,
 				796A86E51164D2E900A7A8CC /* IGValidationNumber.h in Headers */,
 				79DB5D521164DA97004A1CD6 /* IGText.h in Headers */,
+				79DB5EA5116944AA004A1CD6 /* IGDataRss10.h in Headers */,
+				79DB5EB111694A44004A1CD6 /* IGDataRss20.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,6 +711,8 @@
 				796A86E21164D2D800A7A8CC /* IGValidationText.m in Sources */,
 				796A86E61164D2E900A7A8CC /* IGValidationNumber.m in Sources */,
 				79DB5D531164DA97004A1CD6 /* IGText.m in Sources */,
+				79DB5EA6116944AA004A1CD6 /* IGDataRss10.m in Sources */,
+				79DB5EB211694A44004A1CD6 /* IGDataRss20.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

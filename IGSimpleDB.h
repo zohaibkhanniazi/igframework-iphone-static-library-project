@@ -6,7 +6,7 @@
 ///  Created by Ondrej Rafaj on 21.2.10.
 ///
 ///  Copyright 2010 Home. All rights reserved.
-///
+///  @todo Finish comments for this class
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

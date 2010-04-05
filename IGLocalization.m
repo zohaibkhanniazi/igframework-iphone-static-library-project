@@ -11,6 +11,13 @@
 
 @implementation IGLocalization
 
+/**
+ Returns localization for given key/string 
+ 
+ @todo make this work :)
+ 
+ @return NSString Localized string
+ */
 + (NSString *)get:(NSString *)localizationKey {
 	return localizationKey;
 }

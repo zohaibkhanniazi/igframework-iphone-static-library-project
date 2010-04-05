@@ -20,4 +20,6 @@
 
 + (NSString *)getSafeText:(NSString *)text;
 
++ (NSString *)convertText:(NSString *)text fromEncoding:(NSStringEncoding)from toEncoding:(NSStringEncoding)to;
+
 @end

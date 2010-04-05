@@ -31,7 +31,8 @@
 #import "IGJsonBase.h"
 
 /**
-  @brief Options for the parser class.
+ @brief Options for the parser class.
+ @todo Add briefs like that everywhere
  
  This exists so the IGJson facade can implement the options in the parser without having to re-declare them.
  */

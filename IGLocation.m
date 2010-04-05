@@ -14,7 +14,7 @@
 /**
  Returns location info of the device
  
- @todo: Make this work
+ @todo Make this work
  
  @return NSDictionary Location info
  */ 
