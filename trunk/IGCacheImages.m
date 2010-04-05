@@ -12,8 +12,11 @@
 #import "IGImagesTools.h"
 #import "IGText.h"
 
+// [[self delegate] loadingComplete:image];
 
 @implementation IGCacheImages
+ 
+@synthesize delegate;
 
 /**
  Returns unique path for the image based on the url of the image
@@ -61,7 +64,7 @@
 - (UIImage *)getCachedImage:(NSString *)imageUrlString withRoundCorners:(int)corners {
 	NSString *path = [IGCacheImages getCachedImagePath:imageUrlString];
 	UIImage *image;
-    if([[NSFileManager defaultManager] fileExistsAtPath:path]) {
+    if([IGFilesystemIO isFile:path]) {
         image = [UIImage imageWithContentsOfFile:path]; // this is the cached image
     }
     else {
@@ -69,6 +72,11 @@
         image = [UIImage imageWithContentsOfFile:path];
     }
     return image;
+}
+
+- (void)dealloc {
+	[delegate release];
+	[super dealloc];
 }
 
 
