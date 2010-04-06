@@ -12,13 +12,13 @@
 
 @protocol IGDataRss10Delegate <NSObject>
 
+- (void)rssParsingEnded:(NSArray *)result;
+
 @optional
 
-- (void)parsingStarted:(NSXMLParser *)parser;
+- (void)rssParsingStarted:(NSXMLParser *)parser;
 
-- (void)parsingError:(NSString *)message;
-
-- (void)parsingEnded:(NSArray *)result;
+- (void)rssParsingError:(NSString *)message;
 
 @end
 
