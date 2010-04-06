@@ -23,8 +23,45 @@
  @return UIImage Resized image
  */
 + (UIImage *)resizeImage:(UIImage *)myImage toWidth:(int)width andHeight:(int)height {
-	//return [myImage scaleToSize:CGSizeMake(width, height)];
-	return myImage;
+	
+	
+	int oldW = myImage.size.width;
+	int oldH = myImage.size.height;
+	
+	int thumbW = width;
+	int thumbH = (oldH * width) / oldW;
+	
+	if (thumbH > height) {
+		thumbW = (thumbW * height) / thumbH;
+		thumbH = height;
+	}
+	
+	CGRect thumbRect = CGRectMake(0, 0, thumbW, thumbH);
+	CGImageRef imageRef = [myImage CGImage];
+	CGImageAlphaInfo alphaInfo = CGImageGetAlphaInfo(imageRef);
+	
+	// There's a wierdness with kCGImageAlphaNone and CGBitmapContextCreate
+	// see Supported Pixel Formats in the Quartz 2D Programming Guide
+	// Creating a Bitmap Graphics Context section
+	// only RGB 8 bit images with alpha of kCGImageAlphaNoneSkipFirst, kCGImageAlphaNoneSkipLast, kCGImageAlphaPremultipliedFirst,
+	// and kCGImageAlphaPremultipliedLast, with a few other oddball image kinds are supported
+	// The images on input here are likely to be png or jpeg files
+	if (alphaInfo == kCGImageAlphaNone) alphaInfo = kCGImageAlphaNoneSkipLast;
+	
+	// Build a bitmap context that's the size of the thumbRect
+	CGContextRef bitmap = CGBitmapContextCreate(NULL, thumbRect.size.width, thumbRect.size.height, CGImageGetBitsPerComponent(imageRef), 4 * thumbRect.size.width, CGImageGetColorSpace(imageRef), alphaInfo);
+	
+	// Draw into the context, this scales the image
+	CGContextDrawImage(bitmap, thumbRect, imageRef);
+	
+	// Get an image from the context and a UIImage
+	CGImageRef	ref = CGBitmapContextCreateImage(bitmap);
+	UIImage*	result = [UIImage imageWithCGImage:ref];
+	
+	CGContextRelease(bitmap);	// ok if NULL
+	CGImageRelease(ref);
+	
+	return result;
 }
 
 static void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWidth, float ovalHeight) {
