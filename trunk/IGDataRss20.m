@@ -41,7 +41,7 @@
 - (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
     NSString * errorString = [NSString stringWithFormat:@"Unable to parse RSS feed (Error code %i )", [parseError code]];
 	NSLog(@"Error parsing XML: %@", errorString);
-	if ([parseError code] == 31) NSLog(@"Error code 31 is usually caused by encoding problem.");
+	if ([parseError code] == 31) NSLog(@"Error code 31 is usually caused by encoding problem. Try to load any UTF-8 feed instead.");
 	[[self delegate] rssParsingError:errorString];
 }
 
@@ -65,9 +65,6 @@
 	//NSLog(@"RSS array has %d items: %@", [data count], data);
 	[[self delegate] rssParsingEnded:(NSArray *)self.data];
 }
-
-
-
 
 - (void)dealloc {
 	[data, delegate release];
