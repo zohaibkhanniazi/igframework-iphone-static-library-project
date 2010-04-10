@@ -62,7 +62,6 @@
 		796A862B1164A8AA00A7A8CC /* IGParsingHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86291164A8AA00A7A8CC /* IGParsingHTML.h */; };
 		796A862C1164A8AA00A7A8CC /* IGParsingHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A862A1164A8AA00A7A8CC /* IGParsingHTML.m */; };
 		796A86351164AD2100A7A8CC /* IGImagesTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86331164AD2100A7A8CC /* IGImagesTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		796A86361164AD2100A7A8CC /* IGImagesTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86341164AD2100A7A8CC /* IGImagesTools.m */; };
 		796A863D1164ADF300A7A8CC /* UIImage-Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A863B1164ADF300A7A8CC /* UIImage-Tools.h */; };
 		796A863E1164ADF300A7A8CC /* UIImage-Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A863C1164ADF300A7A8CC /* UIImage-Tools.m */; };
 		796A86461164AF8700A7A8CC /* IGCacheImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86441164AF8700A7A8CC /* IGCacheImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -90,6 +89,8 @@
 		79DB5EAC11694A1A004A1CD6 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79DB5EAB11694A1A004A1CD6 /* libxml2.2.dylib */; };
 		79DB5EB111694A44004A1CD6 /* IGDataRss20.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DB5E9F1169448F004A1CD6 /* IGDataRss20.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79DB5EB211694A44004A1CD6 /* IGDataRss20.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB5EA01169448F004A1CD6 /* IGDataRss20.m */; };
+		79E3B0EA116A7DFC00E8BD21 /* IGImagesTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86331164AD2100A7A8CC /* IGImagesTools.h */; };
+		79E3B0EB116A7DFD00E8BD21 /* IGImagesTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86341164AD2100A7A8CC /* IGImagesTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -175,7 +176,6 @@
 		79C581A1115E2E97009E34B5 /* IGUILabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGUILabelCell.m; sourceTree = "<group>"; };
 		79DB5D501164DA97004A1CD6 /* IGText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGText.h; sourceTree = "<group>"; };
 		79DB5D511164DA97004A1CD6 /* IGText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGText.m; sourceTree = "<group>"; };
-		79DB5D621164DBDC004A1CD6 /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
 		79DB5E9F1169448F004A1CD6 /* IGDataRss20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGDataRss20.h; sourceTree = "<group>"; };
 		79DB5EA01169448F004A1CD6 /* IGDataRss20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGDataRss20.m; sourceTree = "<group>"; };
 		79DB5EA3116944AA004A1CD6 /* IGDataRss10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGDataRss10.h; sourceTree = "<group>"; };
@@ -215,7 +215,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				79DB5D621164DBDC004A1CD6 /* UnitTest-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -623,6 +622,7 @@
 				79DB5D521164DA97004A1CD6 /* IGText.h in Headers */,
 				79DB5EA5116944AA004A1CD6 /* IGDataRss10.h in Headers */,
 				79DB5EB111694A44004A1CD6 /* IGDataRss20.h in Headers */,
+				79E3B0EA116A7DFC00E8BD21 /* IGImagesTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,7 +703,6 @@
 				796A85F511649A5700A7A8CC /* IGSettingsCustom.m in Sources */,
 				796A86281164A85600A7A8CC /* IGParsingTemplates.m in Sources */,
 				796A862C1164A8AA00A7A8CC /* IGParsingHTML.m in Sources */,
-				796A86361164AD2100A7A8CC /* IGImagesTools.m in Sources */,
 				796A863E1164ADF300A7A8CC /* UIImage-Tools.m in Sources */,
 				796A86471164AF8700A7A8CC /* IGCacheImages.m in Sources */,
 				796A86B31164CDDF00A7A8CC /* IGTextEncoding.m in Sources */,
@@ -713,6 +712,7 @@
 				79DB5D531164DA97004A1CD6 /* IGText.m in Sources */,
 				79DB5EA6116944AA004A1CD6 /* IGDataRss10.m in Sources */,
 				79DB5EB211694A44004A1CD6 /* IGDataRss20.m in Sources */,
+				79E3B0EB116A7DFD00E8BD21 /* IGImagesTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

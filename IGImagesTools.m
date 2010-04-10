@@ -24,7 +24,8 @@
  */
 + (UIImage *)resizeImage:(UIImage *)myImage toWidth:(int)width andHeight:(int)height {
 	
-	
+	// constrain proportion
+	if (width < 0 || height < 0) return myImage;
 	int oldW = myImage.size.width;
 	int oldH = myImage.size.height;
 	
