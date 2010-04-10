@@ -32,11 +32,18 @@
 
 @property (nonatomic, assign) id <IGCacheImagesDelegate> delegate;
 
-+ (NSString *)getCachedImagePath:(NSString *)imageUrlString;
++ (NSString *)getCachedImagePath:(NSString *)imageUrlString withRoundCorners:(int)corners andWidth:(int)width andHeight:(int)height;
 
-- (void)cacheImage:(NSString *)imageUrlString withRoundCorners:(int)corners;
++ (void)cacheResizedImage:(NSString *)imageUrlString withRoundCorners:(int)corners andWidth:(int)width andHeight:(int)height;
 
-- (UIImage *)getCachedImage:(NSString *)imageUrlString withRoundCorners:(int)corners;
++ (void)cacheRoundedImage:(NSString *)imageUrlString withRoundCorners:(int)corners;
 
++ (void)cacheImage:(NSString *)imageUrlString;
+
++ (UIImage *)getResizedCachedImage:(NSString *)imageUrlString withRoundCorners:(int)corners andWidth:(int)width andHeight:(int)height;
+
++ (UIImage *)getRoundedCachedImage:(NSString *)imageUrlString withRoundCorners:(int)corners;
+
++ (UIImage *)getCachedImage:(NSString *)imageUrlString;
 
 @end

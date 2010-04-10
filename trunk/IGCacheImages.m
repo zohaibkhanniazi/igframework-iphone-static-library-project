@@ -23,8 +23,8 @@
  
  @param imageUrlString NSString Url of the image
  */
-+ (NSString *)getCachedImagePath:(NSString *)imageUrlString {
-	NSString *filename = [IGText getSafeText:imageUrlString];
++ (NSString *)getCachedImagePath:(NSString *)imageUrlString withRoundCorners:(int)corners andWidth:(int)width andHeight:(int)height {
+	NSString *filename = [NSString stringWithFormat:@"%@.%d.%d.%d.png", [IGText getSafeText:imageUrlString], corners, width, height];
    return [[IGFilesystemPaths getCacheDirectoryPath] stringByAppendingPathComponent: filename];
 }
 
@@ -33,24 +33,62 @@
  
  @param imageUrlString NSString Url of the image
  @param corners int Rounded corners radius
- 
- @todo Think about storing images only in the png format as it might be better for rounded corners functionality (jpeg has no transparency)
+ @param width int New width
+ @param height int New height
  */
-- (void)cacheImage:(NSString *)imageUrlString withRoundCorners:(int)corners {
++ (void)cacheResizedImage:(NSString *)imageUrlString withRoundCorners:(int)corners andWidth:(int)width andHeight:(int)height {
     NSURL *imageURL = [NSURL URLWithString: imageUrlString];
-	NSString *path = [IGCacheImages getCachedImagePath:imageUrlString];
+	NSString *path = [IGCacheImages getCachedImagePath:imageUrlString withRoundCorners:corners andWidth:width andHeight:height];
 	UIImage *image;
     if(![IGFilesystemIO isFile:path]) {
 		NSData *data = [[NSData alloc] initWithContentsOfURL:imageURL];
 		image = [[UIImage alloc] initWithData:data];
+		if (width > 0 && height > 0) image = [IGImagesTools resizeImage:image toWidth:width andHeight:height];
         if (corners > 0) image = [IGImagesTools roundCorners:image withRadius:corners];
-        if([imageUrlString rangeOfString: @".png" options: NSCaseInsensitiveSearch].location != NSNotFound) {
-            [UIImagePNGRepresentation(image) writeToFile: path atomically: YES];
-        }
-        else if([imageUrlString rangeOfString: @".jpg" options: NSCaseInsensitiveSearch].location != NSNotFound || [imageUrlString rangeOfString: @".jpeg" options: NSCaseInsensitiveSearch].location != NSNotFound) {
-            [UIImageJPEGRepresentation(image, 90) writeToFile: path atomically: YES];
-        }
+        [UIImagePNGRepresentation(image) writeToFile: path atomically: YES];
     }
+}
+
+/**
+ Downloads the image if it's not already cached
+ 
+ @param imageUrlString NSString Url of the image
+ */
++ (void)cacheRoundedImage:(NSString *)imageUrlString withRoundCorners:(int)corners {
+	[self cacheResizedImage:imageUrlString withRoundCorners:corners andWidth:0 andHeight:0];
+}
+
+/**
+ Downloads the image if it's not already cached
+ 
+ @param imageUrlString NSString Url of the image
+ @param corners int Rounded corners radius
+ */
++ (void)cacheImage:(NSString *)imageUrlString {
+	[self cacheResizedImage:imageUrlString withRoundCorners:0 andWidth:0 andHeight:0];
+}
+
+/**
+ Returns NSString for a specific key in initiated file
+ 
+ @param imageUrlString NSString Url of the image
+ @param corners int Rounded corners radius
+ @param width int New width
+ @param height int New height
+ 
+ @return NSString Object
+ */
++ (UIImage *)getResizedCachedImage:(NSString *)imageUrlString withRoundCorners:(int)corners andWidth:(int)width andHeight:(int)height {
+	NSString *path = [IGCacheImages getCachedImagePath:imageUrlString withRoundCorners:corners andWidth:width andHeight:height];
+	UIImage *image;
+    if([IGFilesystemIO isFile:path]) {
+        image = [UIImage imageWithContentsOfFile:path]; // this is the cached image
+    }
+    else {
+        [self cacheResizedImage:imageUrlString withRoundCorners:corners andWidth:width andHeight:height];
+        image = [UIImage imageWithContentsOfFile:path];
+    }
+    return image;
 }
 
 /**
@@ -61,17 +99,19 @@
  
  @return NSString Object
  */
-- (UIImage *)getCachedImage:(NSString *)imageUrlString withRoundCorners:(int)corners {
-	NSString *path = [IGCacheImages getCachedImagePath:imageUrlString];
-	UIImage *image;
-    if([IGFilesystemIO isFile:path]) {
-        image = [UIImage imageWithContentsOfFile:path]; // this is the cached image
-    }
-    else {
-        [self cacheImage:imageUrlString withRoundCorners:corners];
-        image = [UIImage imageWithContentsOfFile:path];
-    }
-    return image;
++ (UIImage *)getRoundedCachedImage:(NSString *)imageUrlString withRoundCorners:(int)corners {
+	return [self getResizedCachedImage:imageUrlString withRoundCorners:corners andWidth:0 andHeight:0];
+}
+
+/**
+ Returns NSString for a specific key in initiated file
+ 
+ @param imageUrlString NSString Url of the image
+ 
+ @return NSString Object
+ */
++ (UIImage *)getCachedImage:(NSString *)imageUrlString {
+	return [self getResizedCachedImage:imageUrlString withRoundCorners:0 andWidth:0 andHeight:0];
 }
 
 - (void)dealloc {

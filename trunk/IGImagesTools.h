@@ -16,7 +16,7 @@
 
 }
 
-+ (UIImage *)resizeImage:(UIImage *)myImage toWidth:(int)width andHeight:(int)height;
++ (UIImage *)resizeImage:(UIImage *)inputImage toWidth:(int)width andHeight:(int)height;
 
 + (UIImage *)roundCorners:(UIImage *)img withRadius:(int)radius;
 
