@@ -50,7 +50,6 @@
  @param text NSString Input text
  
  @return NSString text
- 
  */
 + (NSString *)getSafeText:(NSString *)text {
 	NSString *newText = @"";
@@ -63,6 +62,15 @@
 	return newText;
 }
 
+/**
+ Converts text from one encoding to another
+ 
+ @param text NSString Input text
+ @param from NSStringEncoding Input encoding
+ @param to NSStringEncoding Output encoding
+ 
+ @return NSString Converted text
+ */
 + (NSString *)convertText:(NSString *)text fromEncoding:(NSStringEncoding)from toEncoding:(NSStringEncoding)to {
 	NSString *ss = [[NSString alloc] initWithData:[text dataUsingEncoding:from]];
 	NSData *md = [ss dataUsingEncoding:to];

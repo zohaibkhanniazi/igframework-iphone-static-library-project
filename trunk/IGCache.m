@@ -7,6 +7,7 @@
 //
 
 #import "IGCache.h"
+#import "IGText.h"
 #import "IGFilesystemIO.h"
 #import "IGFilesystemPaths.h"
 
@@ -15,6 +16,15 @@
 
 @synthesize delegate;
 
+/**
+ Returns unique path for the file based on the url
+ 
+ @param fileUrlString NSString Url of the file
+ */
++ (NSString *)getCachedFilePath:(NSString *)fileUrlString {
+	NSString *filename = [NSString stringWithFormat:@"%@.cache", [IGText getSafeText:fileUrlString]];
+	return [[IGFilesystemPaths getCacheDirectoryPath] stringByAppendingPathComponent: filename];
+}
 
 /**
  Deletes all cached file for the app

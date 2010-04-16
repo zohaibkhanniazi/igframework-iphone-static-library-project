@@ -21,5 +21,7 @@
 + (BOOL)allowPortraitLeftRight:(UIInterfaceOrientation)io;
 + (BOOL)allowAll:(UIInterfaceOrientation)io;
 
++ (UIInterfaceOrientation)getCurrentOrientation;
+
 
 @end

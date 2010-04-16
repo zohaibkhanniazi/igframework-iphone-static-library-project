@@ -78,10 +78,6 @@
 		796A86E61164D2E900A7A8CC /* IGValidationNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86E41164D2E900A7A8CC /* IGValidationNumber.m */; };
 		79A84C0C115CE2160040C278 /* IGAlertBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A84C0A115CE2160040C278 /* IGAlertBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79A84C0D115CE2160040C278 /* IGAlertBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A84C0B115CE2160040C278 /* IGAlertBasic.m */; };
-		79C58198115E2D6A009E34B5 /* IGUITextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C58196115E2D6A009E34B5 /* IGUITextFieldCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79C58199115E2D6A009E34B5 /* IGUITextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C58197115E2D6A009E34B5 /* IGUITextFieldCell.m */; };
-		79C581A2115E2E97009E34B5 /* IGUILabelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C581A0115E2E97009E34B5 /* IGUILabelCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79C581A3115E2E97009E34B5 /* IGUILabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C581A1115E2E97009E34B5 /* IGUILabelCell.m */; };
 		79DB5D521164DA97004A1CD6 /* IGText.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DB5D501164DA97004A1CD6 /* IGText.h */; };
 		79DB5D531164DA97004A1CD6 /* IGText.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB5D511164DA97004A1CD6 /* IGText.m */; };
 		79DB5EA5116944AA004A1CD6 /* IGDataRss10.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DB5EA3116944AA004A1CD6 /* IGDataRss10.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -170,10 +166,6 @@
 		796A86E41164D2E900A7A8CC /* IGValidationNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGValidationNumber.m; sourceTree = "<group>"; };
 		79A84C0A115CE2160040C278 /* IGAlertBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAlertBasic.h; sourceTree = "<group>"; };
 		79A84C0B115CE2160040C278 /* IGAlertBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAlertBasic.m; sourceTree = "<group>"; };
-		79C58196115E2D6A009E34B5 /* IGUITextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGUITextFieldCell.h; sourceTree = "<group>"; };
-		79C58197115E2D6A009E34B5 /* IGUITextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGUITextFieldCell.m; sourceTree = "<group>"; };
-		79C581A0115E2E97009E34B5 /* IGUILabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGUILabelCell.h; sourceTree = "<group>"; };
-		79C581A1115E2E97009E34B5 /* IGUILabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGUILabelCell.m; sourceTree = "<group>"; };
 		79DB5D501164DA97004A1CD6 /* IGText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGText.h; sourceTree = "<group>"; };
 		79DB5D511164DA97004A1CD6 /* IGText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGText.m; sourceTree = "<group>"; };
 		79DB5E9F1169448F004A1CD6 /* IGDataRss20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGDataRss20.h; sourceTree = "<group>"; };
@@ -251,7 +243,6 @@
 		790D1DE5115804FA00EE3DB2 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				79C58194115E2D1D009E34B5 /* UI */,
 				790D1E401158053100EE3DB2 /* Configuration */,
 				790D1E281158052A00EE3DB2 /* Categories */,
 				790D1DE81158052200EE3DB2 /* Classes */,
@@ -528,25 +519,6 @@
 			name = UIImage;
 			sourceTree = "<group>";
 		};
-		79C58194115E2D1D009E34B5 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				79C58195115E2D26009E34B5 /* Cells */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
-		79C58195115E2D26009E34B5 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				79C58196115E2D6A009E34B5 /* IGUITextFieldCell.h */,
-				79C58197115E2D6A009E34B5 /* IGUITextFieldCell.m */,
-				79C581A0115E2E97009E34B5 /* IGUILabelCell.h */,
-				79C581A1115E2E97009E34B5 /* IGUILabelCell.m */,
-			);
-			name = Cells;
-			sourceTree = "<group>";
-		};
 		79DB5E9C11694404004A1CD6 /* RSS */ = {
 			isa = PBXGroup;
 			children = (
@@ -604,8 +576,6 @@
 				7910FCCA115A9172004686B4 /* IGAccelAutorotation.h in Headers */,
 				7910FE23115AEF0A004686B4 /* IGCache.h in Headers */,
 				79A84C0C115CE2160040C278 /* IGAlertBasic.h in Headers */,
-				79C58198115E2D6A009E34B5 /* IGUITextFieldCell.h in Headers */,
-				79C581A2115E2E97009E34B5 /* IGUILabelCell.h in Headers */,
 				796A85F011649A4300A7A8CC /* IGSettingsUser.h in Headers */,
 				796A85F411649A5700A7A8CC /* IGSettingsCustom.h in Headers */,
 				796A86271164A85600A7A8CC /* IGParsingTemplates.h in Headers */,
@@ -697,8 +667,6 @@
 				7910FD1E115ACCA6004686B4 /* NSString+URL.m in Sources */,
 				7910FE24115AEF0A004686B4 /* IGCache.m in Sources */,
 				79A84C0D115CE2160040C278 /* IGAlertBasic.m in Sources */,
-				79C58199115E2D6A009E34B5 /* IGUITextFieldCell.m in Sources */,
-				79C581A3115E2E97009E34B5 /* IGUILabelCell.m in Sources */,
 				796A85F111649A4300A7A8CC /* IGSettingsUser.m in Sources */,
 				796A85F511649A5700A7A8CC /* IGSettingsCustom.m in Sources */,
 				796A86281164A85600A7A8CC /* IGParsingTemplates.m in Sources */,
