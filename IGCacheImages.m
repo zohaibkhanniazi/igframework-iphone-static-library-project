@@ -25,7 +25,7 @@
  */
 + (NSString *)getCachedImagePath:(NSString *)imageUrlString withRoundCorners:(int)corners andWidth:(int)width andHeight:(int)height {
 	NSString *filename = [NSString stringWithFormat:@"%@.%d.%d.%d.png", [IGText getSafeText:imageUrlString], corners, width, height];
-   return [[IGFilesystemPaths getCacheDirectoryPath] stringByAppendingPathComponent: filename];
+	return [[IGFilesystemPaths getCacheDirectoryPath] stringByAppendingPathComponent: filename];
 }
 
 /**
@@ -41,11 +41,15 @@
 	NSString *path = [IGCacheImages getCachedImagePath:imageUrlString withRoundCorners:corners andWidth:width andHeight:height];
 	UIImage *image;
     if(![IGFilesystemIO isFile:path]) {
+		[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
 		NSData *data = [[NSData alloc] initWithContentsOfURL:imageURL];
+		[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
 		image = [[UIImage alloc] initWithData:data];
 		if (width > 0 && height > 0) image = [IGImagesTools resizeImage:image toWidth:width andHeight:height];
         if (corners > 0) image = [IGImagesTools roundCorners:image withRadius:corners];
-        [UIImagePNGRepresentation(image) writeToFile: path atomically: YES];
+        [UIImagePNGRepresentation(image) writeToFile:path atomically: YES];
+		if (![IGFilesystemIO isFile:path]) NSLog(@"Unable to save image: %@", path);
+		//[image release];
     }
 }
 

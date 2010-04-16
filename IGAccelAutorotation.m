@@ -7,7 +7,9 @@
 //
 
 #import "IGAccelAutorotation.h"
+#import "IGSettings.h"
 
+#define kIGAccelAutorotationDataKey				@"kIGAccelAutorotationDataKey"
 
 @implementation IGAccelAutorotation
 
@@ -17,6 +19,7 @@
  @return BOOL
  */
 + (BOOL)allowPortrait:(UIInterfaceOrientation)io {
+	//[IGSettingsUser setObject:io forKey:kIGAccelAutorotationDataKey];
 	return (io == UIInterfaceOrientationPortrait);
 }
 
@@ -26,6 +29,7 @@
  @return BOOL
  */
 + (BOOL)allowPortraitLeft:(UIInterfaceOrientation)io {
+	//[IGSettingsUser setObject:io forKey:kIGAccelAutorotationDataKey];
 	return (io == UIInterfaceOrientationPortrait || io == UIInterfaceOrientationLandscapeLeft);
 }
 
@@ -36,6 +40,7 @@
  @return BOOL
  */
 + (BOOL)allowPortraitRight:(UIInterfaceOrientation)io {
+	//[IGSettingsUser setObject:io forKey:kIGAccelAutorotationDataKey];
 	return (io == UIInterfaceOrientationPortrait || io == UIInterfaceOrientationLandscapeRight);
 }
 
@@ -46,6 +51,7 @@
  @return BOOL
  */
 + (BOOL)allowPortraitLeftRight:(UIInterfaceOrientation)io {
+	//[IGSettingsUser setObject:io forKey:kIGAccelAutorotationDataKey];
 	return (io == UIInterfaceOrientationPortrait || io == UIInterfaceOrientationLandscapeLeft || io == UIInterfaceOrientationLandscapeRight);
 }
 
@@ -57,9 +63,14 @@
  @return BOOL
  */
 + (BOOL)allowAll:(UIInterfaceOrientation)io {
+	//[IGSettingsUser setObject:io forKey:kIGAccelAutorotationDataKey];
 	return YES;
 }
 
++ (UIInterfaceOrientation)getCurrentOrientation {
+	//return [[UIDevice currentDevice] setOrientation:UIInterfaceOrientationPortrait];
+	return UIInterfaceOrientationPortrait;
+}
 
 
 @end

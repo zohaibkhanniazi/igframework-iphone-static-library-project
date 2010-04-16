@@ -32,6 +32,8 @@
 @property (nonatomic, assign) id <IGCacheDelegate> delegate;
 
 
++ (NSString *)getCachedFilePath:(NSString *)fileUrlString;
+
 + (void)deleteCacheFiles;
 
 + (void)deleteCacheFilesOlderThan:(NSDate *)date;
