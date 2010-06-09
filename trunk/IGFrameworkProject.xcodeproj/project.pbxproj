@@ -53,6 +53,10 @@
 		7910FD1E115ACCA6004686B4 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E331158052A00EE3DB2 /* NSString+URL.m */; };
 		7910FE23115AEF0A004686B4 /* IGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7910FE21115AEF0A004686B4 /* IGCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7910FE24115AEF0A004686B4 /* IGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7910FE22115AEF0A004686B4 /* IGCache.m */; };
+		7943505211AC6CE0000FE549 /* IGBundleImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 7943505011AC6CE0000FE549 /* IGBundleImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7943505311AC6CE0000FE549 /* IGBundleImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 7943505111AC6CE0000FE549 /* IGBundleImages.m */; };
+		7957CE0211BFDBA600D92AA5 /* MKMapView+IGTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7957CE0011BFDBA600D92AA5 /* MKMapView+IGTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7957CE0311BFDBA600D92AA5 /* MKMapView+IGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7957CE0111BFDBA600D92AA5 /* MKMapView+IGTools.m */; };
 		796A85F011649A4300A7A8CC /* IGSettingsUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A85EE11649A4300A7A8CC /* IGSettingsUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		796A85F111649A4300A7A8CC /* IGSettingsUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A85EF11649A4300A7A8CC /* IGSettingsUser.m */; };
 		796A85F411649A5700A7A8CC /* IGSettingsCustom.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A85F211649A5700A7A8CC /* IGSettingsCustom.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -62,8 +66,8 @@
 		796A862B1164A8AA00A7A8CC /* IGParsingHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86291164A8AA00A7A8CC /* IGParsingHTML.h */; };
 		796A862C1164A8AA00A7A8CC /* IGParsingHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A862A1164A8AA00A7A8CC /* IGParsingHTML.m */; };
 		796A86351164AD2100A7A8CC /* IGImagesTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86331164AD2100A7A8CC /* IGImagesTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		796A863D1164ADF300A7A8CC /* UIImage-Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A863B1164ADF300A7A8CC /* UIImage-Tools.h */; };
-		796A863E1164ADF300A7A8CC /* UIImage-Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A863C1164ADF300A7A8CC /* UIImage-Tools.m */; };
+		796A863D1164ADF300A7A8CC /* UIImage+IGTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A863B1164ADF300A7A8CC /* UIImage+IGTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796A863E1164ADF300A7A8CC /* UIImage+IGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A863C1164ADF300A7A8CC /* UIImage+IGTools.m */; };
 		796A86461164AF8700A7A8CC /* IGCacheImages.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86441164AF8700A7A8CC /* IGCacheImages.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		796A86471164AF8700A7A8CC /* IGCacheImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86451164AF8700A7A8CC /* IGCacheImages.m */; };
 		796A864B1164B03300A7A8CC /* IGFilesystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A864A1164B03300A7A8CC /* IGFilesystem.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -87,6 +91,8 @@
 		79DB5EB211694A44004A1CD6 /* IGDataRss20.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DB5EA01169448F004A1CD6 /* IGDataRss20.m */; };
 		79E3B0EA116A7DFC00E8BD21 /* IGImagesTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 796A86331164AD2100A7A8CC /* IGImagesTools.h */; };
 		79E3B0EB116A7DFD00E8BD21 /* IGImagesTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 796A86341164AD2100A7A8CC /* IGImagesTools.m */; };
+		79FF4D3611BD8313007D6734 /* UIColor+IGTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FF4D3411BD8313007D6734 /* UIColor+IGTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79FF4D3711BD8313007D6734 /* UIColor+IGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FF4D3511BD8313007D6734 /* UIColor+IGTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +146,10 @@
 		7910FC71115A8C54004686B4 /* IGAccelAutorotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAccelAutorotation.m; sourceTree = "<group>"; };
 		7910FE21115AEF0A004686B4 /* IGCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCache.h; sourceTree = "<group>"; };
 		7910FE22115AEF0A004686B4 /* IGCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCache.m; sourceTree = "<group>"; };
+		7943505011AC6CE0000FE549 /* IGBundleImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGBundleImages.h; sourceTree = "<group>"; };
+		7943505111AC6CE0000FE549 /* IGBundleImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGBundleImages.m; sourceTree = "<group>"; };
+		7957CE0011BFDBA600D92AA5 /* MKMapView+IGTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+IGTools.h"; sourceTree = "<group>"; };
+		7957CE0111BFDBA600D92AA5 /* MKMapView+IGTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+IGTools.m"; sourceTree = "<group>"; };
 		796A85EE11649A4300A7A8CC /* IGSettingsUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSettingsUser.h; sourceTree = "<group>"; };
 		796A85EF11649A4300A7A8CC /* IGSettingsUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSettingsUser.m; sourceTree = "<group>"; };
 		796A85F211649A5700A7A8CC /* IGSettingsCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSettingsCustom.h; sourceTree = "<group>"; };
@@ -150,8 +160,8 @@
 		796A862A1164A8AA00A7A8CC /* IGParsingHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGParsingHTML.m; sourceTree = "<group>"; };
 		796A86331164AD2100A7A8CC /* IGImagesTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGImagesTools.h; sourceTree = "<group>"; };
 		796A86341164AD2100A7A8CC /* IGImagesTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGImagesTools.m; sourceTree = "<group>"; };
-		796A863B1164ADF300A7A8CC /* UIImage-Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-Tools.h"; sourceTree = "<group>"; };
-		796A863C1164ADF300A7A8CC /* UIImage-Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-Tools.m"; sourceTree = "<group>"; };
+		796A863B1164ADF300A7A8CC /* UIImage+IGTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+IGTools.h"; sourceTree = "<group>"; };
+		796A863C1164ADF300A7A8CC /* UIImage+IGTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+IGTools.m"; sourceTree = "<group>"; };
 		796A86441164AF8700A7A8CC /* IGCacheImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCacheImages.h; sourceTree = "<group>"; };
 		796A86451164AF8700A7A8CC /* IGCacheImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCacheImages.m; sourceTree = "<group>"; };
 		796A864A1164B03300A7A8CC /* IGFilesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFilesystem.h; sourceTree = "<group>"; };
@@ -173,6 +183,8 @@
 		79DB5EA3116944AA004A1CD6 /* IGDataRss10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGDataRss10.h; sourceTree = "<group>"; };
 		79DB5EA4116944AA004A1CD6 /* IGDataRss10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGDataRss10.m; sourceTree = "<group>"; };
 		79DB5EAB11694A1A004A1CD6 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		79FF4D3411BD8313007D6734 /* UIColor+IGTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IGTools.h"; sourceTree = "<group>"; };
+		79FF4D3511BD8313007D6734 /* UIColor+IGTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IGTools.m"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* IGFrameworkProject-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "IGFrameworkProject-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -253,6 +265,7 @@
 		790D1DE81158052200EE3DB2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				7943504F11AC6CBD000FE549 /* Bundle */,
 				796A86241164A83700A7A8CC /* Parsing */,
 				796A85ED11649A0500A7A8CC /* Settings */,
 				7910FE20115AEEB7004686B4 /* Cache */,
@@ -418,6 +431,8 @@
 		790D1E281158052A00EE3DB2 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				7957CDFF11BFDB8500D92AA5 /* MKMapView */,
+				79FF4D3311BD82D9007D6734 /* UIColor */,
 				796A863F1164ADFA00A7A8CC /* UIImage */,
 				790D1E311158052A00EE3DB2 /* NSString */,
 				790D1E2E1158052A00EE3DB2 /* NSDate */,
@@ -487,6 +502,24 @@
 			name = Cache;
 			sourceTree = "<group>";
 		};
+		7943504F11AC6CBD000FE549 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				7943505011AC6CE0000FE549 /* IGBundleImages.h */,
+				7943505111AC6CE0000FE549 /* IGBundleImages.m */,
+			);
+			name = Bundle;
+			sourceTree = "<group>";
+		};
+		7957CDFF11BFDB8500D92AA5 /* MKMapView */ = {
+			isa = PBXGroup;
+			children = (
+				7957CE0011BFDBA600D92AA5 /* MKMapView+IGTools.h */,
+				7957CE0111BFDBA600D92AA5 /* MKMapView+IGTools.m */,
+			);
+			name = MKMapView;
+			sourceTree = "<group>";
+		};
 		796A85ED11649A0500A7A8CC /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -513,8 +546,8 @@
 		796A863F1164ADFA00A7A8CC /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				796A863B1164ADF300A7A8CC /* UIImage-Tools.h */,
-				796A863C1164ADF300A7A8CC /* UIImage-Tools.m */,
+				796A863B1164ADF300A7A8CC /* UIImage+IGTools.h */,
+				796A863C1164ADF300A7A8CC /* UIImage+IGTools.m */,
 			);
 			name = UIImage;
 			sourceTree = "<group>";
@@ -544,6 +577,15 @@
 				79DB5EA01169448F004A1CD6 /* IGDataRss20.m */,
 			);
 			name = 2.0;
+			sourceTree = "<group>";
+		};
+		79FF4D3311BD82D9007D6734 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				79FF4D3411BD8313007D6734 /* UIColor+IGTools.h */,
+				79FF4D3511BD8313007D6734 /* UIColor+IGTools.m */,
+			);
+			name = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -581,7 +623,7 @@
 				796A86271164A85600A7A8CC /* IGParsingTemplates.h in Headers */,
 				796A862B1164A8AA00A7A8CC /* IGParsingHTML.h in Headers */,
 				796A86351164AD2100A7A8CC /* IGImagesTools.h in Headers */,
-				796A863D1164ADF300A7A8CC /* UIImage-Tools.h in Headers */,
+				796A863D1164ADF300A7A8CC /* UIImage+IGTools.h in Headers */,
 				796A86461164AF8700A7A8CC /* IGCacheImages.h in Headers */,
 				796A864B1164B03300A7A8CC /* IGFilesystem.h in Headers */,
 				796A86B21164CDDF00A7A8CC /* IGTextEncoding.h in Headers */,
@@ -593,6 +635,9 @@
 				79DB5EA5116944AA004A1CD6 /* IGDataRss10.h in Headers */,
 				79DB5EB111694A44004A1CD6 /* IGDataRss20.h in Headers */,
 				79E3B0EA116A7DFC00E8BD21 /* IGImagesTools.h in Headers */,
+				7943505211AC6CE0000FE549 /* IGBundleImages.h in Headers */,
+				79FF4D3611BD8313007D6734 /* UIColor+IGTools.h in Headers */,
+				7957CE0211BFDBA600D92AA5 /* MKMapView+IGTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +716,7 @@
 				796A85F511649A5700A7A8CC /* IGSettingsCustom.m in Sources */,
 				796A86281164A85600A7A8CC /* IGParsingTemplates.m in Sources */,
 				796A862C1164A8AA00A7A8CC /* IGParsingHTML.m in Sources */,
-				796A863E1164ADF300A7A8CC /* UIImage-Tools.m in Sources */,
+				796A863E1164ADF300A7A8CC /* UIImage+IGTools.m in Sources */,
 				796A86471164AF8700A7A8CC /* IGCacheImages.m in Sources */,
 				796A86B31164CDDF00A7A8CC /* IGTextEncoding.m in Sources */,
 				796A86DE1164D2C900A7A8CC /* IGValidation.m in Sources */,
@@ -681,6 +726,9 @@
 				79DB5EA6116944AA004A1CD6 /* IGDataRss10.m in Sources */,
 				79DB5EB211694A44004A1CD6 /* IGDataRss20.m in Sources */,
 				79E3B0EB116A7DFD00E8BD21 /* IGImagesTools.m in Sources */,
+				7943505311AC6CE0000FE549 /* IGBundleImages.m in Sources */,
+				79FF4D3711BD8313007D6734 /* UIColor+IGTools.m in Sources */,
+				7957CE0311BFDBA600D92AA5 /* MKMapView+IGTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

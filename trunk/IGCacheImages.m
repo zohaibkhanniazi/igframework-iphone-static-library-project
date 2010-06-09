@@ -49,7 +49,7 @@
         if (corners > 0) image = [IGImagesTools roundCorners:image withRadius:corners];
         [UIImagePNGRepresentation(image) writeToFile:path atomically: YES];
 		if (![IGFilesystemIO isFile:path]) NSLog(@"Unable to save image: %@", path);
-		//[image release];
+		if (image) [image release];
     }
 }
 

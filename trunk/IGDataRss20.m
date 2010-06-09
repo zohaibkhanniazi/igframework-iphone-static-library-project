@@ -52,7 +52,7 @@
 
 - (void)parser:(NSXMLParser *)parser didEndElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName {
     if ([elementName isEqualToString:@"item"]) {
-        [data addObject:(NSDictionary *)[currentItem copy]];
+        [data addObject:(NSDictionary *)[[currentItem copy] autorelease]];
     }
 }
 

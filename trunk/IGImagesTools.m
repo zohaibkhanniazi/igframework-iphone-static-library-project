@@ -112,8 +112,9 @@ static void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWi
     CGContextRelease(context);
     CGColorSpaceRelease(colorSpace);
     [img release];
-    
-    return [UIImage imageWithCGImage:imageMasked];
+    UIImage *ret = [UIImage imageWithCGImage:imageMasked];
+	CGImageRelease(imageMasked);
+    return ret;
 }
 
 
