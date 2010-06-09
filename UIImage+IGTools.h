@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
+@interface UIImage (IGTools)
 
-@interface UIImage_Tools : NSObject {
-
-}
++ (UIImage *)imageNamed:(NSString *)name;
 
 @end

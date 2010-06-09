@@ -14,7 +14,10 @@
 
 + (id)getDataFromString:(NSString *)string {
 	IGJson *parser = [[IGJson alloc] init];
+	//parser.sortKeys = YES;
+	//[parser setSortKeys:YES];
 	id data = [parser objectWithString:string error:nil];
+	//NSLog(@"Data: %@", data);
 	[parser release];
 	return data;
 }
