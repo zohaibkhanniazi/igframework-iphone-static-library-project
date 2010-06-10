@@ -6,11 +6,11 @@
 //  Copyright 2010 Home. All rights reserved.
 //
 
-#import "NSDate+Misc.h"
+#import "NSDate+IGTools.h"
 #import "IGLocalization.h"
 
 
-@implementation NSDate (Misc)
+@implementation NSDate (IGTools)
 
 + (NSString *)formatToCountdown:(NSString *)interval {
 	NSTimeInterval theTimeInterval = [interval intValue];
