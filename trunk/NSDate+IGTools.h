@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface NSDate (Misc)
+@interface NSDate (IGTools)
 
 + (NSString *)formatToCountdown:(NSString *)interval;
 

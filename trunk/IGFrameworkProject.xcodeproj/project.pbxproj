@@ -35,8 +35,8 @@
 		790D1E371158052A00EE3DB2 /* NSObject+IGJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E2B1158052A00EE3DB2 /* NSObject+IGJson.m */; };
 		790D1E381158052A00EE3DB2 /* NSString+IGJson.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E2C1158052A00EE3DB2 /* NSString+IGJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		790D1E391158052A00EE3DB2 /* NSString+IGJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E2D1158052A00EE3DB2 /* NSString+IGJson.m */; };
-		790D1E3A1158052A00EE3DB2 /* NSDate+Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E2F1158052A00EE3DB2 /* NSDate+Misc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		790D1E3B1158052A00EE3DB2 /* NSDate+Misc.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E301158052A00EE3DB2 /* NSDate+Misc.m */; };
+		790D1E3A1158052A00EE3DB2 /* NSDate+IGTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E2F1158052A00EE3DB2 /* NSDate+IGTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790D1E3B1158052A00EE3DB2 /* NSDate+IGTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E301158052A00EE3DB2 /* NSDate+IGTools.m */; };
 		790D1E3C1158052A00EE3DB2 /* NSString+URL.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E321158052A00EE3DB2 /* NSString+URL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		790D1E3E1158052A00EE3DB2 /* NSString+Ereg.h in Headers */ = {isa = PBXBuildFile; fileRef = 790D1E341158052A00EE3DB2 /* NSString+Ereg.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		790D1E3F1158052A00EE3DB2 /* NSString+Ereg.m in Sources */ = {isa = PBXBuildFile; fileRef = 790D1E351158052A00EE3DB2 /* NSString+Ereg.m */; };
@@ -131,8 +131,8 @@
 		790D1E2B1158052A00EE3DB2 /* NSObject+IGJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+IGJson.m"; sourceTree = "<group>"; };
 		790D1E2C1158052A00EE3DB2 /* NSString+IGJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+IGJson.h"; sourceTree = "<group>"; };
 		790D1E2D1158052A00EE3DB2 /* NSString+IGJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+IGJson.m"; sourceTree = "<group>"; };
-		790D1E2F1158052A00EE3DB2 /* NSDate+Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Misc.h"; sourceTree = "<group>"; };
-		790D1E301158052A00EE3DB2 /* NSDate+Misc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Misc.m"; sourceTree = "<group>"; };
+		790D1E2F1158052A00EE3DB2 /* NSDate+IGTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+IGTools.h"; sourceTree = "<group>"; };
+		790D1E301158052A00EE3DB2 /* NSDate+IGTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+IGTools.m"; sourceTree = "<group>"; };
 		790D1E321158052A00EE3DB2 /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
 		790D1E331158052A00EE3DB2 /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
 		790D1E341158052A00EE3DB2 /* NSString+Ereg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ereg.h"; sourceTree = "<group>"; };
@@ -455,8 +455,8 @@
 		790D1E2E1158052A00EE3DB2 /* NSDate */ = {
 			isa = PBXGroup;
 			children = (
-				790D1E2F1158052A00EE3DB2 /* NSDate+Misc.h */,
-				790D1E301158052A00EE3DB2 /* NSDate+Misc.m */,
+				790D1E2F1158052A00EE3DB2 /* NSDate+IGTools.h */,
+				790D1E301158052A00EE3DB2 /* NSDate+IGTools.m */,
 			);
 			name = NSDate;
 			sourceTree = "<group>";
@@ -609,7 +609,7 @@
 				790D1E261158052200EE3DB2 /* IGNetworkingReachability.h in Headers */,
 				790D1E361158052A00EE3DB2 /* NSObject+IGJson.h in Headers */,
 				790D1E381158052A00EE3DB2 /* NSString+IGJson.h in Headers */,
-				790D1E3A1158052A00EE3DB2 /* NSDate+Misc.h in Headers */,
+				790D1E3A1158052A00EE3DB2 /* NSDate+IGTools.h in Headers */,
 				790D1E3C1158052A00EE3DB2 /* NSString+URL.h in Headers */,
 				790D1E3E1158052A00EE3DB2 /* NSString+Ereg.h in Headers */,
 				790D1E421158053100EE3DB2 /* IGConfiguration.h in Headers */,
@@ -704,7 +704,7 @@
 				790D1E271158052200EE3DB2 /* IGNetworkingReachability.m in Sources */,
 				790D1E371158052A00EE3DB2 /* NSObject+IGJson.m in Sources */,
 				790D1E391158052A00EE3DB2 /* NSString+IGJson.m in Sources */,
-				790D1E3B1158052A00EE3DB2 /* NSDate+Misc.m in Sources */,
+				790D1E3B1158052A00EE3DB2 /* NSDate+IGTools.m in Sources */,
 				790D1E3F1158052A00EE3DB2 /* NSString+Ereg.m in Sources */,
 				7910FBEA115A7C9C004686B4 /* IGAlertTextInput.m in Sources */,
 				7910FC15115A8207004686B4 /* IGSimpleDB.m in Sources */,
